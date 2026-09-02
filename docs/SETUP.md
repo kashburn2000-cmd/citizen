@@ -26,7 +26,7 @@ If you'd rather use the terminal, `npm run seed` does the same thing from the JS
 
 ## 4. Make yourself an editor
 
-1. Open the site, click "Sign in to edit", enter your email, click the magic link.
+1. Open the site, click "Sign in to edit". Either create an account with a password (one confirmation email, then it's email and password from then on) or use the email-link option. If you signed in with a link, the same page lets you set a password afterward.
 2. Back in the SQL editor:
 
 ```sql

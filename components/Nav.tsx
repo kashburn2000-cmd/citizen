@@ -30,10 +30,10 @@ export async function Nav() {
           )}
           {configured && viewer?.userId && (
             <>
-              <span className="text-xs">
+              <Link href="/login" className="text-xs hover:underline" title="Account: set a password or sign out">
                 {viewer.email}
                 {viewer.canEdit ? " · editor" : " · viewer"}
-              </span>
+              </Link>
               <form action="/auth/signout" method="post">
                 <button className="text-xs underline" type="submit">
                   Sign out
