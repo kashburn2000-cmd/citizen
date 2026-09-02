@@ -21,9 +21,9 @@ AR 1 Rick Crawford | R
 AR 2 French Hill | R
 AR 3 Steve Womack | R
 AR 4 Bruce Westerman | R
-CA 1 | V | Doug LaMalfa (R) died Jan 2026. Special election status and Prop 50 redraw: verify.
+CA 1 James Gallagher | R | Won the June 2026 special after Doug LaMalfa's death (per congress-legislators, term start 2026-06-10)
 CA 2 Jared Huffman | D
-CA 3 Kevin Kiley | R | District redrawn by Prop 50 (2025)
+CA 3 Kevin Kiley | I | Listed as Independent in congress-legislators as of mid-2026; confirm which party he caucuses with. District redrawn by Prop 50 (2025)
 CA 4 Mike Thompson | D
 CA 5 Tom McClintock | R
 CA 6 Ami Bera | D
@@ -34,7 +34,7 @@ CA 10 Mark DeSaulnier | D
 CA 11 Nancy Pelosi | D | Retiring; open seat in 2026
 CA 12 Lateefah Simon | D
 CA 13 Adam Gray | D
-CA 14 Eric Swalwell | D | Running for governor; open seat
+CA 14 | V | Eric Swalwell (D) left office 2026-04-14 per congress-legislators; running for governor. Confirm special election status.
 CA 15 Kevin Mullin | D
 CA 16 Sam Liccardo | D
 CA 17 Ro Khanna | D
@@ -106,7 +106,7 @@ FL 16 Vern Buchanan | R
 FL 17 Greg Steube | R
 FL 18 Scott Franklin | R
 FL 19 Byron Donalds | R | Running for governor; open seat
-FL 20 Sheila Cherfilus-McCormick | D
+FL 20 | V | Sheila Cherfilus-McCormick (D) left office 2026-04-21 per congress-legislators. Confirm why and special election status.
 FL 21 Brian Mast | R
 FL 22 Lois Frankel | D
 FL 23 Jared Moskowitz | D
@@ -127,8 +127,8 @@ GA 9 Andrew Clyde | R
 GA 10 Mike Collins | R | Running for Senate; open seat
 GA 11 Barry Loudermilk | R
 GA 12 Rick Allen | R
-GA 13 David Scott | D
-GA 14 Special election winner (verify) | R | Marjorie Taylor Greene resigned Jan 2026; 2026 special election. Confirm the winner's name.
+GA 13 | V | David Scott (D) left office 2026-04-21 per congress-legislators. Confirm why and special election status.
+GA 14 Clay Fuller | R | Won the 2026 special after Marjorie Taylor Greene resigned (per congress-legislators, term start 2026-04-14)
 HI 1 Ed Case | D
 HI 2 Jill Tokuda | D
 ID 1 Russ Fulcher | R
@@ -382,7 +382,7 @@ TX 19 Jodey Arrington | R
 TX 20 Joaquin Castro | D
 TX 21 Chip Roy | R | Running for state attorney general; open seat
 TX 22 Troy Nehls | R | Retiring; open seat
-TX 23 Tony Gonzales | R
+TX 23 | V | Tony Gonzales (R) left office 2026-04-14 per congress-legislators. Confirm why and special election status.
 TX 24 Beth Van Duyne | R
 TX 25 Roger Williams | R
 TX 26 Brandon Gill | R

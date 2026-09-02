@@ -16,8 +16,8 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
       <HouseControlBar seats={data.seats} races={data.races} />
       {data.source === "static" && (
         <p className="text-xs text-text-2 -mt-2">
-          Showing the bundled seed data. Seat holders and candidate fields were authored from information through mid-2026 and{" "}
-          {unverifiedSeats} seats are still marked unverified. Connect Supabase to edit.
+          Showing the bundled seed data. Seat holders come from the congress-legislators dataset and nominees from Wikipedia, both checked Sept 2,
+          2026. {unverifiedSeats} seats and every score are still flagged for review. Connect Supabase to edit.
         </p>
       )}
       <Dashboard data={data} canEdit={viewer.canEdit} initialRaceId={initialRaceId} />

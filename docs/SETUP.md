@@ -64,3 +64,5 @@ For the 435 House seats specifically, edit `scripts/house-seats.txt` (one line p
 ## Regenerating the maps
 
 `npm run build:geo` rebuilds `public/geo/house-cartogram.json` (the hex layout) and `public/geo/states-albers.json` (state outlines) from the `us-atlas` package. You only need this if you change hex size or spacing in `scripts/build-cartogram.ts`.
+
+`bash scripts/build-districts.sh` downloads the Census 119th Congress boundaries and writes `public/geo/districts-albers.json` for the geographic House view. Re-run it when the Census publishes 120th Congress shapes after the 2026 maps settle.

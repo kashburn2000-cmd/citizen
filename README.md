@@ -4,7 +4,7 @@ A dashboard for tracking the fight for the House and the progressive candidates 
 
 ## What's here
 
-- A hex cartogram of all 435 House seats shaded by current party, with a projected view driven by race ratings and a 218 line.
+- A hex cartogram of all 435 House seats shaded by current party, with a projected view driven by race ratings and a 218 line. A geographic view with real district boundaries is one click away.
 - Geographic maps for Senate and governor races with a pin per tracked race.
 - A race panel for each tracked contest: date, rating, incumbent, why it matters, and every candidate with bio, endorsements, and score.
 - A scoring rubric (12 issues, each with a 0 to 4 scale and a weight) and a sortable matrix of every scored candidate.
@@ -32,14 +32,17 @@ npm run build
 
 ## About the data
 
-Everything in `data/seed` was authored from information available through mid-2026 and has not been checked against a live source. Every row starts with `needs_review: true`. Things most likely to be stale:
+Seat holders come from the `unitedstates/congress-legislators` dataset and incumbent ideology scores (DW-NOMINATE, first dimension) from Voteview, both pulled Sept 2, 2026. Primary results and nominees for every tracked race were checked against Wikipedia's 2026 election pages the same day; each race's notes say so. Things still worth checking:
 
-- Results of primaries held after early June 2026. Candidates in those races are listed with status `running` and a note on the race saying which primary to check.
-- The GA-14 special election winner and the CA-1 vacancy.
-- District numbering in states that redrew maps for 2026 (Texas, California, Missouri, North Carolina, Ohio, Utah). Seats keep their old numbers on the map.
-- Race ratings, which are my own read as of the seed date, not Cook or Sabato.
+- Four House seats emptied in April 2026 (CA-14, FL-20, GA-13, TX-23). The dataset shows the dates but not the reasons or special election status.
+- Kevin Kiley (CA-3) is listed as an independent. Which party he caucuses with is not recorded.
+- A handful of candidates are marked "withdrew" or "lost primary" only because they no longer appear on the ballot; those keep `needs_review: true`.
+- Race ratings are my own read, not Cook or Sabato.
+- The geographic House map uses Census 119th Congress boundaries. States that redrew for 2026 (Texas, California, Missouri, North Carolina, Ohio, Utah) will not match the ballot. The hex map is unaffected.
 
 Scores are marked provisional until an editor clears the flag. The evidence field on each score says why it got the number it did, so you can disagree with it.
+
+Refresh scripts: `npm run build:seats` (from `scripts/house-seats.txt`), `python3 scripts/enrich-voteview.py`, `bash scripts/build-districts.sh`, `npm run build:geo`.
 
 ## Layout
 

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { HouseCartogram, type CartogramLayout } from "./HouseCartogram";
+import { DistrictMap, type DistrictTopology } from "./DistrictMap";
 import { StateMap, type StatesLayout } from "./StateMap";
 import { RacePanel } from "./RacePanel";
 import { RaceList } from "./RaceList";
@@ -26,7 +27,9 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
   const [selectedRaceId, setSelectedRaceId] = useState<string | null>(initialRaceId);
   const [showProjection, setShowProjection] = useState(false);
   const [dimUntracked, setDimUntracked] = useState(false);
+  const [houseMode, setHouseMode] = useState<"hex" | "geo">("hex");
   const [cartogram, setCartogram] = useState<CartogramLayout | null>(null);
+  const [districts, setDistricts] = useState<DistrictTopology | null>(null);
   const [statesLayout, setStatesLayout] = useState<StatesLayout | null>(null);
 
   useEffect(() => {
@@ -43,6 +46,18 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
       cancelled = true;
     };
   }, []);
+
+  useEffect(() => {
+    if (houseMode !== "geo" || districts) return;
+    let cancelled = false;
+    fetch("/geo/districts-albers.json")
+      .then((r) => r.json())
+      .then((j: DistrictTopology) => !cancelled && setDistricts(j))
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [houseMode, districts]);
 
   const raceViews = useMemo(() => buildRaceViews(data), [data]);
   const tracked = useMemo(() => raceViews.filter((r) => r.tracked), [raceViews]);
@@ -82,6 +97,19 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
           </div>
           {view === "house" && (
             <>
+              <div className="inline-flex rounded-md border border-border overflow-hidden text-xs" role="tablist" aria-label="House map style">
+                {(["hex", "geo"] as const).map((m) => (
+                  <button
+                    key={m}
+                    role="tab"
+                    aria-selected={houseMode === m}
+                    onClick={() => setHouseMode(m)}
+                    className={`px-2 py-1 ${houseMode === m ? "bg-surface-2 text-text" : "text-text-2"}`}
+                  >
+                    {m === "hex" ? "One hex per seat" : "Geographic"}
+                  </button>
+                ))}
+              </div>
               <label className="inline-flex items-center gap-1.5 text-text-2">
                 <input type="checkbox" checked={showProjection} onChange={(e) => setShowProjection(e.target.checked)} />
                 Projected
@@ -93,11 +121,26 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
             </>
           )}
           <span className="ml-auto text-xs text-text-3">
-            {view === "house" ? "One hexagon per seat. Outlined seats have a tracked race. Scroll to zoom." : "Pins mark tracked races. Click to open."}
+            {view === "house"
+              ? houseMode === "hex"
+                ? "One hexagon per seat. Outlined seats have a tracked race. Scroll to zoom."
+                : "Census 119th Congress boundaries; states that redrew for 2026 will differ. Scroll to zoom."
+              : "Pins mark tracked races. Click to open."}
           </span>
         </div>
 
-        {view === "house" && cartogram && (
+        {view === "house" && houseMode === "geo" && districts && (
+          <DistrictMap
+            topo={districts}
+            seats={data.seats}
+            races={raceViews}
+            projection={projection}
+            selectedRaceId={selectedRaceId}
+            onSelectRace={selectRace}
+            dimUntracked={dimUntracked}
+          />
+        )}
+        {view === "house" && houseMode === "hex" && cartogram && (
           <HouseCartogram
             layout={cartogram}
             seats={data.seats}
@@ -111,7 +154,9 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
         {view !== "house" && statesLayout && (
           <StateMap layout={statesLayout} races={raceViews} office={view} selectedRaceId={selectedRaceId} onSelectRace={selectRace} />
         )}
-        {((view === "house" && !cartogram) || (view !== "house" && !statesLayout)) && (
+        {((view === "house" && houseMode === "hex" && !cartogram) ||
+          (view === "house" && houseMode === "geo" && !districts) ||
+          (view !== "house" && !statesLayout)) && (
           <div className="aspect-[975/610] flex items-center justify-center text-sm text-text-3">Loading map…</div>
         )}
       </section>

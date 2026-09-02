@@ -1,225 +1,1917 @@
 [
-  { "id": "az01-galan-woods", "race_id": "house-az-01-2026", "name": "Marlene Galán-Woods", "bio": "Former TV anchor, 2024 primary candidate.", "sort_order": 1 },
-  { "id": "az01-shah", "race_id": "house-az-01-2026", "name": "Amish Shah", "bio": "Physician and former state legislator; 2024 nominee who lost to Schweikert by 3.8 points.", "sort_order": 2 },
-  { "id": "az01-cherny", "race_id": "house-az-01-2026", "name": "Andrei Cherny", "bio": "Former state party chair and Clinton speechwriter.", "sort_order": 3 },
-  { "id": "az01-treble", "race_id": "house-az-01-2026", "name": "Jonathan Treble", "bio": "Small-business owner, first-time candidate.", "sort_order": 4 },
-
-  { "id": "az06-ciscomani", "race_id": "house-az-06-2026", "name": "Juan Ciscomani", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "az06-mendoza", "race_id": "house-az-06-2026", "name": "JoAnna Mendoza", "bio": "Retired Marine master sergeant from a Tucson farmworker family.", "sort_order": 2 },
-
-  { "id": "ca11-chakrabarti", "race_id": "house-ca-11-2026", "name": "Saikat Chakrabarti", "bio": "Former AOC chief of staff and Justice Democrats co-founder; self-funding tech entrepreneur running on a Green New Deal-style platform.", "sort_order": 1 },
-  { "id": "ca11-wiener", "race_id": "house-ca-11-2026", "name": "Scott Wiener", "bio": "State senator, YIMBY housing champion, Pelosi-aligned.", "sort_order": 2 },
-  { "id": "ca11-chan", "race_id": "house-ca-11-2026", "name": "Connie Chan", "bio": "San Francisco supervisor from the board's progressive wing.", "sort_order": 3 },
-
-  { "id": "ca13-gray", "race_id": "house-ca-13-2026", "name": "Adam Gray", "is_incumbent": true, "bio": "Blue Dog-aligned former assemblymember.", "sort_order": 1 },
-
-  { "id": "ca22-valadao", "race_id": "house-ca-22-2026", "name": "David Valadao", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "ca22-bains", "race_id": "house-ca-22-2026", "name": "Jasmeet Bains", "bio": "Assemblymember and family physician from Delano.", "sort_order": 2 },
-  { "id": "ca22-villegas", "race_id": "house-ca-22-2026", "name": "Randy Villegas", "bio": "Visalia school board trustee and college professor running as a Medicare for All progressive.", "sort_order": 3 },
-
-  { "id": "ca45-tran", "race_id": "house-ca-45-2026", "name": "Derek Tran", "is_incumbent": true, "bio": "Consumer attorney and Army veteran.", "sort_order": 1 },
-
-  { "id": "co08-evans", "race_id": "house-co-08-2026", "name": "Gabe Evans", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "co08-rutinel", "race_id": "house-co-08-2026", "name": "Manny Rutinel", "bio": "State representative and environmental attorney.", "sort_order": 2 },
-  { "id": "co08-bird", "race_id": "house-co-08-2026", "name": "Shannon Bird", "bio": "State representative, former Westminster council member.", "sort_order": 3 },
-
-  { "id": "ga13-scott", "race_id": "house-ga-13-2026", "name": "David Scott", "is_incumbent": true, "bio": "Twelve-term incumbent, former Agriculture Committee ranking member.", "sort_order": 1 },
-  { "id": "ga13-blair", "race_id": "house-ga-13-2026", "name": "Everton Blair", "bio": "Former Gwinnett school board chair.", "sort_order": 2 },
-  { "id": "ga13-clark", "race_id": "house-ga-13-2026", "name": "Jasmine Clark", "bio": "State representative and microbiologist.", "sort_order": 3 },
-  { "id": "ga13-jones", "race_id": "house-ga-13-2026", "name": "Emanuel Jones", "bio": "State senator.", "sort_order": 4 },
-
-  { "id": "ia01-miller-meeks", "race_id": "house-ia-01-2026", "name": "Mariannette Miller-Meeks", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "ia01-bohannan", "race_id": "house-ia-01-2026", "name": "Christina Bohannan", "bio": "Law professor and former state representative; lost by 799 votes in 2024.", "sort_order": 2 },
-
-  { "id": "il07-collins", "race_id": "house-il-07-2026", "name": "Kina Collins", "bio": "Gun violence prevention organizer; took 46% against Davis in 2022. Runs on Medicare for All and no corporate PAC money.", "sort_order": 1 },
-  { "id": "il07-ford", "race_id": "house-il-07-2026", "name": "La Shawn Ford", "bio": "State representative since 2007.", "sort_order": 2 },
-  { "id": "il07-conyears-ervin", "race_id": "house-il-07-2026", "name": "Melissa Conyears-Ervin", "bio": "Chicago city treasurer; Davis-aligned.", "sort_order": 3 },
-  { "id": "il07-clark", "race_id": "house-il-07-2026", "name": "Anthony Clark", "bio": "Teacher and activist; ran in 2018, 2020, and 2022.", "sort_order": 4 },
-  { "id": "il07-boykin", "race_id": "house-il-07-2026", "name": "Richard Boykin", "bio": "Former Cook County commissioner.", "sort_order": 5 },
-
-  { "id": "il09-abughazaleh", "race_id": "house-il-09-2026", "name": "Kat Abughazaleh", "bio": "Journalist and Media Matters alum; ran a mutual-aid-style campaign on Medicare for All, Gaza, and rejecting corporate money.", "sort_order": 1 },
-  { "id": "il09-biss", "race_id": "house-il-09-2026", "name": "Daniel Biss", "bio": "Evanston mayor and former state senator; 2018 progressive gubernatorial candidate.", "sort_order": 2 },
-  { "id": "il09-fine", "race_id": "house-il-09-2026", "name": "Laura Fine", "bio": "State senator.", "sort_order": 3 },
-  { "id": "il09-amiwala", "race_id": "house-il-09-2026", "name": "Bushra Amiwala", "bio": "Skokie school board member, one of the youngest Muslim elected officials in the country.", "sort_order": 4 },
-
-  { "id": "me02-wood", "race_id": "house-me-02-2026", "name": "Jordan Wood", "bio": "Former chief of staff to Rep. Katie Porter; runs on anti-corruption and rejecting corporate PACs.", "sort_order": 1 },
-  { "id": "me02-lepage", "race_id": "house-me-02-2026", "name": "Paul LePage", "party": "R", "bio": "Two-term former governor.", "sort_order": 2 },
-
-  { "id": "mi07-barrett", "race_id": "house-mi-07-2026", "name": "Tom Barrett", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "mi07-brink", "race_id": "house-mi-07-2026", "name": "Bridget Brink", "bio": "Former U.S. ambassador to Ukraine who resigned in protest of Trump's Ukraine policy.", "sort_order": 2 },
-
-  { "id": "mi10-hines", "race_id": "house-mi-10-2026", "name": "Christina Hines", "bio": "Former Macomb County prosecutor.", "sort_order": 1 },
-  { "id": "mi10-chung", "race_id": "house-mi-10-2026", "name": "Eric Chung", "bio": "Attorney and former congressional staffer.", "sort_order": 2 },
-
-  { "id": "mi13-thanedar", "race_id": "house-mi-13-2026", "name": "Shri Thanedar", "is_incumbent": true, "bio": "Self-funding two-term incumbent; drew progressive anger for his Trump impeachment stunt and votes.", "sort_order": 1 },
-  { "id": "mi13-mckinney", "race_id": "house-mi-13-2026", "name": "Donavan McKinney", "bio": "State representative; Justice Democrats-endorsed challenger backed by Rashida Tlaib.", "sort_order": 2 },
-  { "id": "mi13-hollier", "race_id": "house-mi-13-2026", "name": "Adam Hollier", "bio": "Former state senator; ran in 2022 and 2024.", "sort_order": 3 },
-
-  { "id": "ne02-cavanaugh", "race_id": "house-ne-02-2026", "name": "John Cavanaugh", "bio": "State senator, son of former Rep. John J. Cavanaugh.", "sort_order": 1 },
-  { "id": "ne02-powell", "race_id": "house-ne-02-2026", "name": "Denise Powell", "bio": "Co-founder of Women Who Run, Omaha organizer.", "sort_order": 2 },
-  { "id": "ne02-harding", "race_id": "house-ne-02-2026", "name": "Brinker Harding", "party": "R", "bio": "Omaha city council member.", "sort_order": 3 },
-
-  { "id": "nj07-kean", "race_id": "house-nj-07-2026", "name": "Tom Kean Jr.", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "nj07-bennett", "race_id": "house-nj-07-2026", "name": "Rebecca Bennett", "bio": "Navy veteran and former Pentagon official.", "sort_order": 2 },
-
-  { "id": "ny07-valdez", "race_id": "house-ny-07-2026", "name": "Claire Valdez", "bio": "UAW organizer and NYC-DSA member; democratic socialist running in the Mamdani mold.", "sort_order": 1 },
-  { "id": "ny07-reynoso", "race_id": "house-ny-07-2026", "name": "Antonio Reynoso", "bio": "Brooklyn borough president.", "sort_order": 2 },
-  { "id": "ny07-won", "race_id": "house-ny-07-2026", "name": "Julie Won", "bio": "NYC council member from Queens.", "sort_order": 3 },
-
-  { "id": "ny10-goldman", "race_id": "house-ny-10-2026", "name": "Dan Goldman", "is_incumbent": true, "bio": "Levi Strauss heir and former impeachment counsel; two-term incumbent.", "sort_order": 1 },
-  { "id": "ny10-lander", "race_id": "house-ny-10-2026", "name": "Brad Lander", "bio": "Former NYC comptroller; cross-endorsed Zohran Mamdani in 2025 and was arrested escorting an immigrant at an ICE hearing.", "sort_order": 2 },
-
-  { "id": "ny12-lasher", "race_id": "house-ny-12-2026", "name": "Micah Lasher", "bio": "Assemblymember; Nadler's endorsed successor.", "sort_order": 1 },
-  { "id": "ny12-bores", "race_id": "house-ny-12-2026", "name": "Alex Bores", "bio": "Assemblymember; author of New York's RAISE Act on AI safety.", "sort_order": 2 },
-  { "id": "ny12-schlossberg", "race_id": "house-ny-12-2026", "name": "Jack Schlossberg", "bio": "JFK's grandson, writer and online personality.", "sort_order": 3 },
-  { "id": "ny12-elkind", "race_id": "house-ny-12-2026", "name": "Liam Elkind", "bio": "Invisible Hands mutual-aid founder.", "sort_order": 4 },
-
-  { "id": "ny17-lawler", "race_id": "house-ny-17-2026", "name": "Mike Lawler", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "ny17-davidson", "race_id": "house-ny-17-2026", "name": "Beth Davidson", "bio": "Rockland County legislator.", "sort_order": 2 },
-  { "id": "ny17-sacks", "race_id": "house-ny-17-2026", "name": "Mike Sacks", "bio": "Former journalist and Supreme Court reporter.", "sort_order": 3 },
-  { "id": "ny17-conley", "race_id": "house-ny-17-2026", "name": "Cait Conley", "bio": "Army veteran and former National Security Council official.", "sort_order": 4 },
-  { "id": "ny17-phillips-staley", "race_id": "house-ny-17-2026", "name": "Effie Phillips-Staley", "bio": "Tarrytown trustee; the field's most progressive candidate.", "sort_order": 5 },
-
-  { "id": "nc01-davis", "race_id": "house-nc-01-2026", "name": "Don Davis", "is_incumbent": true, "bio": "Air Force veteran and former state senator; among the most conservative House Democrats.", "sort_order": 1 },
-
-  { "id": "oh09-kaptur", "race_id": "house-oh-09-2026", "name": "Marcy Kaptur", "is_incumbent": true, "bio": "Longest-serving woman in congressional history; labor-aligned populist.", "sort_order": 1 },
-  { "id": "oh09-merrin", "race_id": "house-oh-09-2026", "name": "Derek Merrin", "party": "R", "bio": "Former state representative; 2024 nominee.", "sort_order": 2 },
-
-  { "id": "oh13-sykes", "race_id": "house-oh-13-2026", "name": "Emilia Sykes", "is_incumbent": true, "bio": "Former state House minority leader.", "sort_order": 1 },
-  { "id": "oh13-coughlin", "race_id": "house-oh-13-2026", "name": "Kevin Coughlin", "party": "R", "bio": "Former state senator; 2024 nominee.", "sort_order": 2 },
-
-  { "id": "pa01-fitzpatrick", "race_id": "house-pa-01-2026", "name": "Brian Fitzpatrick", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "pa01-harvie", "race_id": "house-pa-01-2026", "name": "Bob Harvie", "bio": "Bucks County commissioner.", "sort_order": 2 },
-
-  { "id": "pa03-street", "race_id": "house-pa-03-2026", "name": "Sharif Street", "bio": "State senator and state party chair.", "sort_order": 1 },
-  { "id": "pa03-rabb", "race_id": "house-pa-03-2026", "name": "Chris Rabb", "bio": "State representative; Working Families-aligned progressive who has fought the party establishment.", "sort_order": 2 },
-
-  { "id": "pa07-mackenzie", "race_id": "house-pa-07-2026", "name": "Ryan Mackenzie", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "pa07-mcclure", "race_id": "house-pa-07-2026", "name": "Lamont McClure", "bio": "Northampton County executive.", "sort_order": 2 },
-  { "id": "pa07-crosswell", "race_id": "house-pa-07-2026", "name": "Ryan Crosswell", "bio": "Former federal prosecutor who resigned over the Eric Adams case.", "sort_order": 3 },
-  { "id": "pa07-obando-derstine", "race_id": "house-pa-07-2026", "name": "Carol Obando-Derstine", "bio": "Former PPL executive and Casey staffer.", "sort_order": 4 },
-
-  { "id": "pa08-bresnahan", "race_id": "house-pa-08-2026", "name": "Rob Bresnahan", "party": "R", "is_incumbent": true, "sort_order": 1 },
-
-  { "id": "tx18-menefee", "race_id": "house-tx-18-2026", "name": "Christian Menefee", "is_incumbent": true, "bio": "Former Harris County attorney; won the Jan 2026 special runoff.", "sort_order": 1 },
-  { "id": "tx18-green", "race_id": "house-tx-18-2026", "name": "Al Green", "bio": "Thirteen-term congressman from TX-9, redistricted out; first to file Trump impeachment articles in 2025.", "sort_order": 2 },
-
-  { "id": "tx28-cuellar", "race_id": "house-tx-28-2026", "name": "Henry Cuellar", "is_incumbent": true, "bio": "Only anti-abortion House Democrat; under federal bribery indictment.", "sort_order": 1 },
-
-  { "id": "tx34-gonzalez", "race_id": "house-tx-34-2026", "name": "Vicente Gonzalez", "is_incumbent": true, "sort_order": 1 },
-  { "id": "tx34-flores", "race_id": "house-tx-34-2026", "name": "Mayra Flores", "party": "R", "bio": "Former congresswoman; lost to Gonzalez in 2022 and 2024.", "sort_order": 2 },
-
-  { "id": "tx37-casar", "race_id": "house-tx-37-2026", "name": "Greg Casar", "bio": "Congressional Progressive Caucus chair; former Austin council member and labor organizer.", "sort_order": 1 },
-
-  { "id": "ut01-mcadams", "race_id": "house-ut-01-2026", "name": "Ben McAdams", "bio": "Former congressman (2019-2021) and Salt Lake County mayor; Blue Dog.", "sort_order": 1 },
-
-  { "id": "wi03-van-orden", "race_id": "house-wi-03-2026", "name": "Derrick Van Orden", "party": "R", "is_incumbent": true, "sort_order": 1 },
-  { "id": "wi03-cooke", "race_id": "house-wi-03-2026", "name": "Rebecca Cooke", "bio": "Small-business owner and nonprofit founder; 2024 nominee who lost by 2.8 points.", "sort_order": 2 },
-
-  { "id": "sen-tx-talarico", "race_id": "senate-tx-2026", "name": "James Talarico", "bio": "State representative and seminarian; viral progressive populist who refuses corporate PAC money.", "sort_order": 1 },
-  { "id": "sen-tx-crockett", "race_id": "senate-tx-2026", "name": "Jasmine Crockett", "bio": "Congresswoman from Dallas; entered the primary in December 2025.", "sort_order": 2 },
-  { "id": "sen-tx-cornyn", "race_id": "senate-tx-2026", "name": "John Cornyn", "party": "R", "is_incumbent": true, "sort_order": 3 },
-  { "id": "sen-tx-paxton", "race_id": "senate-tx-2026", "name": "Ken Paxton", "party": "R", "bio": "State attorney general.", "sort_order": 4 },
-
-  { "id": "sen-mi-el-sayed", "race_id": "senate-mi-2026", "name": "Abdul El-Sayed", "bio": "Physician, former Detroit health director, 2018 gubernatorial candidate. Endorsed by Bernie Sanders; Medicare for All is his signature issue.", "sort_order": 1 },
-  { "id": "sen-mi-stevens", "race_id": "senate-mi-2026", "name": "Haley Stevens", "bio": "Congresswoman from Oakland County; New Democrat Coalition, backed by AIPAC-aligned donors.", "sort_order": 2 },
-  { "id": "sen-mi-mcmorrow", "race_id": "senate-mi-2026", "name": "Mallory McMorrow", "bio": "State senator known for a viral 2022 floor speech; rejects corporate PAC money.", "sort_order": 3 },
-  { "id": "sen-mi-rogers", "race_id": "senate-mi-2026", "name": "Mike Rogers", "party": "R", "bio": "Former congressman; 2024 nominee who lost to Slotkin by 0.3 points.", "sort_order": 4 },
-
-  { "id": "sen-mn-flanagan", "race_id": "senate-mn-2026", "name": "Peggy Flanagan", "bio": "Lieutenant governor; would be the first Native American woman in the Senate. Backed by Sanders and the PCCC.", "sort_order": 1 },
-  { "id": "sen-mn-craig", "race_id": "senate-mn-2026", "name": "Angie Craig", "bio": "Congresswoman from the suburban 2nd district; New Democrat, business-friendly.", "sort_order": 2 },
-  { "id": "sen-mn-white", "race_id": "senate-mn-2026", "name": "Royce White", "party": "R", "bio": "2024 nominee, former NBA player.", "sort_order": 3 },
-
-  { "id": "sen-me-platner", "race_id": "senate-me-2026", "name": "Graham Platner", "bio": "Oyster farmer and Marine/Army veteran; Sanders-endorsed populist who raised millions in small donations and survived a scandal over old online posts.", "sort_order": 1 },
-  { "id": "sen-me-mills", "race_id": "senate-me-2026", "name": "Janet Mills", "bio": "Two-term governor, 77; recruited by Schumer.", "sort_order": 2 },
-  { "id": "sen-me-collins", "race_id": "senate-me-2026", "name": "Susan Collins", "party": "R", "is_incumbent": true, "sort_order": 3 },
-
-  { "id": "sen-nc-cooper", "race_id": "senate-nc-2026", "name": "Roy Cooper", "bio": "Two-term former governor.", "sort_order": 1 },
-  { "id": "sen-nc-whatley", "race_id": "senate-nc-2026", "name": "Michael Whatley", "party": "R", "bio": "Former RNC chair.", "sort_order": 2 },
-
-  { "id": "sen-ga-ossoff", "race_id": "senate-ga-2026", "name": "Jon Ossoff", "is_incumbent": true, "sort_order": 1 },
-  { "id": "sen-ga-collins", "race_id": "senate-ga-2026", "name": "Mike Collins", "party": "R", "bio": "Congressman, GA-10.", "sort_order": 2 },
-  { "id": "sen-ga-carter", "race_id": "senate-ga-2026", "name": "Buddy Carter", "party": "R", "bio": "Congressman, GA-1.", "sort_order": 3 },
-  { "id": "sen-ga-dooley", "race_id": "senate-ga-2026", "name": "Derek Dooley", "party": "R", "bio": "Former Tennessee football coach; Kemp-backed.", "sort_order": 4 },
-
-  { "id": "sen-oh-brown", "race_id": "senate-oh-2026-special", "name": "Sherrod Brown", "bio": "Three-term former senator; labor populist who lost in 2024 by 3.6 points.", "sort_order": 1 },
-  { "id": "sen-oh-husted", "race_id": "senate-oh-2026-special", "name": "Jon Husted", "party": "R", "is_incumbent": true, "bio": "Appointed to Vance's seat in January 2025.", "sort_order": 2 },
-
-  { "id": "sen-ia-sage", "race_id": "senate-ia-2026", "name": "Nathan Sage", "bio": "Marine veteran and chamber of commerce director from Knoxville, Iowa; populist outsider.", "sort_order": 1 },
-  { "id": "sen-ia-turek", "race_id": "senate-ia-2026", "name": "Josh Turek", "bio": "State representative and two-time Paralympic gold medalist.", "sort_order": 2 },
-  { "id": "sen-ia-wahls", "race_id": "senate-ia-2026", "name": "Zach Wahls", "bio": "State senator, former Senate minority leader.", "sort_order": 3 },
-  { "id": "sen-ia-norris", "race_id": "senate-ia-2026", "name": "Jackie Norris", "bio": "Former Michelle Obama chief of staff.", "sort_order": 4 },
-  { "id": "sen-ia-hinson", "race_id": "senate-ia-2026", "name": "Ashley Hinson", "party": "R", "bio": "Congresswoman, IA-2; Trump-endorsed.", "sort_order": 5 },
-
-  { "id": "sen-il-stratton", "race_id": "senate-il-2026", "name": "Juliana Stratton", "bio": "Lieutenant governor; Pritzker-backed.", "sort_order": 1 },
-  { "id": "sen-il-krishnamoorthi", "race_id": "senate-il-2026", "name": "Raja Krishnamoorthi", "bio": "Congressman, IL-8; entered with a $19 million war chest.", "sort_order": 2 },
-  { "id": "sen-il-kelly", "race_id": "senate-il-2026", "name": "Robin Kelly", "bio": "Congresswoman, IL-2.", "sort_order": 3 },
-
-  { "id": "sen-nh-pappas", "race_id": "senate-nh-2026", "name": "Chris Pappas", "bio": "Four-term congressman, NH-1; New Democrat Coalition.", "sort_order": 1 },
-  { "id": "sen-nh-sununu", "race_id": "senate-nh-2026", "name": "John E. Sununu", "party": "R", "bio": "Former senator (2003-2009).", "sort_order": 2 },
-  { "id": "sen-nh-brown", "race_id": "senate-nh-2026", "name": "Scott Brown", "party": "R", "bio": "Former Massachusetts senator and ambassador to New Zealand.", "sort_order": 3 },
-
-  { "id": "sen-ma-markey", "race_id": "senate-ma-2026", "name": "Ed Markey", "is_incumbent": true, "bio": "Green New Deal co-author; beat Joe Kennedy III in 2020 with youth-led support.", "sort_order": 1 },
-  { "id": "sen-ma-moulton", "race_id": "senate-ma-2026", "name": "Seth Moulton", "bio": "Congressman, MA-6; Marine veteran, centrist who criticized the party over trans issues after 2024.", "sort_order": 2 },
-  { "id": "sen-ma-rikleen", "race_id": "senate-ma-2026", "name": "Alex Rikleen", "bio": "Teacher and generational-change candidate.", "sort_order": 3 },
-
-  { "id": "sen-ne-osborn", "race_id": "senate-ne-2026", "name": "Dan Osborn", "party": "I", "bio": "Steamfitter and former Kellogg's strike leader; independent populist.", "sort_order": 1 },
-  { "id": "sen-ne-ricketts", "race_id": "senate-ne-2026", "name": "Pete Ricketts", "party": "R", "is_incumbent": true, "sort_order": 2 },
-
-  { "id": "gov-ca-porter", "race_id": "gov-ca-2026", "name": "Katie Porter", "bio": "Former congresswoman; Warren protégé and consumer-protection progressive.", "sort_order": 1 },
-  { "id": "gov-ca-becerra", "race_id": "gov-ca-2026", "name": "Xavier Becerra", "bio": "Former HHS secretary and state attorney general.", "sort_order": 2 },
-  { "id": "gov-ca-villaraigosa", "race_id": "gov-ca-2026", "name": "Antonio Villaraigosa", "bio": "Former Los Angeles mayor; business-aligned.", "sort_order": 3 },
-  { "id": "gov-ca-swalwell", "race_id": "gov-ca-2026", "name": "Eric Swalwell", "bio": "Congressman, CA-14.", "sort_order": 4 },
-  { "id": "gov-ca-steyer", "race_id": "gov-ca-2026", "name": "Tom Steyer", "bio": "Billionaire climate activist and 2020 presidential candidate.", "sort_order": 5 },
-  { "id": "gov-ca-thurmond", "race_id": "gov-ca-2026", "name": "Tony Thurmond", "bio": "State superintendent of public instruction.", "sort_order": 6 },
-  { "id": "gov-ca-yee", "race_id": "gov-ca-2026", "name": "Betty Yee", "bio": "Former state controller.", "sort_order": 7 },
-  { "id": "gov-ca-bianco", "race_id": "gov-ca-2026", "name": "Chad Bianco", "party": "R", "bio": "Riverside County sheriff.", "sort_order": 8 },
-  { "id": "gov-ca-hilton", "race_id": "gov-ca-2026", "name": "Steve Hilton", "party": "R", "bio": "Former Fox News host.", "sort_order": 9 },
-
-  { "id": "gov-ny-hochul", "race_id": "gov-ny-2026", "name": "Kathy Hochul", "is_incumbent": true, "sort_order": 1 },
-  { "id": "gov-ny-delgado", "race_id": "gov-ny-2026", "name": "Antonio Delgado", "bio": "Lieutenant governor; broke with Hochul and ran to her left on housing and health care.", "sort_order": 2 },
-  { "id": "gov-ny-blakeman", "race_id": "gov-ny-2026", "name": "Bruce Blakeman", "party": "R", "bio": "Nassau County executive; Trump-endorsed after Stefanik withdrew.", "sort_order": 3 },
-
-  { "id": "gov-mi-benson", "race_id": "gov-mi-2026", "name": "Jocelyn Benson", "bio": "Secretary of state; frontrunner for the Democratic nomination.", "sort_order": 1 },
-  { "id": "gov-mi-swanson", "race_id": "gov-mi-2026", "name": "Chris Swanson", "bio": "Genesee County sheriff.", "sort_order": 2 },
-  { "id": "gov-mi-duggan", "race_id": "gov-mi-2026", "name": "Mike Duggan", "party": "I", "bio": "Detroit mayor running as an independent after 12 years as a Democrat.", "sort_order": 3 },
-  { "id": "gov-mi-james", "race_id": "gov-mi-2026", "name": "John James", "party": "R", "bio": "Congressman, MI-10.", "sort_order": 4 },
-  { "id": "gov-mi-cox", "race_id": "gov-mi-2026", "name": "Mike Cox", "party": "R", "bio": "Former state attorney general.", "sort_order": 5 },
-
-  { "id": "gov-wi-rodriguez", "race_id": "gov-wi-2026", "name": "Sara Rodriguez", "bio": "Lieutenant governor.", "sort_order": 1 },
-  { "id": "gov-wi-crowley", "race_id": "gov-wi-2026", "name": "David Crowley", "bio": "Milwaukee County executive.", "sort_order": 2 },
-  { "id": "gov-wi-barnes", "race_id": "gov-wi-2026", "name": "Mandela Barnes", "bio": "Former lieutenant governor and 2022 Senate nominee; progressive.", "sort_order": 3 },
-  { "id": "gov-wi-hong", "race_id": "gov-wi-2026", "name": "Francesca Hong", "bio": "State representative and restaurateur; the field's most left-wing candidate.", "sort_order": 4 },
-  { "id": "gov-wi-roys", "race_id": "gov-wi-2026", "name": "Kelda Roys", "bio": "State senator.", "sort_order": 5 },
-  { "id": "gov-wi-tiffany", "race_id": "gov-wi-2026", "name": "Tom Tiffany", "party": "R", "bio": "Congressman, WI-7.", "sort_order": 6 },
-
-  { "id": "gov-ga-bottoms", "race_id": "gov-ga-2026", "name": "Keisha Lance Bottoms", "bio": "Former Atlanta mayor and Biden adviser.", "sort_order": 1 },
-  { "id": "gov-ga-esteves", "race_id": "gov-ga-2026", "name": "Jason Esteves", "bio": "State senator.", "sort_order": 2 },
-  { "id": "gov-ga-thurmond", "race_id": "gov-ga-2026", "name": "Michael Thurmond", "bio": "Former DeKalb County CEO.", "sort_order": 3 },
-  { "id": "gov-ga-jones", "race_id": "gov-ga-2026", "name": "Burt Jones", "party": "R", "bio": "Lieutenant governor; Trump-endorsed.", "sort_order": 4 },
-  { "id": "gov-ga-carr", "race_id": "gov-ga-2026", "name": "Chris Carr", "party": "R", "bio": "State attorney general.", "sort_order": 5 },
-
-  { "id": "gov-az-hobbs", "race_id": "gov-az-2026", "name": "Katie Hobbs", "is_incumbent": true, "sort_order": 1 },
-  { "id": "gov-az-biggs", "race_id": "gov-az-2026", "name": "Andy Biggs", "party": "R", "bio": "Congressman, AZ-5; Freedom Caucus.", "sort_order": 2 },
-  { "id": "gov-az-robson", "race_id": "gov-az-2026", "name": "Karrin Taylor Robson", "party": "R", "bio": "Developer; 2022 primary runner-up.", "sort_order": 3 },
-
-  { "id": "gov-oh-acton", "race_id": "gov-oh-2026", "name": "Amy Acton", "bio": "Former state health director who led Ohio's early COVID response.", "sort_order": 1 },
-  { "id": "gov-oh-ramaswamy", "race_id": "gov-oh-2026", "name": "Vivek Ramaswamy", "party": "R", "bio": "Biotech entrepreneur, 2024 presidential candidate.", "sort_order": 2 },
-
-  { "id": "gov-fl-jolly", "race_id": "gov-fl-2026", "name": "David Jolly", "bio": "Former Republican congressman turned Democrat.", "sort_order": 1 },
-  { "id": "gov-fl-donalds", "race_id": "gov-fl-2026", "name": "Byron Donalds", "party": "R", "bio": "Congressman, FL-19; Trump-endorsed.", "sort_order": 2 },
-
-  { "id": "gov-ia-sand", "race_id": "gov-ia-2026", "name": "Rob Sand", "bio": "State auditor; moderate, pro-gun-rights Democrat with record fundraising.", "sort_order": 1 },
-  { "id": "gov-ia-feenstra", "race_id": "gov-ia-2026", "name": "Randy Feenstra", "party": "R", "bio": "Congressman, IA-4.", "sort_order": 2 },
-
-  { "id": "gov-nv-ford", "race_id": "gov-nv-2026", "name": "Aaron Ford", "bio": "State attorney general.", "sort_order": 1 },
-  { "id": "gov-nv-lombardo", "race_id": "gov-nv-2026", "name": "Joe Lombardo", "party": "R", "is_incumbent": true, "sort_order": 2 },
-
-  { "id": "gov-me-jackson", "race_id": "gov-me-2026", "name": "Troy Jackson", "bio": "Former state Senate president, fifth-generation logger; Sanders-endorsed economic populist.", "sort_order": 1 },
-  { "id": "gov-me-pingree", "race_id": "gov-me-2026", "name": "Hannah Pingree", "bio": "Former state House speaker; daughter of Rep. Chellie Pingree.", "sort_order": 2 },
-  { "id": "gov-me-bellows", "race_id": "gov-me-2026", "name": "Shenna Bellows", "bio": "Secretary of state; former ACLU of Maine director.", "sort_order": 3 },
-  { "id": "gov-me-king", "race_id": "gov-me-2026", "name": "Angus King III", "bio": "Clean-energy executive; son of Sen. Angus King.", "sort_order": 4 },
-
-  { "id": "gov-mn-klobuchar", "race_id": "gov-mn-2026", "name": "Amy Klobuchar", "bio": "U.S. senator since 2007; entered after Walz withdrew.", "sort_order": 1 },
-  { "id": "gov-mn-demuth", "race_id": "gov-mn-2026", "name": "Lisa Demuth", "party": "R", "bio": "State House speaker.", "sort_order": 2 }
+  {
+    "id": "az01-galan-woods",
+    "race_id": "house-az-01-2026",
+    "name": "Marlene Galán-Woods",
+    "bio": "Former TV anchor, 2024 primary candidate.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "az01-shah",
+    "race_id": "house-az-01-2026",
+    "name": "Amish Shah",
+    "bio": "Physician and former state legislator; 2024 nominee who lost to Schweikert by 3.8 points.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "az01-cherny",
+    "race_id": "house-az-01-2026",
+    "name": "Andrei Cherny",
+    "bio": "Former state party chair and Clinton speechwriter.",
+    "sort_order": 3,
+    "status": "withdrew",
+    "notes": "Not on the primary ballot per Wikipedia; confirm.",
+    "needs_review": true
+  },
+  {
+    "id": "az01-treble",
+    "race_id": "house-az-01-2026",
+    "name": "Jonathan Treble",
+    "bio": "Small-business owner, first-time candidate.",
+    "sort_order": 4,
+    "status": "withdrew",
+    "notes": "Not on the primary ballot per Wikipedia; confirm.",
+    "needs_review": true
+  },
+  {
+    "id": "az06-ciscomani",
+    "race_id": "house-az-06-2026",
+    "name": "Juan Ciscomani",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": 0.299,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "az06-mendoza",
+    "race_id": "house-az-06-2026",
+    "name": "JoAnna Mendoza",
+    "bio": "Retired Marine master sergeant from a Tucson farmworker family.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ca11-chakrabarti",
+    "race_id": "house-ca-11-2026",
+    "name": "Saikat Chakrabarti",
+    "bio": "Former AOC chief of staff and Justice Democrats co-founder; self-funding tech entrepreneur running on a Green New Deal-style platform.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "notes": "Did not advance from the June 2 top-two primary.",
+    "needs_review": false
+  },
+  {
+    "id": "ca11-wiener",
+    "race_id": "house-ca-11-2026",
+    "name": "Scott Wiener",
+    "bio": "State senator, YIMBY housing champion, Pelosi-aligned.",
+    "sort_order": 2,
+    "status": "advanced",
+    "needs_review": false
+  },
+  {
+    "id": "ca11-chan",
+    "race_id": "house-ca-11-2026",
+    "name": "Connie Chan",
+    "bio": "San Francisco supervisor from the board's progressive wing.",
+    "sort_order": 3,
+    "status": "advanced",
+    "needs_review": false
+  },
+  {
+    "id": "ca13-gray",
+    "race_id": "house-ca-13-2026",
+    "name": "Adam Gray",
+    "is_incumbent": true,
+    "bio": "Blue Dog-aligned former assemblymember.",
+    "sort_order": 1,
+    "dw_nominate": -0.233,
+    "status": "advanced",
+    "needs_review": false
+  },
+  {
+    "id": "ca22-valadao",
+    "race_id": "house-ca-22-2026",
+    "name": "David Valadao",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": 0.256,
+    "status": "advanced",
+    "needs_review": false
+  },
+  {
+    "id": "ca22-bains",
+    "race_id": "house-ca-22-2026",
+    "name": "Jasmeet Bains",
+    "bio": "Assemblymember and family physician from Delano.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ca22-villegas",
+    "race_id": "house-ca-22-2026",
+    "name": "Randy Villegas",
+    "bio": "Visalia school board trustee and college professor running as a Medicare for All progressive.",
+    "sort_order": 3,
+    "status": "advanced",
+    "notes": "Beat Assemblymember Jasmeet Bains for the second top-two slot.",
+    "needs_review": false
+  },
+  {
+    "id": "ca45-tran",
+    "race_id": "house-ca-45-2026",
+    "name": "Derek Tran",
+    "is_incumbent": true,
+    "bio": "Consumer attorney and Army veteran.",
+    "sort_order": 1,
+    "dw_nominate": -0.23,
+    "status": "advanced",
+    "needs_review": false
+  },
+  {
+    "id": "co08-evans",
+    "race_id": "house-co-08-2026",
+    "name": "Gabe Evans",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": 0.343,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "co08-rutinel",
+    "race_id": "house-co-08-2026",
+    "name": "Manny Rutinel",
+    "bio": "State representative and environmental attorney.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "co08-bird",
+    "race_id": "house-co-08-2026",
+    "name": "Shannon Bird",
+    "bio": "State representative, former Westminster council member.",
+    "sort_order": 3,
+    "status": "withdrew",
+    "notes": "Not among the candidates on the June 30 ballot per Wikipedia; confirm.",
+    "needs_review": true
+  },
+  {
+    "id": "ga13-scott",
+    "race_id": "house-ga-13-2026",
+    "name": "David Scott",
+    "is_incumbent": true,
+    "bio": "Twelve-term incumbent, former Agriculture Committee ranking member.",
+    "sort_order": 1,
+    "dw_nominate": -0.305,
+    "status": "lost_primary",
+    "notes": "Left office April 21, 2026 but remained on the May 19 ballot and lost.",
+    "needs_review": false
+  },
+  {
+    "id": "ga13-blair",
+    "race_id": "house-ga-13-2026",
+    "name": "Everton Blair",
+    "bio": "Former Gwinnett school board chair.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ga13-clark",
+    "race_id": "house-ga-13-2026",
+    "name": "Jasmine Clark",
+    "bio": "State representative and microbiologist.",
+    "sort_order": 3,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ga13-jones",
+    "race_id": "house-ga-13-2026",
+    "name": "Emanuel Jones",
+    "bio": "State senator.",
+    "sort_order": 4,
+    "status": "withdrew",
+    "notes": "Not listed on the primary ballot per Wikipedia; confirm.",
+    "needs_review": true
+  },
+  {
+    "id": "ia01-miller-meeks",
+    "race_id": "house-ia-01-2026",
+    "name": "Mariannette Miller-Meeks",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": 0.338,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ia01-bohannan",
+    "race_id": "house-ia-01-2026",
+    "name": "Christina Bohannan",
+    "bio": "Law professor and former state representative; lost by 799 votes in 2024.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il07-collins",
+    "race_id": "house-il-07-2026",
+    "name": "Kina Collins",
+    "bio": "Gun violence prevention organizer; took 46% against Davis in 2022. Runs on Medicare for All and no corporate PAC money.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il07-ford",
+    "race_id": "house-il-07-2026",
+    "name": "La Shawn Ford",
+    "bio": "State representative since 2007.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il07-conyears-ervin",
+    "race_id": "house-il-07-2026",
+    "name": "Melissa Conyears-Ervin",
+    "bio": "Chicago city treasurer; Davis-aligned.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il07-clark",
+    "race_id": "house-il-07-2026",
+    "name": "Anthony Clark",
+    "bio": "Teacher and activist; ran in 2018, 2020, and 2022.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il07-boykin",
+    "race_id": "house-il-07-2026",
+    "name": "Richard Boykin",
+    "bio": "Former Cook County commissioner.",
+    "sort_order": 5,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il09-abughazaleh",
+    "race_id": "house-il-09-2026",
+    "name": "Kat Abughazaleh",
+    "bio": "Journalist and Media Matters alum; ran a mutual-aid-style campaign on Medicare for All, Gaza, and rejecting corporate money.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il09-biss",
+    "race_id": "house-il-09-2026",
+    "name": "Daniel Biss",
+    "bio": "Evanston mayor and former state senator; 2018 progressive gubernatorial candidate.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il09-fine",
+    "race_id": "house-il-09-2026",
+    "name": "Laura Fine",
+    "bio": "State senator.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "il09-amiwala",
+    "race_id": "house-il-09-2026",
+    "name": "Bushra Amiwala",
+    "bio": "Skokie school board member, one of the youngest Muslim elected officials in the country.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "me02-wood",
+    "race_id": "house-me-02-2026",
+    "name": "Jordan Wood",
+    "bio": "Former chief of staff to Rep. Katie Porter; runs on anti-corruption and rejecting corporate PACs.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "me02-lepage",
+    "race_id": "house-me-02-2026",
+    "name": "Paul LePage",
+    "party": "R",
+    "bio": "Two-term former governor.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "mi07-barrett",
+    "race_id": "house-mi-07-2026",
+    "name": "Tom Barrett",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": 0.498,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "mi07-brink",
+    "race_id": "house-mi-07-2026",
+    "name": "Bridget Brink",
+    "bio": "Former U.S. ambassador to Ukraine who resigned in protest of Trump's Ukraine policy.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "mi10-hines",
+    "race_id": "house-mi-10-2026",
+    "name": "Christina Hines",
+    "bio": "Former Macomb County prosecutor.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "mi10-chung",
+    "race_id": "house-mi-10-2026",
+    "name": "Eric Chung",
+    "bio": "Attorney and former congressional staffer.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "mi13-thanedar",
+    "race_id": "house-mi-13-2026",
+    "name": "Shri Thanedar",
+    "is_incumbent": true,
+    "bio": "Self-funding two-term incumbent; drew progressive anger for his Trump impeachment stunt and votes.",
+    "sort_order": 1,
+    "dw_nominate": -0.353,
+    "status": "lost_primary",
+    "notes": "Listed as eliminated in the Aug 4 primary.",
+    "needs_review": false
+  },
+  {
+    "id": "mi13-mckinney",
+    "race_id": "house-mi-13-2026",
+    "name": "Donavan McKinney",
+    "bio": "State representative; Justice Democrats-endorsed challenger backed by Rashida Tlaib.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "notes": "Thanedar is listed as eliminated and Hollier withdrew, so McKinney is the presumptive nominee. Confirm.",
+    "needs_review": true
+  },
+  {
+    "id": "mi13-hollier",
+    "race_id": "house-mi-13-2026",
+    "name": "Adam Hollier",
+    "bio": "Former state senator; ran in 2022 and 2024.",
+    "sort_order": 3,
+    "status": "withdrew",
+    "notes": "Ran for state senate instead.",
+    "needs_review": false
+  },
+  {
+    "id": "ne02-cavanaugh",
+    "race_id": "house-ne-02-2026",
+    "name": "John Cavanaugh",
+    "bio": "State senator, son of former Rep. John J. Cavanaugh.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "notes": "Not shown in the general election box; confirm he lost the May 12 primary.",
+    "needs_review": true
+  },
+  {
+    "id": "ne02-powell",
+    "race_id": "house-ne-02-2026",
+    "name": "Denise Powell",
+    "bio": "Co-founder of Women Who Run, Omaha organizer.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ne02-harding",
+    "race_id": "house-ne-02-2026",
+    "name": "Brinker Harding",
+    "party": "R",
+    "bio": "Omaha city council member.",
+    "sort_order": 3,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "nj07-kean",
+    "race_id": "house-nj-07-2026",
+    "name": "Tom Kean Jr.",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "nj07-bennett",
+    "race_id": "house-nj-07-2026",
+    "name": "Rebecca Bennett",
+    "bio": "Navy veteran and former Pentagon official.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny07-valdez",
+    "race_id": "house-ny-07-2026",
+    "name": "Claire Valdez",
+    "bio": "UAW organizer and NYC-DSA member; democratic socialist running in the Mamdani mold.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny07-reynoso",
+    "race_id": "house-ny-07-2026",
+    "name": "Antonio Reynoso",
+    "bio": "Brooklyn borough president.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny07-won",
+    "race_id": "house-ny-07-2026",
+    "name": "Julie Won",
+    "bio": "NYC council member from Queens.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny10-goldman",
+    "race_id": "house-ny-10-2026",
+    "name": "Dan Goldman",
+    "is_incumbent": true,
+    "bio": "Levi Strauss heir and former impeachment counsel; two-term incumbent.",
+    "sort_order": 1,
+    "dw_nominate": -0.455,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny10-lander",
+    "race_id": "house-ny-10-2026",
+    "name": "Brad Lander",
+    "bio": "Former NYC comptroller; cross-endorsed Zohran Mamdani in 2025 and was arrested escorting an immigrant at an ICE hearing.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "notes": "Beat incumbent Dan Goldman in the June 23 primary.",
+    "needs_review": false
+  },
+  {
+    "id": "ny12-lasher",
+    "race_id": "house-ny-12-2026",
+    "name": "Micah Lasher",
+    "bio": "Assemblymember; Nadler's endorsed successor.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny12-bores",
+    "race_id": "house-ny-12-2026",
+    "name": "Alex Bores",
+    "bio": "Assemblymember; author of New York's RAISE Act on AI safety.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": true
+  },
+  {
+    "id": "ny12-schlossberg",
+    "race_id": "house-ny-12-2026",
+    "name": "Jack Schlossberg",
+    "bio": "JFK's grandson, writer and online personality.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": true
+  },
+  {
+    "id": "ny12-elkind",
+    "race_id": "house-ny-12-2026",
+    "name": "Liam Elkind",
+    "bio": "Invisible Hands mutual-aid founder.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "needs_review": true
+  },
+  {
+    "id": "ny17-lawler",
+    "race_id": "house-ny-17-2026",
+    "name": "Mike Lawler",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny17-davidson",
+    "race_id": "house-ny-17-2026",
+    "name": "Beth Davidson",
+    "bio": "Rockland County legislator.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny17-sacks",
+    "race_id": "house-ny-17-2026",
+    "name": "Mike Sacks",
+    "bio": "Former journalist and Supreme Court reporter.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny17-conley",
+    "race_id": "house-ny-17-2026",
+    "name": "Cait Conley",
+    "bio": "Army veteran and former National Security Council official.",
+    "sort_order": 4,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "ny17-phillips-staley",
+    "race_id": "house-ny-17-2026",
+    "name": "Effie Phillips-Staley",
+    "bio": "Tarrytown trustee; the field's most progressive candidate.",
+    "sort_order": 5,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "nc01-davis",
+    "race_id": "house-nc-01-2026",
+    "name": "Don Davis",
+    "is_incumbent": true,
+    "bio": "Air Force veteran and former state senator; among the most conservative House Democrats.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "oh09-kaptur",
+    "race_id": "house-oh-09-2026",
+    "name": "Marcy Kaptur",
+    "is_incumbent": true,
+    "bio": "Longest-serving woman in congressional history; labor-aligned populist.",
+    "sort_order": 1,
+    "dw_nominate": -0.341,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "oh09-merrin",
+    "race_id": "house-oh-09-2026",
+    "name": "Derek Merrin",
+    "party": "R",
+    "bio": "Former state representative; 2024 nominee.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "oh13-sykes",
+    "race_id": "house-oh-13-2026",
+    "name": "Emilia Sykes",
+    "is_incumbent": true,
+    "bio": "Former state House minority leader.",
+    "sort_order": 1,
+    "dw_nominate": -0.332,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "oh13-coughlin",
+    "race_id": "house-oh-13-2026",
+    "name": "Kevin Coughlin",
+    "party": "R",
+    "bio": "Former state senator; 2024 nominee.",
+    "sort_order": 2,
+    "status": "withdrew",
+    "notes": "Not the 2026 nominee per Wikipedia; confirm.",
+    "needs_review": true
+  },
+  {
+    "id": "pa01-fitzpatrick",
+    "race_id": "house-pa-01-2026",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": 0.141,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "pa01-harvie",
+    "race_id": "house-pa-01-2026",
+    "name": "Bob Harvie",
+    "bio": "Bucks County commissioner.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "pa03-street",
+    "race_id": "house-pa-03-2026",
+    "name": "Sharif Street",
+    "bio": "State senator and state party chair.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "notes": "Not listed among primary finishers; confirm whether he withdrew.",
+    "needs_review": true
+  },
+  {
+    "id": "pa03-rabb",
+    "race_id": "house-pa-03-2026",
+    "name": "Chris Rabb",
+    "bio": "State representative; Working Families-aligned progressive who has fought the party establishment.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "notes": "Won the May 19 primary; 314 Action spent about $2.5 million against him for Ala Stanford.",
+    "needs_review": false
+  },
+  {
+    "id": "pa07-mackenzie",
+    "race_id": "house-pa-07-2026",
+    "name": "Ryan Mackenzie",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": 0.322,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "pa07-mcclure",
+    "race_id": "house-pa-07-2026",
+    "name": "Lamont McClure",
+    "bio": "Northampton County executive.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "pa07-crosswell",
+    "race_id": "house-pa-07-2026",
+    "name": "Ryan Crosswell",
+    "bio": "Former federal prosecutor who resigned over the Eric Adams case.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "pa07-obando-derstine",
+    "race_id": "house-pa-07-2026",
+    "name": "Carol Obando-Derstine",
+    "bio": "Former PPL executive and Casey staffer.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "pa08-bresnahan",
+    "race_id": "house-pa-08-2026",
+    "name": "Rob Bresnahan",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "tx18-menefee",
+    "race_id": "house-tx-18-2026",
+    "name": "Christian Menefee",
+    "is_incumbent": true,
+    "bio": "Former Harris County attorney; won the Jan 2026 special runoff.",
+    "sort_order": 1,
+    "dw_nominate": -0.552,
+    "status": "won_primary",
+    "notes": "Beat Al Green in the May 26 runoff.",
+    "needs_review": false
+  },
+  {
+    "id": "tx18-green",
+    "race_id": "house-tx-18-2026",
+    "name": "Al Green",
+    "bio": "Thirteen-term congressman from TX-9, redistricted out; first to file Trump impeachment articles in 2025.",
+    "sort_order": 2,
+    "dw_nominate": -0.448,
+    "status": "lost_primary",
+    "notes": "Eliminated in the runoff.",
+    "needs_review": false
+  },
+  {
+    "id": "tx28-cuellar",
+    "race_id": "house-tx-28-2026",
+    "name": "Henry Cuellar",
+    "is_incumbent": true,
+    "bio": "Only anti-abortion House Democrat; under federal bribery indictment.",
+    "sort_order": 1,
+    "dw_nominate": -0.225,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "tx34-gonzalez",
+    "race_id": "house-tx-34-2026",
+    "name": "Vicente Gonzalez",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": -0.386,
+    "status": "won_primary",
+    "notes": "Won the primary 35,342 to 20,993 over Etienne Rosas.",
+    "needs_review": false
+  },
+  {
+    "id": "tx34-flores",
+    "race_id": "house-tx-34-2026",
+    "name": "Mayra Flores",
+    "party": "R",
+    "bio": "Former congresswoman; lost to Gonzalez in 2022 and 2024.",
+    "sort_order": 2,
+    "status": "withdrew",
+    "notes": "Not the 2026 nominee per Wikipedia; confirm.",
+    "needs_review": true
+  },
+  {
+    "id": "tx37-casar",
+    "race_id": "house-tx-37-2026",
+    "name": "Greg Casar",
+    "bio": "Congressional Progressive Caucus chair; former Austin council member and labor organizer.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "notes": "Won the primary 105,917 to 25,252.",
+    "needs_review": false
+  },
+  {
+    "id": "ut01-mcadams",
+    "race_id": "house-ut-01-2026",
+    "name": "Ben McAdams",
+    "bio": "Former congressman (2019-2021) and Salt Lake County mayor; Blue Dog.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "wi03-van-orden",
+    "race_id": "house-wi-03-2026",
+    "name": "Derrick Van Orden",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "wi03-cooke",
+    "race_id": "house-wi-03-2026",
+    "name": "Rebecca Cooke",
+    "bio": "Small-business owner and nonprofit founder; 2024 nominee who lost by 2.8 points.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-tx-talarico",
+    "race_id": "senate-tx-2026",
+    "name": "James Talarico",
+    "bio": "State representative and seminarian; viral progressive populist who refuses corporate PAC money.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-tx-crockett",
+    "race_id": "senate-tx-2026",
+    "name": "Jasmine Crockett",
+    "bio": "Congresswoman from Dallas; entered the primary in December 2025.",
+    "sort_order": 2,
+    "dw_nominate": -0.495,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-tx-cornyn",
+    "race_id": "senate-tx-2026",
+    "name": "John Cornyn",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 3,
+    "dw_nominate": 0.471,
+    "status": "lost_primary",
+    "notes": "Lost the May 26 runoff to Paxton.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-tx-paxton",
+    "race_id": "senate-tx-2026",
+    "name": "Ken Paxton",
+    "party": "R",
+    "bio": "State attorney general.",
+    "sort_order": 4,
+    "status": "won_primary",
+    "notes": "Beat Cornyn in the May 26 runoff by a landslide after Trump endorsed him.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-mi-el-sayed",
+    "race_id": "senate-mi-2026",
+    "name": "Abdul El-Sayed",
+    "bio": "Physician, former Detroit health director, 2018 gubernatorial candidate. Endorsed by Bernie Sanders; Medicare for All is his signature issue.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "notes": "Narrowly defeated Stevens in the Aug 4 primary.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-mi-stevens",
+    "race_id": "senate-mi-2026",
+    "name": "Haley Stevens",
+    "bio": "Congresswoman from Oakland County; New Democrat Coalition, backed by AIPAC-aligned donors.",
+    "sort_order": 2,
+    "dw_nominate": -0.365,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-mi-mcmorrow",
+    "race_id": "senate-mi-2026",
+    "name": "Mallory McMorrow",
+    "bio": "State senator known for a viral 2022 floor speech; rejects corporate PAC money.",
+    "sort_order": 3,
+    "status": "withdrew",
+    "notes": "Not among the primary contenders listed; confirm when she exited."
+  },
+  {
+    "id": "sen-mi-rogers",
+    "race_id": "senate-mi-2026",
+    "name": "Mike Rogers",
+    "party": "R",
+    "bio": "Former congressman; 2024 nominee who lost to Slotkin by 0.3 points.",
+    "sort_order": 4,
+    "dw_nominate": 0.379,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-mn-flanagan",
+    "race_id": "senate-mn-2026",
+    "name": "Peggy Flanagan",
+    "bio": "Lieutenant governor; would be the first Native American woman in the Senate. Backed by Sanders and the PCCC.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "notes": "Won the Aug 11 primary with 59%.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-mn-craig",
+    "race_id": "senate-mn-2026",
+    "name": "Angie Craig",
+    "bio": "Congresswoman from the suburban 2nd district; New Democrat, business-friendly.",
+    "sort_order": 2,
+    "dw_nominate": -0.271,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-mn-white",
+    "race_id": "senate-mn-2026",
+    "name": "Royce White",
+    "party": "R",
+    "bio": "2024 nominee, former NBA player.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-me-platner",
+    "race_id": "senate-me-2026",
+    "name": "Graham Platner",
+    "bio": "Oyster farmer and Marine/Army veteran; Sanders-endorsed populist who raised millions in small donations and survived a scandal over old online posts.",
+    "sort_order": 1,
+    "status": "withdrew",
+    "notes": "Won the June 9 primary with 72%, then withdrew July 8 after sexual assault allegations.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-me-mills",
+    "race_id": "senate-me-2026",
+    "name": "Janet Mills",
+    "bio": "Two-term governor, 77; recruited by Schumer.",
+    "sort_order": 2,
+    "status": "withdrew",
+    "notes": "Suspended her campaign April 30, 2026, citing money and polling.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-me-collins",
+    "race_id": "senate-me-2026",
+    "name": "Susan Collins",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 3,
+    "dw_nominate": 0.124,
+    "status": "won_primary",
+    "notes": "Only Republican to qualify for the ballot.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-nc-cooper",
+    "race_id": "senate-nc-2026",
+    "name": "Roy Cooper",
+    "bio": "Two-term former governor.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-nc-whatley",
+    "race_id": "senate-nc-2026",
+    "name": "Michael Whatley",
+    "party": "R",
+    "bio": "Former RNC chair.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ga-ossoff",
+    "race_id": "senate-ga-2026",
+    "name": "Jon Ossoff",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "dw_nominate": -0.474,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ga-collins",
+    "race_id": "senate-ga-2026",
+    "name": "Mike Collins",
+    "party": "R",
+    "bio": "Congressman, GA-10.",
+    "sort_order": 2,
+    "dw_nominate": 0.68,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ga-carter",
+    "race_id": "senate-ga-2026",
+    "name": "Buddy Carter",
+    "party": "R",
+    "bio": "Congressman, GA-1.",
+    "sort_order": 3,
+    "dw_nominate": 0.556,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ga-dooley",
+    "race_id": "senate-ga-2026",
+    "name": "Derek Dooley",
+    "party": "R",
+    "bio": "Former Tennessee football coach; Kemp-backed.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-oh-brown",
+    "race_id": "senate-oh-2026-special",
+    "name": "Sherrod Brown",
+    "bio": "Three-term former senator; labor populist who lost in 2024 by 3.6 points.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-oh-husted",
+    "race_id": "senate-oh-2026-special",
+    "name": "Jon Husted",
+    "party": "R",
+    "is_incumbent": true,
+    "bio": "Appointed to Vance's seat in January 2025.",
+    "sort_order": 2,
+    "dw_nominate": 0.589,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ia-sage",
+    "race_id": "senate-ia-2026",
+    "name": "Nathan Sage",
+    "bio": "Marine veteran and chamber of commerce director from Knoxville, Iowa; populist outsider.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "notes": "Not among the finalists reported; confirm whether he exited before the primary."
+  },
+  {
+    "id": "sen-ia-turek",
+    "race_id": "senate-ia-2026",
+    "name": "Josh Turek",
+    "bio": "State representative and two-time Paralympic gold medalist.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "notes": "Beat Zach Wahls by a comfortable margin on June 2.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ia-wahls",
+    "race_id": "senate-ia-2026",
+    "name": "Zach Wahls",
+    "bio": "State senator, former Senate minority leader.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ia-norris",
+    "race_id": "senate-ia-2026",
+    "name": "Jackie Norris",
+    "bio": "Former Michelle Obama chief of staff.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "notes": "Confirm whether she exited before the primary."
+  },
+  {
+    "id": "sen-ia-hinson",
+    "race_id": "senate-ia-2026",
+    "name": "Ashley Hinson",
+    "party": "R",
+    "bio": "Congresswoman, IA-2; Trump-endorsed.",
+    "sort_order": 5,
+    "dw_nominate": 0.356,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-il-stratton",
+    "race_id": "senate-il-2026",
+    "name": "Juliana Stratton",
+    "bio": "Lieutenant governor; Pritzker-backed.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-il-krishnamoorthi",
+    "race_id": "senate-il-2026",
+    "name": "Raja Krishnamoorthi",
+    "bio": "Congressman, IL-8; entered with a $19 million war chest.",
+    "sort_order": 2,
+    "dw_nominate": -0.35,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-il-kelly",
+    "race_id": "senate-il-2026",
+    "name": "Robin Kelly",
+    "bio": "Congresswoman, IL-2.",
+    "sort_order": 3,
+    "dw_nominate": -0.474,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-nh-pappas",
+    "race_id": "senate-nh-2026",
+    "name": "Chris Pappas",
+    "bio": "Four-term congressman, NH-1; New Democrat Coalition.",
+    "sort_order": 1,
+    "dw_nominate": -0.232
+  },
+  {
+    "id": "sen-nh-sununu",
+    "race_id": "senate-nh-2026",
+    "name": "John E. Sununu",
+    "party": "R",
+    "bio": "Former senator (2003-2009).",
+    "sort_order": 2
+  },
+  {
+    "id": "sen-nh-brown",
+    "race_id": "senate-nh-2026",
+    "name": "Scott Brown",
+    "party": "R",
+    "bio": "Former Massachusetts senator and ambassador to New Zealand.",
+    "sort_order": 3
+  },
+  {
+    "id": "sen-ma-markey",
+    "race_id": "senate-ma-2026",
+    "name": "Ed Markey",
+    "is_incumbent": true,
+    "bio": "Green New Deal co-author; beat Joe Kennedy III in 2020 with youth-led support.",
+    "sort_order": 1,
+    "dw_nominate": -0.518,
+    "status": "won_primary",
+    "notes": "Beat Moulton in a landslide on Sept 1.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ma-moulton",
+    "race_id": "senate-ma-2026",
+    "name": "Seth Moulton",
+    "bio": "Congressman, MA-6; Marine veteran, centrist who criticized the party over trans issues after 2024.",
+    "sort_order": 2,
+    "dw_nominate": -0.286,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ma-rikleen",
+    "race_id": "senate-ma-2026",
+    "name": "Alex Rikleen",
+    "bio": "Teacher and generational-change candidate.",
+    "sort_order": 3,
+    "status": "lost_primary"
+  },
+  {
+    "id": "sen-ne-osborn",
+    "race_id": "senate-ne-2026",
+    "name": "Dan Osborn",
+    "party": "I",
+    "bio": "Steamfitter and former Kellogg's strike leader; independent populist.",
+    "sort_order": 1,
+    "status": "running",
+    "notes": "No Democrat on the ballot; state party chair endorsed him.",
+    "needs_review": false
+  },
+  {
+    "id": "sen-ne-ricketts",
+    "race_id": "senate-ne-2026",
+    "name": "Pete Ricketts",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 2,
+    "dw_nominate": 0.445,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-porter",
+    "race_id": "gov-ca-2026",
+    "name": "Katie Porter",
+    "bio": "Former congresswoman; Warren protégé and consumer-protection progressive.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-becerra",
+    "race_id": "gov-ca-2026",
+    "name": "Xavier Becerra",
+    "bio": "Former HHS secretary and state attorney general.",
+    "sort_order": 2,
+    "status": "advanced",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-villaraigosa",
+    "race_id": "gov-ca-2026",
+    "name": "Antonio Villaraigosa",
+    "bio": "Former Los Angeles mayor; business-aligned.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-swalwell",
+    "race_id": "gov-ca-2026",
+    "name": "Eric Swalwell",
+    "bio": "Congressman, CA-14.",
+    "sort_order": 4,
+    "dw_nominate": -0.355,
+    "status": "withdrew",
+    "notes": "Withdrew and resigned from Congress in April 2026 amid sexual assault allegations; name stayed on the ballot.",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-steyer",
+    "race_id": "gov-ca-2026",
+    "name": "Tom Steyer",
+    "bio": "Billionaire climate activist and 2020 presidential candidate.",
+    "sort_order": 5,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-thurmond",
+    "race_id": "gov-ca-2026",
+    "name": "Tony Thurmond",
+    "bio": "State superintendent of public instruction.",
+    "sort_order": 6,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-yee",
+    "race_id": "gov-ca-2026",
+    "name": "Betty Yee",
+    "bio": "Former state controller.",
+    "sort_order": 7,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-bianco",
+    "race_id": "gov-ca-2026",
+    "name": "Chad Bianco",
+    "party": "R",
+    "bio": "Riverside County sheriff.",
+    "sort_order": 8,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ca-hilton",
+    "race_id": "gov-ca-2026",
+    "name": "Steve Hilton",
+    "party": "R",
+    "bio": "Former Fox News host.",
+    "sort_order": 9,
+    "status": "advanced",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ny-hochul",
+    "race_id": "gov-ny-2026",
+    "name": "Kathy Hochul",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ny-delgado",
+    "race_id": "gov-ny-2026",
+    "name": "Antonio Delgado",
+    "bio": "Lieutenant governor; broke with Hochul and ran to her left on housing and health care.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ny-blakeman",
+    "race_id": "gov-ny-2026",
+    "name": "Bruce Blakeman",
+    "party": "R",
+    "bio": "Nassau County executive; Trump-endorsed after Stefanik withdrew.",
+    "sort_order": 3,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-mi-benson",
+    "race_id": "gov-mi-2026",
+    "name": "Jocelyn Benson",
+    "bio": "Secretary of state; frontrunner for the Democratic nomination.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "notes": "Beat Swanson with 83% on Aug 4.",
+    "needs_review": false
+  },
+  {
+    "id": "gov-mi-swanson",
+    "race_id": "gov-mi-2026",
+    "name": "Chris Swanson",
+    "bio": "Genesee County sheriff.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-mi-duggan",
+    "race_id": "gov-mi-2026",
+    "name": "Mike Duggan",
+    "party": "I",
+    "bio": "Detroit mayor running as an independent after 12 years as a Democrat.",
+    "sort_order": 3,
+    "status": "running",
+    "notes": "Independent; confirm he remains on the ballot."
+  },
+  {
+    "id": "gov-mi-james",
+    "race_id": "gov-mi-2026",
+    "name": "John James",
+    "party": "R",
+    "bio": "Congressman, MI-10.",
+    "sort_order": 4,
+    "dw_nominate": 0.322,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-mi-cox",
+    "race_id": "gov-mi-2026",
+    "name": "Mike Cox",
+    "party": "R",
+    "bio": "Former state attorney general.",
+    "sort_order": 5,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-wi-rodriguez",
+    "race_id": "gov-wi-2026",
+    "name": "Sara Rodriguez",
+    "bio": "Lieutenant governor.",
+    "sort_order": 1,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-wi-crowley",
+    "race_id": "gov-wi-2026",
+    "name": "David Crowley",
+    "bio": "Milwaukee County executive.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-wi-barnes",
+    "race_id": "gov-wi-2026",
+    "name": "Mandela Barnes",
+    "bio": "Former lieutenant governor and 2022 Senate nominee; progressive.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-wi-hong",
+    "race_id": "gov-wi-2026",
+    "name": "Francesca Hong",
+    "bio": "State representative and restaurateur; the field's most left-wing candidate.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-wi-roys",
+    "race_id": "gov-wi-2026",
+    "name": "Kelda Roys",
+    "bio": "State senator.",
+    "sort_order": 5,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-wi-tiffany",
+    "race_id": "gov-wi-2026",
+    "name": "Tom Tiffany",
+    "party": "R",
+    "bio": "Congressman, WI-7.",
+    "sort_order": 6,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ga-bottoms",
+    "race_id": "gov-ga-2026",
+    "name": "Keisha Lance Bottoms",
+    "bio": "Former Atlanta mayor and Biden adviser.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "notes": "Won the May 19 primary outright.",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ga-esteves",
+    "race_id": "gov-ga-2026",
+    "name": "Jason Esteves",
+    "bio": "State senator.",
+    "sort_order": 2,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ga-thurmond",
+    "race_id": "gov-ga-2026",
+    "name": "Michael Thurmond",
+    "bio": "Former DeKalb County CEO.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ga-jones",
+    "race_id": "gov-ga-2026",
+    "name": "Burt Jones",
+    "party": "R",
+    "bio": "Lieutenant governor; Trump-endorsed.",
+    "sort_order": 4,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ga-carr",
+    "race_id": "gov-ga-2026",
+    "name": "Chris Carr",
+    "party": "R",
+    "bio": "State attorney general.",
+    "sort_order": 5,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-az-hobbs",
+    "race_id": "gov-az-2026",
+    "name": "Katie Hobbs",
+    "is_incumbent": true,
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-az-biggs",
+    "race_id": "gov-az-2026",
+    "name": "Andy Biggs",
+    "party": "R",
+    "bio": "Congressman, AZ-5; Freedom Caucus.",
+    "sort_order": 2,
+    "dw_nominate": 0.818,
+    "status": "won_primary",
+    "notes": "Beat Schweikert and Robson on Aug 4.",
+    "needs_review": false
+  },
+  {
+    "id": "gov-az-robson",
+    "race_id": "gov-az-2026",
+    "name": "Karrin Taylor Robson",
+    "party": "R",
+    "bio": "Developer; 2022 primary runner-up.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-oh-acton",
+    "race_id": "gov-oh-2026",
+    "name": "Amy Acton",
+    "bio": "Former state health director who led Ohio's early COVID response.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-oh-ramaswamy",
+    "race_id": "gov-oh-2026",
+    "name": "Vivek Ramaswamy",
+    "party": "R",
+    "bio": "Biotech entrepreneur, 2024 presidential candidate.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-fl-jolly",
+    "race_id": "gov-fl-2026",
+    "name": "David Jolly",
+    "bio": "Former Republican congressman turned Democrat.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-fl-donalds",
+    "race_id": "gov-fl-2026",
+    "name": "Byron Donalds",
+    "party": "R",
+    "bio": "Congressman, FL-19; Trump-endorsed.",
+    "sort_order": 2,
+    "dw_nominate": 0.636,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ia-sand",
+    "race_id": "gov-ia-2026",
+    "name": "Rob Sand",
+    "bio": "State auditor; moderate, pro-gun-rights Democrat with record fundraising.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "notes": "Only Democrat to file.",
+    "needs_review": false
+  },
+  {
+    "id": "gov-ia-feenstra",
+    "race_id": "gov-ia-2026",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "bio": "Congressman, IA-4.",
+    "sort_order": 2,
+    "dw_nominate": 0.467,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-nv-ford",
+    "race_id": "gov-nv-2026",
+    "name": "Aaron Ford",
+    "bio": "State attorney general.",
+    "sort_order": 1,
+    "status": "won_primary",
+    "notes": "Beat Washoe County Commissioner Alexis Hill.",
+    "needs_review": false
+  },
+  {
+    "id": "gov-nv-lombardo",
+    "race_id": "gov-nv-2026",
+    "name": "Joe Lombardo",
+    "party": "R",
+    "is_incumbent": true,
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-me-jackson",
+    "race_id": "senate-me-2026",
+    "name": "Troy Jackson",
+    "bio": "Former state Senate president, fifth-generation logger; Sanders-aligned economic populist. Lost the June governor primary, then chosen 566-5 at a July state convention as the replacement Senate nominee after Platner withdrew.",
+    "sort_order": 0,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-me-pingree",
+    "race_id": "gov-me-2026",
+    "name": "Hannah Pingree",
+    "bio": "Former state House speaker; daughter of Rep. Chellie Pingree.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "notes": "Won the June 9 ranked-choice primary over Bellows, Jackson, and King.",
+    "needs_review": false
+  },
+  {
+    "id": "gov-me-bellows",
+    "race_id": "gov-me-2026",
+    "name": "Shenna Bellows",
+    "bio": "Secretary of state; former ACLU of Maine director.",
+    "sort_order": 3,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-me-king",
+    "race_id": "gov-me-2026",
+    "name": "Angus King III",
+    "bio": "Clean-energy executive; son of Sen. Angus King.",
+    "sort_order": 4,
+    "dw_nominate": -0.17,
+    "status": "lost_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-mn-klobuchar",
+    "race_id": "gov-mn-2026",
+    "name": "Amy Klobuchar",
+    "bio": "U.S. senator since 2007; entered after Walz withdrew.",
+    "sort_order": 1,
+    "dw_nominate": -0.278,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "gov-mn-demuth",
+    "race_id": "gov-mn-2026",
+    "name": "Lisa Demuth",
+    "party": "R",
+    "bio": "State House speaker.",
+    "sort_order": 2,
+    "status": "won_primary",
+    "needs_review": false
+  },
+  {
+    "id": "sen-mn-tafoya",
+    "race_id": "senate-mn-2026",
+    "name": "Michele Tafoya",
+    "party": "R",
+    "bio": "Former NBC sportscaster; won the Republican primary with 52%.",
+    "status": "won_primary",
+    "sort_order": 4,
+    "needs_review": false
+  },
+  {
+    "id": "sen-il-tracy",
+    "race_id": "senate-il-2026",
+    "name": "Don Tracy",
+    "party": "R",
+    "bio": "Former state Republican Party chair.",
+    "status": "won_primary",
+    "sort_order": 4,
+    "needs_review": false
+  },
+  {
+    "id": "sen-ma-deaton",
+    "race_id": "senate-ma-2026",
+    "name": "John Deaton",
+    "party": "R",
+    "bio": "Attorney; 2024 nominee against Elizabeth Warren.",
+    "status": "won_primary",
+    "sort_order": 4,
+    "needs_review": false
+  },
+  {
+    "id": "gov-ga-jackson",
+    "race_id": "gov-ga-2026",
+    "name": "Rick Jackson",
+    "party": "R",
+    "bio": "Businessman; won the Republican nomination over Burt Jones, Chris Carr, and Brad Raffensperger.",
+    "status": "won_primary",
+    "sort_order": 6,
+    "needs_review": false
+  },
+  {
+    "id": "gov-ia-lahn",
+    "race_id": "gov-ia-2026",
+    "name": "Zach Lahn",
+    "party": "R",
+    "bio": "Won the Republican nomination over Randy Feenstra and others.",
+    "status": "won_primary",
+    "sort_order": 3,
+    "needs_review": false
+  },
+  {
+    "id": "gov-me-charles",
+    "race_id": "gov-me-2026",
+    "name": "Robert Charles",
+    "party": "R",
+    "bio": "Former assistant secretary of state; won the Republican primary.",
+    "status": "won_primary",
+    "sort_order": 5,
+    "needs_review": false
+  },
+  {
+    "id": "gov-me-bennett",
+    "race_id": "gov-me-2026",
+    "name": "Rick Bennett",
+    "party": "I",
+    "bio": "State senator who left the Republican Party; running as an independent.",
+    "status": "running",
+    "sort_order": 6,
+    "needs_review": false
+  },
+  {
+    "id": "az01-feely",
+    "race_id": "house-az-01-2026",
+    "name": "Jay Feely",
+    "party": "R",
+    "bio": "CBS Sports analyst and former Arizona Cardinals kicker.",
+    "status": "won_primary",
+    "sort_order": 5,
+    "needs_review": false
+  },
+  {
+    "id": "ca13-lincoln",
+    "race_id": "house-ca-13-2026",
+    "name": "Kevin Lincoln",
+    "party": "R",
+    "bio": "Listed as the Republican in the general election box; the primary section says Vin Kruttiventi advanced. Confirm.",
+    "status": "advanced",
+    "sort_order": 2,
+    "needs_review": true
+  },
+  {
+    "id": "ca45-vo",
+    "race_id": "house-ca-45-2026",
+    "name": "Chuong Vo",
+    "party": "R",
+    "bio": "Republican who advanced from the top-two primary.",
+    "status": "advanced",
+    "sort_order": 2,
+    "needs_review": false
+  },
+  {
+    "id": "ga13-chavez",
+    "race_id": "house-ga-13-2026",
+    "name": "Jonathan Chavez",
+    "party": "R",
+    "bio": "Former Rockdale County Republican chair.",
+    "status": "won_primary",
+    "sort_order": 5,
+    "needs_review": false
+  },
+  {
+    "id": "il07-koppie",
+    "race_id": "house-il-07-2026",
+    "name": "Chad Koppie",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 6,
+    "needs_review": false
+  },
+  {
+    "id": "il09-elleson",
+    "race_id": "house-il-09-2026",
+    "name": "John Elleson",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 5,
+    "needs_review": false
+  },
+  {
+    "id": "me02-dunlap",
+    "race_id": "house-me-02-2026",
+    "name": "Matthew Dunlap",
+    "party": "D",
+    "bio": "State auditor and former secretary of state; won the ranked-choice primary over Joe Baldacci 52.5 to 47.5.",
+    "status": "won_primary",
+    "sort_order": 0,
+    "needs_review": false
+  },
+  {
+    "id": "mi07-lawrence",
+    "race_id": "house-mi-07-2026",
+    "name": "William Lawrence",
+    "party": "D",
+    "bio": "Progressive who beat former ambassador Bridget Brink in the Aug 4 primary; endorsed by Bernie Sanders, Greg Casar, Our Revolution, and the Working Families Party.",
+    "status": "won_primary",
+    "sort_order": 0,
+    "needs_review": false
+  },
+  {
+    "id": "mi10-bouchard",
+    "race_id": "house-mi-10-2026",
+    "name": "Michael Bouchard Jr.",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 3,
+    "needs_review": false
+  },
+  {
+    "id": "ny07-rivera",
+    "race_id": "house-ny-07-2026",
+    "name": "Melvin Rivera",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 4,
+    "needs_review": false
+  },
+  {
+    "id": "ny10-moore",
+    "race_id": "house-ny-10-2026",
+    "name": "Jennifer Moore",
+    "party": "R",
+    "bio": "Activist; Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 3,
+    "needs_review": false
+  },
+  {
+    "id": "ny12-shinkle",
+    "race_id": "house-ny-12-2026",
+    "name": "Caroline Shinkle",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 5,
+    "needs_review": false
+  },
+  {
+    "id": "nc01-buckhout",
+    "race_id": "house-nc-01-2026",
+    "name": "Laurie Buckhout",
+    "party": "R",
+    "bio": "Former acting assistant secretary of defense; 2024 nominee.",
+    "status": "won_primary",
+    "sort_order": 2,
+    "needs_review": false
+  },
+  {
+    "id": "oh13-coleman",
+    "race_id": "house-oh-13-2026",
+    "name": "Carey Coleman",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 3,
+    "needs_review": false
+  },
+  {
+    "id": "pa03-mahoney",
+    "race_id": "house-pa-03-2026",
+    "name": "Dennis Mahoney",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 5,
+    "needs_review": false
+  },
+  {
+    "id": "pa07-brooks",
+    "race_id": "house-pa-07-2026",
+    "name": "Bob Brooks",
+    "party": "D",
+    "bio": "President of the Pennsylvania Professional Firefighters Association; won the May 19 primary.",
+    "status": "won_primary",
+    "sort_order": 0,
+    "needs_review": false
+  },
+  {
+    "id": "pa08-cognetti",
+    "race_id": "house-pa-08-2026",
+    "name": "Paige Cognetti",
+    "party": "D",
+    "bio": "Mayor of Scranton since 2020.",
+    "status": "won_primary",
+    "sort_order": 0,
+    "needs_review": false
+  },
+  {
+    "id": "tx18-whitfield",
+    "race_id": "house-tx-18-2026",
+    "name": "Ronald Whitfield",
+    "party": "R",
+    "bio": "Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 3,
+    "needs_review": false
+  },
+  {
+    "id": "tx28-tijerina",
+    "race_id": "house-tx-28-2026",
+    "name": "Tano Tijerina",
+    "party": "R",
+    "bio": "Webb County judge since 2014.",
+    "status": "won_primary",
+    "sort_order": 2,
+    "needs_review": false
+  },
+  {
+    "id": "tx34-eflores",
+    "race_id": "house-tx-34-2026",
+    "name": "Eric Flores",
+    "party": "R",
+    "bio": "Former federal prosecutor.",
+    "status": "won_primary",
+    "sort_order": 3,
+    "needs_review": false
+  },
+  {
+    "id": "tx37-pena",
+    "race_id": "house-tx-37-2026",
+    "name": "Lauren Peña",
+    "party": "R",
+    "bio": "Paralegal; Republican nominee.",
+    "status": "won_primary",
+    "sort_order": 2,
+    "needs_review": false
+  },
+  {
+    "id": "ut01-owen",
+    "race_id": "house-ut-01-2026",
+    "name": "Riley Owen",
+    "party": "R",
+    "bio": "Former White House policy analyst.",
+    "status": "won_primary",
+    "sort_order": 2,
+    "needs_review": false
+  }
 ]

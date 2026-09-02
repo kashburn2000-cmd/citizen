@@ -30,7 +30,8 @@ for (const raw of src.split("\n")) {
     incumbent_party: party as HouseSeat["incumbent_party"],
     caucuses_with: null,
     notes: noteRaw || null,
-    needs_review: true,
+    // Seats come from congress-legislators; only flag ones whose note asks for a check.
+    needs_review: /verify|confirm/i.test(noteRaw ?? ""),
   });
 }
 
