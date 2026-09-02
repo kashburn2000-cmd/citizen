@@ -24,9 +24,9 @@ export default function LoginPage() {
 
   if (!sb) {
     return (
-      <div className="pt-8 max-w-md">
-        <h1 className="text-lg font-semibold">Sign in</h1>
-        <p className="text-sm text-text-2 mt-2">Supabase isn&apos;t configured on this deployment, so there&apos;s nothing to sign in to. See docs/SETUP.md.</p>
+      <div className="pt-10 max-w-md grid gap-2">
+        <h1 className="display text-[44px]">Sign in</h1>
+        <p className="text-text-2">Supabase isn&apos;t configured on this deployment, so there&apos;s nothing to sign in to. See docs/SETUP.md.</p>
       </div>
     );
   }
@@ -51,7 +51,6 @@ export default function LoginPage() {
       router.push("/");
       router.refresh();
     });
-
   const signUp = () =>
     run(async () => {
       const { data, error } = await sb.auth.signUp({ email, password, options: { emailRedirectTo: `${origin()}/auth/confirm?next=/login` } });
@@ -59,25 +58,20 @@ export default function LoginPage() {
       if (data.session) {
         router.push("/");
         router.refresh();
-      } else {
-        setMsg({ tone: "ok", text: "Account created. Check your email for a confirmation link, click it once, then sign in with your password." });
-      }
+      } else setMsg({ tone: "ok", text: "Account created. Check your email for a confirmation link, click it once, then sign in with your password." });
     });
-
   const sendLink = () =>
     run(async () => {
       const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: `${origin()}/auth/confirm` } });
       if (error) throw error;
       setMsg({ tone: "ok", text: "Check your inbox for the link." });
     });
-
   const sendReset = () =>
     run(async () => {
       const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: `${origin()}/auth/confirm?next=/login` });
       if (error) throw error;
       setMsg({ tone: "ok", text: "Check your inbox. The link brings you back here to choose a new password." });
     });
-
   const setPasswordForUser = () =>
     run(async () => {
       const { error } = await sb.auth.updateUser({ password: newPassword });
@@ -85,7 +79,6 @@ export default function LoginPage() {
       setNewPassword("");
       setMsg({ tone: "ok", text: "Password saved. Next time, sign in with your email and password." });
     });
-
   const signOut = () =>
     run(async () => {
       await sb.auth.signOut();
@@ -97,46 +90,41 @@ export default function LoginPage() {
     ["password", "Password"],
     ["signup", "Create account"],
     ["link", "Email link"],
-    ["reset", "Forgot password"],
+    ["reset", "Forgot"],
   ];
 
   return (
-    <div className="pt-8 max-w-md grid gap-4">
+    <div className="pt-10 max-w-[560px] grid gap-5">
       {signedInAs ? (
-        <section className="grid gap-3 rounded-lg border border-border bg-surface p-4">
-          <div>
-            <h1 className="text-lg font-semibold">Signed in as {signedInAs}</h1>
-            <p className="text-sm text-text-2">Set a password here so you can skip the email link next time.</p>
+        <section className="ink grid gap-4 p-7">
+          <div className="grid gap-1">
+            <div className="label text-accent text-[12px]">Signed in</div>
+            <h1 className="display text-[36px] break-all">{signedInAs}</h1>
+            <p className="text-text-2">Set a password here so you can skip the email link next time.</p>
           </div>
           <form
-            className="flex gap-2"
+            className="flex gap-2 flex-wrap"
             onSubmit={(e) => {
               e.preventDefault();
               setPasswordForUser();
             }}
           >
-            <input
-              type="password"
-              required
-              minLength={8}
-              autoComplete="new-password"
-              value={newPassword}
-              onChange={(e) => setNewPassword(e.target.value)}
-              placeholder="New password (8+ characters)"
-              className="flex-1"
-            />
-            <button type="submit" disabled={busy} className="px-3 py-1 rounded-md bg-text text-surface text-sm">
+            <input type="password" required minLength={8} autoComplete="new-password" value={newPassword} onChange={(e) => setNewPassword(e.target.value)} placeholder="New password (8+ characters)" className="flex-1 min-w-52" />
+            <button type="submit" disabled={busy} className="btn btn-gold">
               Save password
             </button>
           </form>
-          <button onClick={signOut} disabled={busy} className="text-xs text-text-2 underline justify-self-start">
+          <button onClick={signOut} disabled={busy} className="label text-[11px] underline underline-offset-4 decoration-2 justify-self-start">
             Sign out
           </button>
         </section>
       ) : (
-        <section className="grid gap-3">
-          <h1 className="text-lg font-semibold">Sign in</h1>
-          <div className="inline-flex flex-wrap rounded-md border border-border overflow-hidden text-sm" role="tablist">
+        <section className="grid gap-4">
+          <div className="grid gap-1">
+            <div className="label text-rep text-[13px]">Editors only</div>
+            <h1 className="display text-[48px]">Sign in</h1>
+          </div>
+          <div className="seg seg-sm flex-wrap" role="tablist">
             {tabs.map(([m, label]) => (
               <button
                 key={m}
@@ -146,15 +134,13 @@ export default function LoginPage() {
                   setMode(m);
                   setMsg(null);
                 }}
-                className={`px-3 py-1 ${mode === m ? "bg-text text-surface" : "text-text-2 hover:bg-surface-2"}`}
               >
                 {label}
               </button>
             ))}
           </div>
-
           <form
-            className="grid gap-2"
+            className="grid gap-3"
             onSubmit={(e) => {
               e.preventDefault();
               if (mode === "password") signInWithPassword();
@@ -175,21 +161,20 @@ export default function LoginPage() {
                 placeholder={mode === "signup" ? "Choose a password (8+ characters)" : "Password"}
               />
             )}
-            <button type="submit" disabled={busy} className="px-3 py-1.5 rounded-md bg-text text-surface text-sm justify-self-start">
+            <button type="submit" disabled={busy} className="btn btn-solid justify-self-start">
               {mode === "password" ? "Sign in" : mode === "signup" ? "Create account" : mode === "link" ? "Send link" : "Send reset email"}
             </button>
           </form>
-
-          <p className="text-xs text-text-2">
-            {mode === "password" && "Use the password you set on this page. First time here? Use “Create account” or “Email link”."}
+          <p className="text-[14px] text-text-2">
+            {mode === "password" && "Use the password you set. First time here? Use Create account or Email link."}
             {mode === "signup" && "You'll get one confirmation email. After that, it's email and password."}
             {mode === "link" && "No password needed. The emailed link signs you in; you can set a password afterward."}
             {mode === "reset" && "We'll email a link that brings you back here to choose a new password."}
           </p>
         </section>
       )}
-      {msg && <p className={`text-sm ${msg.tone === "err" ? "text-[color:var(--signal-neg)]" : "text-text"}`}>{msg.text}</p>}
-      <p className="text-xs text-text-3">Only accounts an admin has promoted to editor can change data. Everyone else can browse.</p>
+      {msg && <p className={`text-[15px] font-semibold ${msg.tone === "err" ? "text-[color:var(--signal-neg)]" : ""}`}>{msg.text}</p>}
+      <p className="text-[13px] text-text-3">Only accounts an admin has promoted to editor can change data. Everyone else can browse.</p>
     </div>
   );
 }

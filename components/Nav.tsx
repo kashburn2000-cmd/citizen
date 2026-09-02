@@ -6,47 +6,37 @@ export async function Nav() {
   const configured = isSupabaseConfigured();
   const viewer = configured ? await getViewer() : null;
   return (
-    <header className="border-b border-border bg-surface">
-      <div className="max-w-[1400px] mx-auto px-4 h-12 flex items-center gap-6 text-sm">
-        <Link href="/" className="font-semibold tracking-tight">
-          Progressive Races <span className="text-text-3 font-normal">2026</span>
+    <header className="border-b-4 border-border bg-bg">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 h-16 flex items-center gap-6">
+        <Link href="/" className="display text-[26px] sm:text-[30px] leading-none">
+          Progressive Races <span className="text-rep">2026</span>
         </Link>
-        <nav className="flex items-center gap-4 text-text-2">
-          <Link href="/" className="hover:text-text">
+        <nav className="ml-auto flex items-center gap-5 sm:gap-7 label text-[13px]">
+          <Link href="/" className="hover:underline underline-offset-8 decoration-4">
             Map
           </Link>
-          <Link href="/matrix" className="hover:text-text">
+          <Link href="/matrix" className="hover:underline underline-offset-8 decoration-4">
             Matrix
           </Link>
-          <Link href="/issues" className="hover:text-text">
+          <Link href="/issues" className="hover:underline underline-offset-8 decoration-4">
             Rubric
           </Link>
-        </nav>
-        <div className="ml-auto flex items-center gap-3 text-text-2">
           {!configured && (
-            <span className="hidden sm:inline text-xs px-2 py-0.5 rounded bg-surface-2 border border-border" title="Add Supabase keys to enable editing. See docs/SETUP.md.">
-              Read-only preview
+            <span className="hidden sm:inline text-text-3" title="Add Supabase keys to enable editing. See docs/SETUP.md.">
+              Preview
             </span>
           )}
           {configured && viewer?.userId && (
-            <>
-              <Link href="/login" className="text-xs hover:underline" title="Account: set a password or sign out">
-                {viewer.email}
-                {viewer.canEdit ? " · editor" : " · viewer"}
-              </Link>
-              <form action="/auth/signout" method="post">
-                <button className="text-xs underline" type="submit">
-                  Sign out
-                </button>
-              </form>
-            </>
-          )}
-          {configured && !viewer?.userId && (
-            <Link href="/login" className="text-xs underline">
-              Sign in to edit
+            <Link href="/login" className="text-rep hover:underline underline-offset-8 decoration-4" title="Account">
+              {viewer.canEdit ? "Editor" : "Viewer"}
             </Link>
           )}
-        </div>
+          {configured && !viewer?.userId && (
+            <Link href="/login" className="text-rep hover:underline underline-offset-8 decoration-4">
+              Sign in
+            </Link>
+          )}
+        </nav>
       </div>
     </header>
   );

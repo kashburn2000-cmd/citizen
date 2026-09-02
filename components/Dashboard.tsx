@@ -78,99 +78,65 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
     }
   };
 
+  const mapLoading = (view === "house" && houseMode === "hex" && !cartogram) || (view === "house" && houseMode === "geo" && !districts) || (view !== "house" && !statesLayout);
+  const hint =
+    view === "house"
+      ? houseMode === "hex"
+        ? `Outlined seats are the ${visible.length} races we're tracking. Scroll to zoom.`
+        : "Census 119th Congress lines; states that redrew for 2026 differ. Scroll to zoom."
+      : "Pins mark tracked races. Click one.";
+
   return (
-    <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_400px]">
-      <section className="rounded-lg border border-border bg-surface p-3 grid gap-3 min-w-0">
-        <div className="flex flex-wrap items-center gap-2 text-sm">
-          <div className="inline-flex rounded-md border border-border overflow-hidden" role="tablist">
+    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_440px]">
+      <section className="border-[4px] border-border bg-bg p-4 sm:p-5 grid gap-4 min-w-0 self-start">
+        <div className="flex flex-wrap items-center gap-3">
+          <div className="seg" role="tablist">
             {VIEWS.map((v) => (
-              <button
-                key={v.key}
-                role="tab"
-                aria-selected={view === v.key}
-                onClick={() => switchView(v.key)}
-                className={`px-3 py-1 ${view === v.key ? "bg-text text-surface" : "hover:bg-surface-2 text-text-2"}`}
-              >
+              <button key={v.key} role="tab" aria-selected={view === v.key} onClick={() => switchView(v.key)}>
                 {v.label}
               </button>
             ))}
           </div>
           {view === "house" && (
             <>
-              <div className="inline-flex rounded-md border border-border overflow-hidden text-xs" role="tablist" aria-label="House map style">
+              <div className="seg seg-sm" role="tablist" aria-label="House map style">
                 {(["hex", "geo"] as const).map((m) => (
-                  <button
-                    key={m}
-                    role="tab"
-                    aria-selected={houseMode === m}
-                    onClick={() => setHouseMode(m)}
-                    className={`px-2 py-1 ${houseMode === m ? "bg-surface-2 text-text" : "text-text-2"}`}
-                  >
-                    {m === "hex" ? "One hex per seat" : "Geographic"}
+                  <button key={m} role="tab" aria-selected={houseMode === m} onClick={() => setHouseMode(m)}>
+                    {m === "hex" ? "Hex" : "Geographic"}
                   </button>
                 ))}
               </div>
-              <label className="inline-flex items-center gap-1.5 text-text-2">
+              <label className="inline-flex items-center gap-2 label text-[12px]">
                 <input type="checkbox" checked={showProjection} onChange={(e) => setShowProjection(e.target.checked)} />
                 Projected
               </label>
-              <label className="inline-flex items-center gap-1.5 text-text-2">
+              <label className="inline-flex items-center gap-2 label text-[12px]">
                 <input type="checkbox" checked={dimUntracked} onChange={(e) => setDimUntracked(e.target.checked)} />
-                Highlight tracked
+                Tracked only
               </label>
             </>
           )}
-          <span className="ml-auto text-xs text-text-3">
-            {view === "house"
-              ? houseMode === "hex"
-                ? "One hexagon per seat. Outlined seats have a tracked race. Scroll to zoom."
-                : "Census 119th Congress boundaries; states that redrew for 2026 will differ. Scroll to zoom."
-              : "Pins mark tracked races. Click to open."}
-          </span>
+          <span className="ml-auto text-[14px] font-semibold text-text-2">{hint}</span>
         </div>
 
         {view === "house" && houseMode === "geo" && districts && (
-          <DistrictMap
-            topo={districts}
-            seats={data.seats}
-            races={raceViews}
-            projection={projection}
-            selectedRaceId={selectedRaceId}
-            onSelectRace={selectRace}
-            dimUntracked={dimUntracked}
-          />
+          <DistrictMap topo={districts} seats={data.seats} races={raceViews} projection={projection} selectedRaceId={selectedRaceId} onSelectRace={selectRace} dimUntracked={dimUntracked} />
         )}
         {view === "house" && houseMode === "hex" && cartogram && (
-          <HouseCartogram
-            layout={cartogram}
-            seats={data.seats}
-            races={raceViews}
-            projection={projection}
-            selectedRaceId={selectedRaceId}
-            onSelectRace={selectRace}
-            dimUntracked={dimUntracked}
-          />
+          <HouseCartogram layout={cartogram} seats={data.seats} races={raceViews} projection={projection} selectedRaceId={selectedRaceId} onSelectRace={selectRace} dimUntracked={dimUntracked} />
         )}
-        {view !== "house" && statesLayout && (
-          <StateMap layout={statesLayout} races={raceViews} office={view} selectedRaceId={selectedRaceId} onSelectRace={selectRace} />
-        )}
-        {((view === "house" && houseMode === "hex" && !cartogram) ||
-          (view === "house" && houseMode === "geo" && !districts) ||
-          (view !== "house" && !statesLayout)) && (
-          <div className="aspect-[975/610] flex items-center justify-center text-sm text-text-3">Loading map…</div>
-        )}
+        {view !== "house" && statesLayout && <StateMap layout={statesLayout} races={raceViews} office={view} selectedRaceId={selectedRaceId} onSelectRace={selectRace} />}
+        {mapLoading && <div className="aspect-[975/610] flex items-center justify-center label text-text-3">Loading map</div>}
       </section>
 
-      <aside className="rounded-lg border border-border bg-surface p-3 min-w-0 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto">
+      <aside className={`min-w-0 self-start lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto ${selected ? "ink p-6 sm:p-7" : "border-[4px] border-border bg-bg p-4 sm:p-5"}`}>
         {selected ? (
           <RacePanel race={selected} issues={data.issues} canEdit={canEdit} onClose={() => setSelectedRaceId(null)} />
         ) : (
-          <div className="grid gap-2">
+          <div className="grid gap-3">
             <div className="flex items-baseline justify-between">
-              <h3 className="text-sm font-semibold">
-                Tracked {VIEWS.find((v) => v.key === view)?.label.toLowerCase()} races
-              </h3>
-              <span className="text-xs text-text-3">{visible.length}</span>
+              <h3 className="display text-[28px]">Tracked {VIEWS.find((v) => v.key === view)?.label.toLowerCase()} races</h3>
+              <span className="display text-[28px] text-text-3">{visible.length}</span>
             </div>
             <RaceList races={visible} selectedRaceId={selectedRaceId} onSelectRace={selectRace} />
           </div>

@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { PartyDot, ScoreBadge, Tag } from "./Pills";
+import { ScoreBadge, Tag } from "./Pills";
 import { ScoreEditor } from "./edit/ScoreEditor";
 import { useEditor, must } from "./edit/useEditor";
 import { STATUS_LABEL, type CandidateView } from "@/lib/view";
-import { scoreFill } from "@/lib/colors";
+import { partyFill, scoreFill } from "@/lib/colors";
 import type { CandidateStatus, Issue } from "@/lib/types";
 
 const STATUSES = Object.keys(STATUS_LABEL) as CandidateStatus[];
@@ -15,22 +15,22 @@ export function CandidateCard({ candidate, issues, canEdit }: { candidate: Candi
   const { save, saving, error } = useEditor();
   const scoreByIssue = new Map(candidate.scores.map((s) => [s.issue_id, s]));
   const activeIssues = issues.filter((i) => i.active).sort((a, b) => a.sort_order - b.sort_order);
+  const out = candidate.status === "lost_primary" || candidate.status === "withdrew" || candidate.status === "lost";
 
   return (
-    <article className="rounded-md border border-border bg-surface p-3">
-      <div className="flex items-start gap-2">
-        <PartyDot party={candidate.party} />
-        <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <h4 className="font-medium leading-tight">{candidate.name}</h4>
-            <span className="text-xs text-text-3">{candidate.party}</span>
-            {candidate.is_incumbent && <Tag tone="accent">Incumbent</Tag>}
-            {candidate.status !== "running" && <Tag>{STATUS_LABEL[candidate.status]}</Tag>}
-            {candidate.needs_review && <Tag>Unverified</Tag>}
+    <article className={`grid gap-3 pt-4 ${out ? "opacity-60" : ""}`} style={{ borderTop: `4px solid ${partyFill(candidate.party)}` }}>
+      <div className="flex items-start gap-4">
+        <div className="min-w-0 flex-1 grid gap-2">
+          <div className="flex items-baseline gap-3 flex-wrap">
+            <h4 className="display text-[26px] leading-none">{candidate.name}</h4>
+            <span className="label text-[11px]" style={{ color: partyFill(candidate.party) }}>
+              {candidate.status === "running" ? candidate.party : `${STATUS_LABEL[candidate.status]} · ${candidate.party}`}
+              {candidate.is_incumbent ? " · Incumbent" : ""}
+            </span>
           </div>
-          {candidate.bio && <p className="text-sm text-text-2 mt-1">{candidate.bio}</p>}
+          {candidate.bio && <p className="text-[14px] leading-relaxed text-text-2">{candidate.bio}</p>}
           {candidate.endorsements.length > 0 && (
-            <div className="flex flex-wrap gap-1 mt-2">
+            <div className="flex flex-wrap gap-1.5">
               {candidate.endorsements.map((e) => (
                 <Tag key={e.org_id} tone={e.org.signal > 0 ? "pos" : e.org.signal < 0 ? "neg" : "neutral"}>
                   <span title={e.note ?? undefined}>{e.org.name}</span>
@@ -39,40 +39,39 @@ export function CandidateCard({ candidate, issues, canEdit }: { candidate: Candi
             </div>
           )}
         </div>
-        <div className="shrink-0 flex flex-col items-end gap-1">
-          <ScoreBadge
-            score={candidate.summary.score}
-            scored={candidate.summary.scored}
-            total={candidate.summary.total}
-            provisional={candidate.summary.anyProvisional}
-          />
-          <button className="text-xs text-text-2 underline" onClick={() => setOpen((v) => !v)}>
-            {open ? "Hide scores" : canEdit ? "Score" : "Scores"}
+        <div className="shrink-0 grid justify-items-end gap-1">
+          <ScoreBadge score={candidate.summary.score} scored={candidate.summary.scored} total={candidate.summary.total} provisional={candidate.summary.anyProvisional} />
+          <button className="label text-[11px] underline underline-offset-4 decoration-2" onClick={() => setOpen((v) => !v)}>
+            {open ? "Hide" : canEdit ? "Score" : "Details"}
           </button>
         </div>
       </div>
 
       {open && (
-        <div className="mt-3 border-t border-border pt-3">
+        <div className="grid gap-3 pb-2">
+          {candidate.dw_nominate !== null && (
+            <p className="text-[13px] text-text-3">
+              Voteview ideology score {candidate.dw_nominate.toFixed(2)} (negative is more liberal; House Democrats span about −0.7 to −0.1).
+            </p>
+          )}
           {canEdit ? (
             <ScoreEditor candidate={candidate} issues={activeIssues} />
           ) : (
-            <ul className="grid gap-1">
+            <ul className="grid gap-1.5">
               {activeIssues.map((issue) => {
                 const s = scoreByIssue.get(issue.id);
                 return (
-                  <li key={issue.id} className="grid grid-cols-[1.25rem_1fr] gap-2 text-sm items-start">
+                  <li key={issue.id} className="grid grid-cols-[1.75rem_1fr] gap-3 text-[14px] items-start">
                     <span
-                      className="w-5 h-5 rounded text-[11px] font-semibold flex items-center justify-center tabular-nums"
-                      style={{ background: s ? scoreFill(s.score) : "transparent", border: s ? "none" : "1px dashed var(--border)" }}
+                      className="w-7 h-7 display text-[16px] flex items-center justify-center"
+                      style={{ background: s ? scoreFill(s.score) : "transparent", color: s && s.score >= 3 ? "#f3ecdc" : "var(--text)", boxShadow: s ? "none" : "inset 0 0 0 2px var(--border-soft)" }}
                       title={s ? issue.rubric[String(s.score)] : "Not scored"}
                     >
                       {s ? s.score : ""}
                     </span>
-                    <span>
-                      <span className="text-text">{issue.name}</span>
+                    <span className="leading-snug">
+                      <span className="font-semibold">{issue.name}</span>
                       {s?.evidence && <span className="text-text-2"> · {s.evidence}</span>}
-                      {s?.provisional && <span className="text-text-3"> (provisional)</span>}
                     </span>
                   </li>
                 );
@@ -80,29 +79,21 @@ export function CandidateCard({ candidate, issues, canEdit }: { candidate: Candi
             </ul>
           )}
           {canEdit && (
-            <div className="mt-3 flex items-center gap-2 text-xs">
-              <label className="text-text-2">Status</label>
-              <select
-                value={candidate.status}
-                disabled={saving}
-                onChange={(e) =>
-                  save(async (sb) => must(await sb.from("candidates").update({ status: e.target.value }).eq("id", candidate.id)))
-                }
-              >
+            <div className="flex flex-wrap items-center gap-3 text-[13px]">
+              <label className="label text-[11px]">Status</label>
+              <select value={candidate.status} disabled={saving} onChange={(e) => save(async (sb) => must(await sb.from("candidates").update({ status: e.target.value }).eq("id", candidate.id)))}>
                 {STATUSES.map((s) => (
                   <option key={s} value={s}>
                     {STATUS_LABEL[s]}
                   </option>
                 ))}
               </select>
-              <label className="flex items-center gap-1 text-text-2">
+              <label className="flex items-center gap-2 label text-[11px]">
                 <input
                   type="checkbox"
                   checked={!candidate.needs_review}
                   disabled={saving}
-                  onChange={(e) =>
-                    save(async (sb) => must(await sb.from("candidates").update({ needs_review: !e.target.checked }).eq("id", candidate.id)))
-                  }
+                  onChange={(e) => save(async (sb) => must(await sb.from("candidates").update({ needs_review: !e.target.checked }).eq("id", candidate.id)))}
                 />
                 Verified
               </label>

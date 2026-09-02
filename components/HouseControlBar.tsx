@@ -1,4 +1,4 @@
-import { HOUSE_MAJORITY, countHouse, projectHouse } from "@/lib/scoring";
+import { HOUSE_MAJORITY, countHouse, daysUntil, projectHouse } from "@/lib/scoring";
 import { TOTAL_HOUSE_SEATS } from "@/lib/geo/states";
 import type { HouseSeat, Race } from "@/lib/types";
 
@@ -7,17 +7,26 @@ interface Props {
   races: Race[];
 }
 
+const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+const word = (n: number) => WORDS[n] ?? String(n);
+
 /**
- * Two stacked bars: who holds the House today, and where the tracked race
- * ratings put it after November. The 218 line is the only thing that matters.
+ * The hero: the seat count as a poster number, the majority line, and
+ * two stacked bars (today, projected). The 218 line is the point.
  */
 export function HouseControlBar({ seats, races }: Props) {
   const now = countHouse(seats);
   const proj = projectHouse(seats, races);
+  const needed = Math.max(0, HOUSE_MAJORITY - now.demCaucus);
+  const projNeeded = HOUSE_MAJORITY - proj.D;
+  const generalDate = races.filter((r) => r.election_type === "general").map((r) => r.election_date).sort()[0] ?? "2026-11-03";
+  const days = daysUntil(generalDate);
+  const otherI = now.I - (now.demCaucus - now.D) - (now.repCaucus - now.R);
+
   const nowSegments = [
     { key: "D", label: "Democrats", value: now.demCaucus, fill: "var(--c-d)" },
     { key: "V", label: "Vacant", value: now.V, fill: "var(--c-vacant)", outline: true },
-    { key: "I", label: "Independent", value: now.I - (now.demCaucus - now.D) - (now.repCaucus - now.R), fill: "var(--c-i)" },
+    { key: "I", label: "Independent", value: otherI, fill: "var(--c-i)" },
     { key: "R", label: "Republicans", value: now.repCaucus, fill: "var(--c-r)" },
   ].filter((s) => s.value > 0);
   const projSegments = [
@@ -25,74 +34,71 @@ export function HouseControlBar({ seats, races }: Props) {
     { key: "T", label: "Toss-up", value: proj.tossup, fill: "var(--c-tossup)" },
     { key: "R", label: "Lean or better R", value: proj.R, fill: "var(--c-r)" },
   ].filter((s) => s.value > 0);
-  const needed = Math.max(0, HOUSE_MAJORITY - now.demCaucus);
-  const projNeeded = Math.max(0, HOUSE_MAJORITY - proj.D);
 
   return (
-    <section className="rounded-lg border border-border bg-surface p-4">
-      <div className="flex flex-wrap items-baseline gap-x-6 gap-y-1 mb-3">
-        <h2 className="text-sm font-semibold">House control</h2>
-        <p className="text-sm text-text-2">
-          Democrats hold <span className="font-semibold text-text">{now.demCaucus}</span> of {TOTAL_HOUSE_SEATS}. They need{" "}
-          <span className="font-semibold text-text">{needed}</span> more for a majority.
-        </p>
-        <p className="text-sm text-text-2">
-          Ratings put them at <span className="font-semibold text-text">{proj.D}</span> lean-or-better, {proj.tossup} toss-ups,{" "}
-          {projNeeded === 0 ? "already past 218" : `${projNeeded} short of 218`}.
+    <section className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-end pt-8 pb-6">
+      <div className="grid gap-2">
+        <div className="label text-rep text-[13px]">
+          The House · {days > 0 ? `${days} days to Nov 3` : days === 0 ? "Election day" : "Election held"}
+        </div>
+        <div className="flex items-baseline gap-4 sm:gap-6 flex-wrap">
+          <div className="display text-dem text-[120px] sm:text-[160px] lg:text-[200px]">{now.demCaucus}</div>
+          <div className="display text-[44px] sm:text-[56px] lg:text-[64px]">of {TOTAL_HOUSE_SEATS}</div>
+        </div>
+        <h1 className="display text-[34px] sm:text-[44px]">
+          {needed === 0 ? "Democrats hold the majority." : `${word(needed)} seat${needed === 1 ? "" : "s"} from a majority.`}
+        </h1>
+        <p className="text-[17px] sm:text-[18px] leading-relaxed max-w-[560px] text-text-2">
+          Ratings put Democrats at {proj.D} lean-or-better with {proj.tossup} toss-ups
+          {projNeeded > 0 ? `, ${projNeeded} short of 218` : ", past 218"}. Every one of those toss-ups is on this map.
         </p>
       </div>
-      <Bar title="Today" segments={nowSegments} />
-      <Bar title="Projected" segments={projSegments} />
-      <div className="flex flex-wrap gap-4 mt-2 text-xs text-text-2">
-        <Key fill="var(--c-d)" label="Democratic" />
-        <Key fill="var(--c-r)" label="Republican" />
-        <Key fill="var(--c-tossup)" label="Toss-up" />
-        <Key fill="var(--c-vacant)" label="Vacant" outline />
-        <span className="ml-auto">Projection: each seat holds for its party unless a tracked race is rated otherwise.</span>
+
+      <div className="grid gap-3 pb-2">
+        <Bar title="Today" right="218 to win" segments={nowSegments} />
+        <Bar title="Projected" right={`${proj.D} D · ${proj.tossup} toss-up · ${proj.R} R`} segments={projSegments} />
+        <div className="flex flex-wrap gap-x-5 gap-y-2 text-[14px] font-semibold pt-1">
+          <Key fill="var(--c-d)" label="Democratic" />
+          <Key fill="var(--c-r)" label="Republican" />
+          <Key fill="var(--c-tossup)" label="Toss-up" />
+          <Key fill="var(--c-vacant)" label="Vacant" outline />
+          <span className="text-text-3 font-normal basis-full sm:basis-auto sm:ml-auto">Seats hold for their party unless a tracked race is rated otherwise.</span>
+        </div>
       </div>
     </section>
   );
 }
 
-function Bar({ title, segments }: { title: string; segments: Array<{ key: string; label: string; value: number; fill: string; outline?: boolean }> }) {
+function Bar({ title, right, segments }: { title: string; right: string; segments: Array<{ key: string; label: string; value: number; fill: string; outline?: boolean }> }) {
   const total = TOTAL_HOUSE_SEATS;
   const majorityPct = (HOUSE_MAJORITY / total) * 100;
   return (
-    <div className="flex items-center gap-3 mb-2">
-      <div className="w-20 text-xs text-text-2 text-right shrink-0">{title}</div>
-      <div className="relative flex-1 h-6 rounded overflow-hidden bg-surface-2" role="img" aria-label={segments.map((s) => `${s.label} ${s.value}`).join(", ")}>
-        <div className="absolute inset-0 flex">
-          {segments.map((s, i) => (
-            <div
-              key={s.key}
-              title={`${s.label}: ${s.value}`}
-              style={{
-                width: `${(s.value / total) * 100}%`,
-                background: s.fill,
-                marginLeft: i === 0 ? 0 : 2,
-                boxShadow: s.outline ? "inset 0 0 0 1px var(--text-3)" : undefined,
-              }}
-              className="h-full flex items-center justify-center text-[11px] font-medium"
-            >
-              {s.value / total > 0.08 && <span className="text-white font-semibold drop-shadow-[0_0_1px_rgba(0,0,0,0.6)]">{s.value}</span>}
-            </div>
-          ))}
-        </div>
-        <div
-          className="absolute top-0 bottom-0 w-0.5 bg-text"
-          style={{ left: `${majorityPct}%` }}
-          aria-hidden
-        />
+    <div className="grid gap-2">
+      <div className="flex justify-between label">
+        <span>{title}</span>
+        <span>{right}</span>
       </div>
-      <div className="w-10 text-xs text-text-2 shrink-0">218</div>
+      <div className="relative h-11 flex gap-[3px] bg-surface-2" role="img" aria-label={segments.map((s) => `${s.label} ${s.value}`).join(", ")}>
+        {segments.map((s) => (
+          <div
+            key={s.key}
+            title={`${s.label}: ${s.value}`}
+            style={{ width: `${(s.value / total) * 100}%`, background: s.fill, boxShadow: s.outline ? "inset 0 0 0 2px var(--text)" : undefined }}
+            className="h-full flex items-center justify-center"
+          >
+            {s.value / total > 0.09 && <span className="display text-[22px] text-[#f3ecdc]">{s.value}</span>}
+          </div>
+        ))}
+        <div className="absolute -top-2 -bottom-2 w-1 bg-text" style={{ left: `${majorityPct}%` }} aria-hidden />
+      </div>
     </div>
   );
 }
 
 function Key({ fill, label, outline }: { fill: string; label: string; outline?: boolean }) {
   return (
-    <span className="inline-flex items-center gap-1.5">
-      <span className="inline-block w-3 h-3 rounded-sm" style={{ background: fill, boxShadow: outline ? "inset 0 0 0 1px var(--text-3)" : undefined }} />
+    <span className="inline-flex items-center gap-2">
+      <span className="inline-block w-3.5 h-3.5" style={{ background: fill, boxShadow: outline ? "inset 0 0 0 2px var(--text)" : undefined }} />
       {label}
     </span>
   );

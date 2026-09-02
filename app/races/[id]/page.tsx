@@ -13,11 +13,13 @@ export default async function RacePage({ params }: { params: Promise<{ id: strin
   const race = buildRaceViews(data).find((r) => r.id === id);
   if (!race) notFound();
   return (
-    <div className="max-w-3xl pt-4 grid gap-3">
-      <Link href={`/?race=${race.id}`} className="text-xs text-text-2 underline">
+    <div className="max-w-[860px] pt-8 grid gap-4">
+      <Link href={`/?race=${race.id}`} className="label text-[12px] underline underline-offset-4 decoration-2 justify-self-start">
         Show on map
       </Link>
-      <RacePanel race={race} issues={data.issues} canEdit={viewer.canEdit} />
+      <div className="ink p-6 sm:p-8">
+        <RacePanel race={race} issues={data.issues} canEdit={viewer.canEdit} />
+      </div>
     </div>
   );
 }

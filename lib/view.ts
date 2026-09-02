@@ -17,6 +17,9 @@ export const STATUS_LABEL: Record<Candidate["status"], string> = {
   lost: "Lost",
 };
 
+/** Statuses that mean a candidate is no longer on the ballot. */
+export const OUT = new Set<Candidate["status"]>(["lost_primary", "withdrew", "lost"]);
+
 export interface CandidateView extends Candidate {
   summary: CandidateScoreSummary;
   scores: Score[];
@@ -59,7 +62,7 @@ export function buildRaceViews(data: Pick<Dataset, "races" | "candidates" | "iss
       (a, b) => a.sort_order - b.sort_order || a.name.localeCompare(b.name),
     );
     const topScore = candidates
-      .filter((c) => c.party !== "R" && c.summary.score !== null)
+      .filter((c) => c.party !== "R" && c.summary.score !== null && !OUT.has(c.status))
       .reduce<number | null>((best, c) => (best === null || c.summary.score! > best ? c.summary.score! : best), null);
     return { ...r, candidates, topScore };
   });

@@ -1,71 +1,63 @@
 @import "tailwindcss";
 
+/* Direction A: rally poster. Cream paper, navy ink, one gold accent. Single committed look. */
 :root {
   color-scheme: light;
-  --bg: #f6f6f3;
-  --surface: #fcfcfb;
-  --surface-2: #efefeb;
-  --border: #dedcd5;
-  --text: #0b0b0b;
-  --text-2: #52514e;
-  --text-3: #8a8983;
-  --accent: #2a78d6;
+  --bg: #f3ecdc;
+  --surface: #f7f2e6;
+  --surface-2: #e7dfcc;
+  --border: #13213b;
+  --border-soft: #cfc5ad;
+  --text: #13213b;
+  --text-2: #4a5068;
+  --text-3: #7a7466;
+  --accent: #ffb703;
+  --accent-ink: #13213b;
 
-  /* Party / lean: a diverging pair (blue, red) around a neutral toss-up gray. */
-  --c-d: #2a78d6;
-  --c-d-2: #6aa0e3;
-  --c-d-3: #b3cdf0;
-  --c-r: #e34948;
-  --c-r-2: #ee8583;
-  --c-r-3: #f6c1c0;
-  --c-i: #4a3aa7;
-  --c-tossup: #a3a39c;
-  --c-vacant: #ffffff;
+  /* Party / lean: a diverging pair around a neutral toss-up. */
+  --c-d: #1f4e9c;
+  --c-d-2: #6f8fc4;
+  --c-d-3: #b9c8e2;
+  --c-r: #d9482f;
+  --c-r-2: #e88b7a;
+  --c-r-3: #f2c4bb;
+  --c-i: #6b3fa0;
+  --c-tossup: #9a9483;
+  --c-vacant: #f3ecdc;
 
   /* Sequential ramp for 0-4 issue scores: one hue, light to dark. */
-  --score-0: #e9e9e4;
-  --score-1: #c6ecdc;
-  --score-2: #8fd8b8;
-  --score-3: #3db98a;
-  --score-4: #0f7d59;
+  --score-0: #e7dfcc;
+  --score-1: #cfe0d3;
+  --score-2: #98c9ac;
+  --score-3: #4aa27b;
+  --score-4: #146d4d;
 
-  --signal-pos: #0f7d59;
-  --signal-neg: #c2410c;
-  --signal-neutral: #8a8983;
+  --signal-pos: #146d4d;
+  --signal-neg: #d9482f;
+  --signal-neutral: #7a7466;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg: #121211;
-    --surface: #1a1a19;
-    --surface-2: #242423;
-    --border: #33332f;
-    --text: #f4f4f0;
-    --text-2: #c3c2b7;
-    --text-3: #8d8c84;
-    --accent: #3987e5;
-
-    --c-d: #3987e5;
-    --c-d-2: #2c62a8;
-    --c-d-3: #26466f;
-    --c-r: #e66767;
-    --c-r-2: #a94848;
-    --c-r-3: #6a3434;
-    --c-i: #9085e9;
-    --c-tossup: #6d6d66;
-    --c-vacant: #1a1a19;
-
-    --score-0: #2a2a28;
-    --score-1: #1f4638;
-    --score-2: #1f6650;
-    --score-3: #268c6a;
-    --score-4: #3fbf90;
-
-    --signal-pos: #3fbf90;
-    --signal-neg: #f0894d;
-    --signal-neutral: #8d8c84;
-  }
+/* Navy panels (race panel, callouts). Same tokens, inverted. */
+.ink {
+  --bg: #13213b;
+  --surface: #13213b;
+  --surface-2: #1e2d4d;
+  --border: #ffb703;
+  --border-soft: #34456b;
+  --text: #f3ecdc;
+  --text-2: #d8d3c4;
+  --text-3: #a7a597;
+  --c-vacant: #13213b;
+  --score-0: #2a385a;
+  --score-1: #2f5a52;
+  --score-2: #2f7f62;
+  --score-3: #3fa47c;
+  --score-4: #6fd0a3;
+  --signal-pos: #6fd0a3;
+  --signal-neg: #ff8a73;
+  --signal-neutral: #a7a597;
+  background: var(--bg);
+  color: var(--text);
 }
 
 @theme inline {
@@ -73,71 +65,147 @@
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-border: var(--border);
+  --color-border-soft: var(--border-soft);
   --color-text: var(--text);
   --color-text-2: var(--text-2);
   --color-text-3: var(--text-3);
   --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
   --color-dem: var(--c-d);
   --color-rep: var(--c-r);
   --color-ind: var(--c-i);
   --color-tossup: var(--c-tossup);
+  --font-display: "Anton", "Arial Narrow", Impact, sans-serif;
+  --font-sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
 }
 
 html,
 body {
   background: var(--bg);
   color: var(--text);
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif;
+  font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
 }
 
 a {
   color: inherit;
 }
 
+.display {
+  font-family: "Anton", "Arial Narrow", Impact, sans-serif;
+  text-transform: uppercase;
+  line-height: 0.92;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.label {
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+/* Map marks */
 .hex {
   cursor: pointer;
   transition: opacity 120ms ease;
 }
 .hex.dim {
-  opacity: 0.35;
+  opacity: 0.3;
 }
 .hex.tracked {
-  stroke: var(--text);
-  stroke-width: 1.6;
+  stroke: #13213b;
+  stroke-width: 2;
 }
 .hex.selected {
-  stroke: var(--accent);
-  stroke-width: 3;
+  stroke: #ffb703;
+  stroke-width: 3.5;
 }
-
 .pin {
   cursor: pointer;
 }
 
+/* Controls */
 select,
 input[type="text"],
 input[type="email"],
+input[type="password"],
 input[type="number"],
 input[type="url"],
 textarea {
   background: var(--surface);
   color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 4px 8px;
-  font-size: 14px;
+  border: 2px solid var(--border);
+  border-radius: 0;
+  padding: 8px 10px;
+  font-size: 15px;
+  font-family: inherit;
+}
+.ink select,
+.ink input {
+  border-color: var(--border-soft);
 }
 select:focus,
 input:focus,
 textarea:focus {
-  outline: 2px solid var(--accent);
+  outline: 3px solid var(--accent);
   outline-offset: 1px;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #13213b;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 3px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+.btn-solid {
+  background: var(--border);
+  color: var(--bg);
+}
+.btn-gold {
+  background: #ffb703;
+  border-color: #ffb703;
+  color: #13213b;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Segmented control */
+.seg {
+  display: inline-flex;
+  border: 3px solid var(--border);
+}
+.seg button {
+  padding: 8px 14px;
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  cursor: pointer;
+}
+.seg button[aria-selected="true"] {
+  background: var(--border);
+  color: var(--bg);
+}
+.seg.seg-sm button {
+  padding: 6px 10px;
+  font-size: 12px;
 }

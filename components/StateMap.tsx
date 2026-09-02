@@ -62,7 +62,7 @@ export function StateMap({ layout, races, office, selectedRaceId, onSelectRace }
             />
           );
         })}
-        <path d={layout.borders} fill="none" stroke="var(--surface)" strokeWidth={1} pointerEvents="none" />
+        <path d={layout.borders} fill="none" stroke="var(--bg)" strokeWidth={1.2} pointerEvents="none" />
         {layout.states.map((s) => {
           const list = byState.get(s.postal);
           if (!list) return null;
@@ -70,8 +70,8 @@ export function StateMap({ layout, races, office, selectedRaceId, onSelectRace }
             const selected = r.id === selectedRaceId;
             return (
               <g key={r.id} transform={`translate(${s.cx + i * 14},${s.cy})`} className="pin" onClick={() => onSelectRace(selected ? null : r.id)}>
-                <circle r={selected ? 9 : 7} fill="var(--text)" stroke="var(--surface)" strokeWidth={2} />
-                <circle r={selected ? 4 : 3} fill={selected ? "var(--accent)" : "var(--surface)"} />
+                <circle r={selected ? 10 : 8} fill={selected ? "var(--accent)" : "var(--text)"} stroke="var(--bg)" strokeWidth={2.5} />
+                <circle r={selected ? 4 : 3} fill={selected ? "var(--text)" : "var(--bg)"} />
               </g>
             );
           });
@@ -79,11 +79,11 @@ export function StateMap({ layout, races, office, selectedRaceId, onSelectRace }
       </svg>
       {tip && (
         <div
-          className="pointer-events-none absolute z-10 rounded border border-border bg-surface px-2 py-1 text-xs shadow-sm max-w-72"
+          className="pointer-events-none absolute z-10 border-[3px] border-border bg-bg px-3 py-2 text-[13px] max-w-72"
           style={{ left: tip.x + 12, top: tip.y + 12 }}
         >
           {tip.lines.map((l, i) => (
-            <div key={i} className={i === 0 ? "font-semibold" : "text-text-2"}>
+            <div key={i} className={i === 0 ? "display text-[18px]" : "text-text-2"}>
               {l}
             </div>
           ))}

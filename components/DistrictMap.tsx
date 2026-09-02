@@ -128,17 +128,17 @@ export function DistrictMap({ topo, seats, races, projection, selectedRaceId, on
       </svg>
       {tip && (
         <div
-          className="pointer-events-none absolute z-10 rounded border border-border bg-surface px-2 py-1 text-xs shadow-sm max-w-64"
+          className="pointer-events-none absolute z-10 border-[3px] border-border bg-bg px-3 py-2 text-[13px] max-w-72"
           style={{ left: tip.x + 12, top: tip.y + 12 }}
         >
           {tip.lines.map((l, i) => (
-            <div key={i} className={i === 0 ? "font-semibold" : "text-text-2"}>
+            <div key={i} className={i === 0 ? "display text-[18px]" : "text-text-2"}>
               {l}
             </div>
           ))}
         </div>
       )}
-      <button onClick={resetZoom} className="absolute bottom-2 right-2 text-xs px-2 py-1 rounded border border-border bg-surface text-text-2">
+      <button onClick={resetZoom} className="btn absolute bottom-3 right-3 bg-bg">
         Reset zoom
       </button>
     </div>

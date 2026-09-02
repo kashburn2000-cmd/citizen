@@ -17,50 +17,36 @@ export function IssueList({ issues, canEdit }: { issues: Issue[]; canEdit: boole
   };
 
   return (
-    <div className="grid gap-3">
-      {error && <p className="text-xs text-[color:var(--signal-neg)]">{error}</p>}
-      {sorted.map((issue) => (
-        <section key={issue.id} className={`rounded-lg border border-border bg-surface p-3 ${issue.active ? "" : "opacity-60"}`}>
-          <div className="flex flex-wrap items-center gap-3">
-            <h2 className="font-semibold">{issue.name}</h2>
-            <span className="text-xs text-text-3">{issue.id}</span>
-            <label className="ml-auto text-xs text-text-2 inline-flex items-center gap-1">
+    <div className="grid gap-5">
+      {error && <p className="text-[13px] text-[color:var(--signal-neg)]">{error}</p>}
+      {sorted.map((issue, idx) => (
+        <section key={issue.id} className={`grid gap-3 border-[3px] border-border p-5 ${issue.active ? "" : "opacity-50"}`}>
+          <div className="flex flex-wrap items-baseline gap-4">
+            <span className="display text-[22px] text-text-3">{String(idx + 1).padStart(2, "0")}</span>
+            <h2 className="display text-[30px]">{issue.name}</h2>
+            <label className="ml-auto flex items-center gap-2 label text-[11px]">
               Weight
               {canEdit ? (
-                <input
-                  type="number"
-                  step="0.25"
-                  min="0"
-                  className="w-20"
-                  value={weights[issue.id] ?? ""}
-                  disabled={saving}
-                  onChange={(e) => setWeights((v) => ({ ...v, [issue.id]: e.target.value }))}
-                  onBlur={() => commitWeight(issue.id)}
-                />
+                <input type="number" step="0.25" min="0" className="w-24" value={weights[issue.id] ?? ""} disabled={saving} onChange={(e) => setWeights((v) => ({ ...v, [issue.id]: e.target.value }))} onBlur={() => commitWeight(issue.id)} />
               ) : (
-                <span className="font-semibold text-text">{issue.weight}</span>
+                <span className="display text-[24px] text-dem">{issue.weight}</span>
               )}
             </label>
             {canEdit && (
-              <label className="text-xs text-text-2 inline-flex items-center gap-1">
-                <input
-                  type="checkbox"
-                  checked={issue.active}
-                  disabled={saving}
-                  onChange={(e) => save(async (sb) => must(await sb.from("issues").update({ active: e.target.checked }).eq("id", issue.id)))}
-                />
+              <label className="label text-[11px] flex items-center gap-2">
+                <input type="checkbox" checked={issue.active} disabled={saving} onChange={(e) => save(async (sb) => must(await sb.from("issues").update({ active: e.target.checked }).eq("id", issue.id)))} />
                 Active
               </label>
             )}
           </div>
-          {issue.description && <p className="text-sm text-text-2 mt-1">{issue.description}</p>}
-          <ol className="mt-2 grid gap-1 sm:grid-cols-5 text-xs">
+          {issue.description && <p className="text-[15px] leading-relaxed text-text-2 max-w-[760px]">{issue.description}</p>}
+          <ol className="grid gap-2 sm:grid-cols-5">
             {[0, 1, 2, 3, 4].map((n) => (
-              <li key={n} className="rounded border border-border p-2 grid gap-1">
-                <span className="inline-flex w-6 h-6 items-center justify-center rounded font-semibold text-text" style={{ background: scoreFill(n) }}>
+              <li key={n} className="grid gap-2 border-2 border-border-soft p-3">
+                <span className="display text-[20px] w-8 h-8 flex items-center justify-center" style={{ background: scoreFill(n), color: n >= 3 ? "#f3ecdc" : "#13213b" }}>
                   {n}
                 </span>
-                <span className="text-text-2">{issue.rubric[String(n)] ?? "—"}</span>
+                <span className="text-[13px] leading-snug text-text-2">{issue.rubric[String(n)] ?? "—"}</span>
               </li>
             ))}
           </ol>
