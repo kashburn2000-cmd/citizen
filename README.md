@@ -9,6 +9,7 @@ A dashboard for tracking the fight for the House and the progressive candidates 
 - A race panel for each tracked contest: date, rating, incumbent, why it matters, and every candidate with bio, endorsements, and score.
 - A scoring rubric (12 issues, each with a 0 to 4 scale and a weight) and a sortable matrix of every scored candidate.
 - Edit mode for anyone you promote to editor: score candidates, change ratings and statuses, adjust weights. Everything else is public read-only.
+- Editors can download the whole dataset as an Excel workbook (`/api/export`): candidates with a column per issue, scores with evidence, races, seats, rubric, endorsements.
 
 ## Stack
 

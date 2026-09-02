@@ -26,6 +26,11 @@ export async function Nav() {
               Preview
             </span>
           )}
+          {viewer?.canEdit && (
+            <a href="/api/export" className="hover:underline underline-offset-8 decoration-4" title="Download every table as an Excel workbook">
+              Export
+            </a>
+          )}
           {configured && viewer?.userId && (
             <Link href="/login" className="text-rep hover:underline underline-offset-8 decoration-4" title="Account">
               {viewer.canEdit ? "Editor" : "Viewer"}
