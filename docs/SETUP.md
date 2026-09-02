@@ -18,15 +18,9 @@ Fill in `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`. R
 
 ## 3. Load the seed data
 
-You need the service role key for this one step (Project Settings, API, service_role). It bypasses row-level security, so keep it out of the browser and out of git.
+Open `supabase/seed.sql` from the repo on GitHub (click the file, then the "Raw" button), select all, copy. Back in the Supabase SQL editor, paste it into a new query and run it. It loads every seat, race, candidate, score, and endorsement. It's safe to run again later: existing rows are updated, not duplicated.
 
-```
-SUPABASE_URL=https://xxxx.supabase.co \
-SUPABASE_SERVICE_ROLE_KEY=... \
-npm run seed
-```
-
-Re-running upserts, so it's safe. Add `-- --reset` to wipe the data tables first (profiles are untouched).
+If you'd rather use the terminal, `npm run seed` does the same thing from the JSON files but needs the service role key (Project Settings, API, service_role). That key bypasses row-level security, so keep it out of the browser and out of git.
 
 ## 4. Make yourself an editor
 
@@ -56,7 +50,7 @@ In Supabase, Authentication, URL Configuration: set the Site URL to your deploye
 Three options, pick whichever fits:
 
 - Edit in the browser as an editor. Changes are live immediately.
-- Edit the JSON in `data/seed` and run `npm run seed` again. This overwrites matching rows in Supabase with the file's values, so don't do this for rows you've since edited in the browser.
+- Edit the JSON in `data/seed`, run `npm run build:seed-sql`, and paste the new `supabase/seed.sql` into the SQL editor (or run `npm run seed`). This overwrites matching rows in Supabase with the file's values, so don't do this for rows you've since edited in the browser.
 - Ask Claude to update the seed files and re-run the seed.
 
 For the 435 House seats specifically, edit `scripts/house-seats.txt` (one line per seat) and run `npm run build:seats`, then `npm run seed`.
