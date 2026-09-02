@@ -16,6 +16,8 @@ cp .env.example .env.local
 
 Fill in `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`. Restart `npm run dev`. The "Read-only preview" badge in the header goes away.
 
+The app also accepts the names the Supabase Vercel integration sets (`NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_URL`, `SUPABASE_ANON_KEY`), so using that integration instead of pasting keys works too. Visit `/api/health` on any deployment to see which variables it found and whether it can reach the database.
+
 ## 3. Load the seed data
 
 Open `supabase/seed.sql` from the repo on GitHub (click the file, then the "Raw" button), select all, copy. Back in the Supabase SQL editor, paste it into a new query and run it. It loads every seat, race, candidate, score, and endorsement. It's safe to run again later: existing rows are updated, not duplicated.

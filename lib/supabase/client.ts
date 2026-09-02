@@ -1,15 +1,22 @@
 "use client";
 
+import { useMemo } from "react";
 import { createBrowserClient } from "@supabase/ssr";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { supabaseEnv } from "./env";
+import { useSupabaseConfig } from "@/components/SupabaseProvider";
+import type { SupabaseConfig } from "./env";
 
-let cached: SupabaseClient | null = null;
+let cached: { url: string; client: SupabaseClient } | null = null;
 
-/** Browser client. Returns null when Supabase isn't configured (static mode). */
-export function getBrowserSupabase(): SupabaseClient | null {
-  const env = supabaseEnv();
-  if (!env) return null;
-  if (!cached) cached = createBrowserClient(env.url, env.key);
-  return cached;
+/** One browser client per page load. Config comes from SupabaseProvider. */
+export function getBrowserSupabase(config: SupabaseConfig | null): SupabaseClient | null {
+  if (!config) return null;
+  if (!cached || cached.url !== config.url) cached = { url: config.url, client: createBrowserClient(config.url, config.key) };
+  return cached.client;
+}
+
+/** Hook form for client components. Returns null in static mode. */
+export function useSupabase(): SupabaseClient | null {
+  const config = useSupabaseConfig();
+  return useMemo(() => getBrowserSupabase(config), [config]);
 }

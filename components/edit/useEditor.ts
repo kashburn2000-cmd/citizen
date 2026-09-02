@@ -3,7 +3,7 @@
 import { useCallback, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { getBrowserSupabase } from "@/lib/supabase/client";
+import { useSupabase } from "@/lib/supabase/client";
 
 /**
  * Runs a write against Supabase from the browser (RLS decides whether it's
@@ -11,12 +11,12 @@ import { getBrowserSupabase } from "@/lib/supabase/client";
  */
 export function useEditor() {
   const router = useRouter();
+  const sb = useSupabase();
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const save = useCallback(
     async (fn: (sb: SupabaseClient) => Promise<void>) => {
-      const sb = getBrowserSupabase();
       if (!sb) {
         setError("Supabase isn't configured, so edits can't be saved.");
         return false;
@@ -34,7 +34,7 @@ export function useEditor() {
         setSaving(false);
       }
     },
-    [router],
+    [router, sb],
   );
 
   return { save, saving, error, clearError: () => setError(null) };
