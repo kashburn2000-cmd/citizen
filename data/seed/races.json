@@ -1,0 +1,506 @@
+[
+  {
+    "id": "house-az-01-2026",
+    "office": "house", "state": "AZ", "district": 1,
+    "title": "AZ-1 (Scottsdale, north Phoenix)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "David Schweikert", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "Schweikert left to run for governor. Biden-Harris-competitive suburban seat that Democrats narrowly missed in 2024.",
+    "notes": "Democratic primary was Aug 4, 2026. Update candidate statuses with the result."
+  },
+  {
+    "id": "house-az-06-2026",
+    "office": "house", "state": "AZ", "district": 6,
+    "title": "AZ-6 (Tucson suburbs)",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Juan Ciscomani", "incumbent_party": "R",
+    "why_it_matters": "Ciscomani has won twice by under three points."
+  },
+  {
+    "id": "house-ca-11-2026",
+    "office": "house", "state": "CA", "district": 11,
+    "title": "CA-11 (San Francisco)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Nancy Pelosi", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Pelosi's retirement set up a progressive-versus-establishment fight for one of the safest Democratic seats in the country.",
+    "notes": "Top-two primary was June 2, 2026. Confirm which two advanced."
+  },
+  {
+    "id": "house-ca-13-2026",
+    "office": "house", "state": "CA", "district": 13,
+    "title": "CA-13 (Central Valley: Merced, Modesto)",
+    "election_date": "2026-11-03", "rating": "lean_d",
+    "incumbent_name": "Adam Gray", "incumbent_party": "D",
+    "why_it_matters": "Gray won by 187 votes in 2024. Prop 50 redrew the district to be friendlier to Democrats."
+  },
+  {
+    "id": "house-ca-22-2026",
+    "office": "house", "state": "CA", "district": 22,
+    "title": "CA-22 (Bakersfield, Kings County)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "David Valadao", "incumbent_party": "R",
+    "why_it_matters": "Valadao voted for the Medicaid cuts in the 2025 budget bill in a district with one of the highest Medicaid shares in the country, then Prop 50 made the seat bluer.",
+    "notes": "Top-two primary was June 2, 2026. Confirm who advanced."
+  },
+  {
+    "id": "house-ca-45-2026",
+    "office": "house", "state": "CA", "district": 45,
+    "title": "CA-45 (Little Saigon, north Orange County)",
+    "election_date": "2026-11-03", "rating": "lean_d",
+    "incumbent_name": "Derek Tran", "incumbent_party": "D",
+    "why_it_matters": "Tran flipped this seat by 653 votes in 2024."
+  },
+  {
+    "id": "house-co-08-2026",
+    "office": "house", "state": "CO", "district": 8,
+    "title": "CO-8 (Adams and Weld counties)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Gabe Evans", "incumbent_party": "R",
+    "why_it_matters": "The most evenly divided district in Colorado. Evans won by under a point in 2024.",
+    "notes": "Democratic primary was June 30, 2026. Update statuses with the result."
+  },
+  {
+    "id": "house-ga-13-2026",
+    "office": "house", "state": "GA", "district": 13,
+    "title": "GA-13 (south metro Atlanta)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "David Scott", "incumbent_party": "D",
+    "why_it_matters": "Scott, 80, drew a crowded primary from younger challengers. A generational-change test in a safe seat.",
+    "notes": "Primary May 19, 2026 with a June 16 runoff. Confirm the nominee."
+  },
+  {
+    "id": "house-ia-01-2026",
+    "office": "house", "state": "IA", "district": 1,
+    "title": "IA-1 (southeast Iowa, Davenport)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Mariannette Miller-Meeks", "incumbent_party": "R",
+    "why_it_matters": "Miller-Meeks survived by 799 votes in 2024. Bohannan is back for a third try."
+  },
+  {
+    "id": "house-il-07-2026",
+    "office": "house", "state": "IL", "district": 7,
+    "title": "IL-7 (Chicago West Side, downtown)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Danny Davis", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Davis retired after 15 terms. Kina Collins, who came within four points of him in 2022, ran again in a crowded field.",
+    "notes": "Primary was March 17, 2026. Confirm the nominee and update statuses."
+  },
+  {
+    "id": "house-il-09-2026",
+    "office": "house", "state": "IL", "district": 9,
+    "title": "IL-9 (Chicago North Side, Evanston)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Jan Schakowsky", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Schakowsky's retirement opened a deep-blue seat. Kat Abughazaleh's small-dollar campaign against a field of state legislators drew national attention.",
+    "notes": "Primary was March 17, 2026. Confirm the nominee and update statuses."
+  },
+  {
+    "id": "house-me-02-2026",
+    "office": "house", "state": "ME", "district": 2,
+    "title": "ME-2 (northern Maine)",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Jared Golden", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Golden retired from a Trump +9 district. Former governor Paul LePage is the Republican nominee."
+  },
+  {
+    "id": "house-mi-07-2026",
+    "office": "house", "state": "MI", "district": 7,
+    "title": "MI-7 (Lansing)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Tom Barrett", "incumbent_party": "R",
+    "why_it_matters": "Open in 2024 when Slotkin left for the Senate; Barrett won by under four points."
+  },
+  {
+    "id": "house-mi-10-2026",
+    "office": "house", "state": "MI", "district": 10,
+    "title": "MI-10 (Macomb County)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "John James", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "James left to run for governor. Democrats came within half a point here in 2022.",
+    "notes": "Primary was Aug 4, 2026. Update statuses with the result."
+  },
+  {
+    "id": "house-mi-13-2026",
+    "office": "house", "state": "MI", "district": 13,
+    "title": "MI-13 (Detroit)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Shri Thanedar", "incumbent_party": "D",
+    "why_it_matters": "Justice Democrats backed state Rep. Donavan McKinney against self-funding incumbent Thanedar. The marquee progressive primary challenge of the cycle.",
+    "notes": "Primary was Aug 4, 2026. Confirm the result."
+  },
+  {
+    "id": "house-ne-02-2026",
+    "office": "house", "state": "NE", "district": 2,
+    "title": "NE-2 (Omaha)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Don Bacon", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "Bacon retired from a Harris-won district. Best Democratic pickup chance in the Plains.",
+    "notes": "Primaries were May 12, 2026. Confirm nominees."
+  },
+  {
+    "id": "house-nj-07-2026",
+    "office": "house", "state": "NJ", "district": 7,
+    "title": "NJ-7 (Hunterdon, Warren, western Union)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Tom Kean Jr.", "incumbent_party": "R",
+    "why_it_matters": "Kean underperformed Trump in 2024 and Sherrill carried the district in the 2025 governor's race.",
+    "notes": "Democratic primary was June 2, 2026. Confirm the nominee."
+  },
+  {
+    "id": "house-ny-07-2026",
+    "office": "house", "state": "NY", "district": 7,
+    "title": "NY-7 (Brooklyn, Queens)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Nydia Velázquez", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Velázquez retired from the most DSA-friendly district in the country. Claire Valdez ran with NYC-DSA backing against establishment-aligned Democrats.",
+    "notes": "Primary was June 23, 2026. Confirm the nominee."
+  },
+  {
+    "id": "house-ny-10-2026",
+    "office": "house", "state": "NY", "district": 10,
+    "title": "NY-10 (Lower Manhattan, brownstone Brooklyn)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Dan Goldman", "incumbent_party": "D",
+    "why_it_matters": "Former NYC comptroller Brad Lander challenged Goldman from the left in the highest-profile House primary in the city.",
+    "notes": "Primary was June 23, 2026. Confirm the result."
+  },
+  {
+    "id": "house-ny-12-2026",
+    "office": "house", "state": "NY", "district": 12,
+    "title": "NY-12 (Manhattan: Upper East and West Sides)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Jerry Nadler", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Nadler's retirement produced a large field including Assemblymembers Micah Lasher and Alex Bores and Jack Schlossberg.",
+    "notes": "Primary was June 23, 2026. Confirm the nominee."
+  },
+  {
+    "id": "house-ny-17-2026",
+    "office": "house", "state": "NY", "district": 17,
+    "title": "NY-17 (Hudson Valley: Rockland, Putnam, north Westchester)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Mike Lawler", "incumbent_party": "R",
+    "why_it_matters": "Harris carried the district. Lawler is the top Democratic target in New York.",
+    "notes": "Democratic primary was June 23, 2026. Confirm the nominee."
+  },
+  {
+    "id": "house-nc-01-2026",
+    "office": "house", "state": "NC", "district": 1,
+    "title": "NC-1 (northeast North Carolina)",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Don Davis", "incumbent_party": "D",
+    "why_it_matters": "The legislature redrew NC-1 in October 2025 specifically to unseat Davis."
+  },
+  {
+    "id": "house-oh-09-2026",
+    "office": "house", "state": "OH", "district": 9,
+    "title": "OH-9 (Toledo)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Marcy Kaptur", "incumbent_party": "D",
+    "why_it_matters": "Kaptur, the longest-serving woman in Congress, holds a Trump district under a new 2026 map."
+  },
+  {
+    "id": "house-oh-13-2026",
+    "office": "house", "state": "OH", "district": 13,
+    "title": "OH-13 (Akron)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Emilia Sykes", "incumbent_party": "D",
+    "why_it_matters": "Sykes won by two points in 2024 and the 2026 map shifted the district slightly right."
+  },
+  {
+    "id": "house-pa-01-2026",
+    "office": "house", "state": "PA", "district": 1,
+    "title": "PA-1 (Bucks County)",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Brian Fitzpatrick", "incumbent_party": "R",
+    "why_it_matters": "Harris carried the district but Fitzpatrick's crossover appeal has held for four cycles."
+  },
+  {
+    "id": "house-pa-03-2026",
+    "office": "house", "state": "PA", "district": 3,
+    "title": "PA-3 (Philadelphia)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Dwight Evans", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Evans retired. State Sen. Sharif Street and state Rep. Chris Rabb, a Working Families-aligned progressive, led the field.",
+    "notes": "Primary was May 19, 2026. Confirm the nominee."
+  },
+  {
+    "id": "house-pa-07-2026",
+    "office": "house", "state": "PA", "district": 7,
+    "title": "PA-7 (Lehigh Valley)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Ryan Mackenzie", "incumbent_party": "R",
+    "why_it_matters": "Mackenzie ousted Susan Wild by one point in 2024.",
+    "notes": "Democratic primary was May 19, 2026. Confirm the nominee."
+  },
+  {
+    "id": "house-pa-08-2026",
+    "office": "house", "state": "PA", "district": 8,
+    "title": "PA-8 (Scranton, Wilkes-Barre)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Rob Bresnahan", "incumbent_party": "R",
+    "why_it_matters": "Bresnahan beat Matt Cartwright by under two points and has drawn stock-trading scrutiny."
+  },
+  {
+    "id": "house-tx-18-2026",
+    "office": "house", "state": "TX", "district": 18,
+    "title": "TX-18 (Houston)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Christian Menefee", "incumbent_party": "D",
+    "why_it_matters": "Menefee won the January 2026 special. Al Green, drawn out of TX-9 by the 2025 map, challenged him for the full term.",
+    "notes": "Primary March 3, 2026 with a possible May 26 runoff. Confirm the result."
+  },
+  {
+    "id": "house-tx-28-2026",
+    "office": "house", "state": "TX", "district": 28,
+    "title": "TX-28 (Laredo, south Texas)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Henry Cuellar", "incumbent_party": "D",
+    "why_it_matters": "Cuellar, under federal indictment and one of the most conservative House Democrats, is running in a redrawn seat."
+  },
+  {
+    "id": "house-tx-34-2026",
+    "office": "house", "state": "TX", "district": 34,
+    "title": "TX-34 (Rio Grande Valley)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Vicente Gonzalez", "incumbent_party": "D",
+    "why_it_matters": "The 2025 map made this Valley seat significantly redder."
+  },
+  {
+    "id": "house-tx-37-2026",
+    "office": "house", "state": "TX", "district": 37,
+    "title": "TX-37 (Austin)",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Lloyd Doggett", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Doggett stepped aside after the 2025 map carved up Greg Casar's TX-35. Casar, chair of the Progressive Caucus, is running here."
+  },
+  {
+    "id": "house-ut-01-2026",
+    "office": "house", "state": "UT", "district": 1,
+    "title": "UT-1 (Salt Lake County, court-ordered map)",
+    "election_date": "2026-11-03", "rating": "lean_d",
+    "incumbent_name": "Blake Moore", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "A state court ordered a map with a Democratic-leaning Salt Lake City seat for 2026, the first realistic Democratic House seat in Utah in a decade.",
+    "notes": "District numbering under the new map should be confirmed."
+  },
+  {
+    "id": "house-wi-03-2026",
+    "office": "house", "state": "WI", "district": 3,
+    "title": "WI-3 (western Wisconsin, La Crosse, Eau Claire)",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Derrick Van Orden", "incumbent_party": "R",
+    "why_it_matters": "Rebecca Cooke came within three points in 2024 and is running again."
+  },
+
+  {
+    "id": "senate-tx-2026",
+    "office": "senate", "state": "TX", "senate_class": 2,
+    "title": "Texas Senate",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "John Cornyn", "incumbent_party": "R",
+    "why_it_matters": "A Cornyn-Paxton Republican runoff and a Talarico-Crockett Democratic primary made this the most expensive Senate race in the country.",
+    "notes": "Primaries March 3, 2026; runoffs May 26. Confirm both nominees."
+  },
+  {
+    "id": "senate-mi-2026",
+    "office": "senate", "state": "MI", "senate_class": 2,
+    "title": "Michigan Senate",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Gary Peters", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Abdul El-Sayed ran an explicitly progressive campaign against Rep. Haley Stevens and state Sen. Mallory McMorrow. The Republican is Mike Rogers.",
+    "notes": "Primary was Aug 4, 2026. Confirm the nominee."
+  },
+  {
+    "id": "senate-mn-2026",
+    "office": "senate", "state": "MN", "senate_class": 2,
+    "title": "Minnesota Senate",
+    "election_date": "2026-11-03", "rating": "likely_d",
+    "incumbent_name": "Tina Smith", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Lt. Gov. Peggy Flanagan (progressive) vs. Rep. Angie Craig (moderate) for an open seat.",
+    "notes": "Primary was Aug 11, 2026. Confirm the nominee."
+  },
+  {
+    "id": "senate-me-2026",
+    "office": "senate", "state": "ME", "senate_class": 2,
+    "title": "Maine Senate",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Susan Collins", "incumbent_party": "R",
+    "why_it_matters": "Oysterman and veteran Graham Platner's insurgent campaign against Gov. Janet Mills for the right to face Collins.",
+    "notes": "Primary was June 9, 2026. Confirm the nominee."
+  },
+  {
+    "id": "senate-nc-2026",
+    "office": "senate", "state": "NC", "senate_class": 2,
+    "title": "North Carolina Senate",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Thom Tillis", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "Former governor Roy Cooper against former RNC chair Michael Whatley. The Democrats' best pickup opportunity."
+  },
+  {
+    "id": "senate-ga-2026",
+    "office": "senate", "state": "GA", "senate_class": 2,
+    "title": "Georgia Senate",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Jon Ossoff", "incumbent_party": "D",
+    "why_it_matters": "The most vulnerable Democratic incumbent.",
+    "notes": "Republican primary May 19, 2026 with a June 16 runoff. Confirm the nominee."
+  },
+  {
+    "id": "senate-oh-2026-special",
+    "office": "senate", "state": "OH", "senate_class": 3,
+    "title": "Ohio Senate (special)",
+    "election_date": "2026-11-03", "election_type": "special", "rating": "tossup",
+    "incumbent_name": "Jon Husted", "incumbent_party": "R",
+    "why_it_matters": "Sherrod Brown's comeback bid for the seat J.D. Vance vacated."
+  },
+  {
+    "id": "senate-ia-2026",
+    "office": "senate", "state": "IA", "senate_class": 2,
+    "title": "Iowa Senate",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Joni Ernst", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "Ernst retired. Rep. Ashley Hinson is the Republican; Democrats ran a four-way primary.",
+    "notes": "Primary was June 2, 2026. Confirm the Democratic nominee."
+  },
+  {
+    "id": "senate-il-2026",
+    "office": "senate", "state": "IL", "senate_class": 2,
+    "title": "Illinois Senate",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Dick Durbin", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Lt. Gov. Juliana Stratton vs. Reps. Raja Krishnamoorthi and Robin Kelly for Durbin's seat, decided in the March primary.",
+    "notes": "Primary was March 17, 2026. Confirm the nominee."
+  },
+  {
+    "id": "senate-nh-2026",
+    "office": "senate", "state": "NH", "senate_class": 2,
+    "title": "New Hampshire Senate",
+    "election_date": "2026-11-03", "rating": "lean_d",
+    "incumbent_name": "Jeanne Shaheen", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Rep. Chris Pappas against former Sen. John E. Sununu.",
+    "notes": "Republican primary is Sept 8, 2026."
+  },
+  {
+    "id": "senate-ma-2026",
+    "office": "senate", "state": "MA", "senate_class": 2,
+    "title": "Massachusetts Senate",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Ed Markey", "incumbent_party": "D",
+    "why_it_matters": "Rep. Seth Moulton challenged the 80-year-old Green New Deal co-author from the center.",
+    "notes": "Primary was Sept 1, 2026. Confirm the result."
+  },
+  {
+    "id": "senate-ne-2026",
+    "office": "senate", "state": "NE", "senate_class": 2,
+    "title": "Nebraska Senate",
+    "election_date": "2026-11-03", "rating": "likely_r",
+    "incumbent_name": "Pete Ricketts", "incumbent_party": "R",
+    "why_it_matters": "Independent union leader Dan Osborn, who came within seven points of Deb Fischer in 2024, is running again with no Democrat on the ballot."
+  },
+
+  {
+    "id": "gov-ca-2026",
+    "office": "governor", "state": "CA",
+    "title": "California Governor",
+    "election_date": "2026-11-03", "rating": "safe_d",
+    "incumbent_name": "Gavin Newsom", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "A sprawling top-two field. Whether two Democrats or a Democrat and a Republican advanced decides how progressive the general election can be.",
+    "notes": "Top-two primary was June 2, 2026. Confirm who advanced and mark the rest lost_primary."
+  },
+  {
+    "id": "gov-ny-2026",
+    "office": "governor", "state": "NY",
+    "title": "New York Governor",
+    "election_date": "2026-11-03", "rating": "likely_d",
+    "incumbent_name": "Kathy Hochul", "incumbent_party": "D",
+    "why_it_matters": "Lt. Gov. Antonio Delgado primaried Hochul. Republican Bruce Blakeman is the nominee after Elise Stefanik withdrew.",
+    "notes": "Democratic primary was June 23, 2026. Confirm the result."
+  },
+  {
+    "id": "gov-mi-2026",
+    "office": "governor", "state": "MI",
+    "title": "Michigan Governor",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Gretchen Whitmer", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "A three-way general: Democrat Jocelyn Benson, Detroit mayor Mike Duggan as an independent, and a Republican.",
+    "notes": "Primaries were Aug 4, 2026. Confirm nominees."
+  },
+  {
+    "id": "gov-wi-2026",
+    "office": "governor", "state": "WI",
+    "title": "Wisconsin Governor",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Tony Evers", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Evers retired. A crowded Democratic primary with a clear progressive lane (Francesca Hong, Mandela Barnes) versus establishment candidates.",
+    "notes": "Primary was Aug 11, 2026. Confirm the nominee."
+  },
+  {
+    "id": "gov-ga-2026",
+    "office": "governor", "state": "GA",
+    "title": "Georgia Governor",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Brian Kemp", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "Former Atlanta mayor Keisha Lance Bottoms led the Democratic field; Trump-endorsed Lt. Gov. Burt Jones led the Republicans.",
+    "notes": "Primary May 19, 2026 with a June 16 runoff. Confirm nominees."
+  },
+  {
+    "id": "gov-az-2026",
+    "office": "governor", "state": "AZ",
+    "title": "Arizona Governor",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Katie Hobbs", "incumbent_party": "D",
+    "why_it_matters": "Hobbs is the most vulnerable Democratic governor. Rep. Andy Biggs and Karrin Taylor Robson fought for the Republican nomination.",
+    "notes": "Republican primary was Aug 4, 2026. Confirm the nominee."
+  },
+  {
+    "id": "gov-oh-2026",
+    "office": "governor", "state": "OH",
+    "title": "Ohio Governor",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Mike DeWine", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "Former state health director Amy Acton against Vivek Ramaswamy."
+  },
+  {
+    "id": "gov-fl-2026",
+    "office": "governor", "state": "FL",
+    "title": "Florida Governor",
+    "election_date": "2026-11-03", "rating": "likely_r",
+    "incumbent_name": "Ron DeSantis", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "Former Republican congressman David Jolly is the Democrat against Trump-endorsed Rep. Byron Donalds.",
+    "notes": "Primaries were Aug 18, 2026. Confirm nominees."
+  },
+  {
+    "id": "gov-ia-2026",
+    "office": "governor", "state": "IA",
+    "title": "Iowa Governor",
+    "election_date": "2026-11-03", "rating": "lean_r",
+    "incumbent_name": "Kim Reynolds", "incumbent_party": "R", "is_open_seat": true,
+    "why_it_matters": "State Auditor Rob Sand, the only Democrat holding statewide office, raised record sums for an open seat.",
+    "notes": "Primaries were June 2, 2026. Confirm the Republican nominee."
+  },
+  {
+    "id": "gov-nv-2026",
+    "office": "governor", "state": "NV",
+    "title": "Nevada Governor",
+    "election_date": "2026-11-03", "rating": "tossup",
+    "incumbent_name": "Joe Lombardo", "incumbent_party": "R",
+    "why_it_matters": "Attorney General Aaron Ford is the Democrat against Lombardo in a state Trump carried in 2024."
+  },
+  {
+    "id": "gov-me-2026",
+    "office": "governor", "state": "ME",
+    "title": "Maine Governor",
+    "election_date": "2026-11-03", "rating": "lean_d",
+    "incumbent_name": "Janet Mills", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Former Senate President Troy Jackson, a logger and Sanders-aligned populist, ran against Hannah Pingree, Shenna Bellows, and Angus King III.",
+    "notes": "Primary was June 9, 2026 (ranked choice). Confirm the nominee."
+  },
+  {
+    "id": "gov-mn-2026",
+    "office": "governor", "state": "MN",
+    "title": "Minnesota Governor",
+    "election_date": "2026-11-03", "rating": "likely_d",
+    "incumbent_name": "Tim Walz", "incumbent_party": "D", "is_open_seat": true,
+    "why_it_matters": "Walz ended his campaign in January 2026; Sen. Amy Klobuchar entered the race for the open seat.",
+    "notes": "Primary was Aug 11, 2026. Confirm nominees."
+  }
+]
