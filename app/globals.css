@@ -85,6 +85,16 @@ body {
   color: var(--text);
   font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Tailwind's hover: variant already skips touch screens; make sure nothing sticks after a tap. */
+@media (hover: none) {
+  .hex,
+  .pin {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 a {
@@ -139,8 +149,10 @@ textarea {
   border: 2px solid var(--border);
   border-radius: 0;
   padding: 8px 10px;
-  font-size: 15px;
+  font-size: 16px; /* 16px or larger keeps iOS from zooming the page when a field gets focus */
   font-family: inherit;
+  max-width: 100%;
+  min-width: 0;
 }
 .ink select,
 .ink input {

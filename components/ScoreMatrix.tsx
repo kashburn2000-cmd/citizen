@@ -83,7 +83,7 @@ export function ScoreMatrix({ data }: { data: Dataset }) {
           <input type="checkbox" checked={scoredOnly} onChange={(e) => setScoredOnly(e.target.checked)} />
           Scored only
         </label>
-        <input type="text" placeholder="Search name, race, state" value={query} onChange={(e) => setQuery(e.target.value)} className="w-64" />
+        <input type="text" placeholder="Search name, race, state" value={query} onChange={(e) => setQuery(e.target.value)} className="w-full sm:w-64" />
         <span className="ml-auto display text-[22px] text-text-3">{rows.length} candidates</span>
       </div>
 
@@ -91,7 +91,7 @@ export function ScoreMatrix({ data }: { data: Dataset }) {
         <table className="text-[14px] border-collapse min-w-full">
           <thead className="sticky top-0 bg-text text-bg">
             <tr className="text-left label text-[11px]">
-              <th className="p-3 cursor-pointer whitespace-nowrap" onClick={() => setSortKey("name")}>
+              <th className="p-3 cursor-pointer whitespace-nowrap sticky left-0 z-10 bg-text" onClick={() => setSortKey("name")}>
                 Candidate{arrow("name")}
               </th>
               <th className="p-3 cursor-pointer whitespace-nowrap" onClick={() => setSortKey("race")}>
@@ -115,8 +115,8 @@ export function ScoreMatrix({ data }: { data: Dataset }) {
             {rows.map(({ candidate, race }) => {
               const byIssue = new Map(candidate.scores.map((s) => [s.issue_id, s]));
               return (
-                <tr key={candidate.id} className="border-t-2 border-border-soft hover:bg-surface-2">
-                  <td className="p-3 whitespace-nowrap">
+                <tr key={candidate.id} className="group border-t-2 border-border-soft hover:bg-surface-2">
+                  <td className="p-3 whitespace-nowrap sticky left-0 bg-bg group-hover:bg-surface-2 shadow-[2px_0_0_var(--border-soft)]">
                     <span className="inline-flex items-center gap-2.5 font-extrabold text-[15px]">
                       <PartyDot party={candidate.party} size={10} />
                       {candidate.name}

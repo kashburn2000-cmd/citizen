@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { select } from "d3-selection";
-import { zoom, zoomIdentity, type ZoomBehavior } from "d3-zoom";
+import { useMemo, useRef } from "react";
+import { MapTip, useMapTip, useMapZoom } from "./mapUtils";
 import { seatFill } from "@/lib/colors";
 import { seatLabel } from "@/lib/geo/states";
 import type { HouseSeat, SeatParty } from "@/lib/types";
@@ -39,8 +38,8 @@ function hexPath(r: number): string {
 export function HouseCartogram({ layout, seats, races, projection, selectedRaceId, onSelectRace, dimUntracked }: Props) {
   const svgRef = useRef<SVGSVGElement>(null);
   const gRef = useRef<SVGGElement>(null);
-  const zoomRef = useRef<ZoomBehavior<SVGSVGElement, unknown> | null>(null);
-  const [tip, setTip] = useState<{ x: number; y: number; lines: string[] } | null>(null);
+  const { zoomed, resetZoom } = useMapZoom(svgRef, gRef, layout.width, layout.height, 6);
+  const { tip, hover, tap, hide, svgProps } = useMapTip();
 
   const seatById = useMemo(() => new Map(seats.map((s) => [s.id, s])), [seats]);
   const raceBySeat = useMemo(() => {
@@ -50,28 +49,6 @@ export function HouseCartogram({ layout, seats, races, projection, selectedRaceI
   }, [races]);
   const d = useMemo(() => hexPath(layout.hexRadius - 0.9), [layout.hexRadius]);
 
-  useEffect(() => {
-    if (!svgRef.current || !gRef.current) return;
-    const svg = select(svgRef.current);
-    const g = select(gRef.current);
-    const z = zoom<SVGSVGElement, unknown>()
-      .scaleExtent([1, 6])
-      .translateExtent([
-        [0, 0],
-        [layout.width, layout.height],
-      ])
-      .on("zoom", (e) => g.attr("transform", e.transform.toString()));
-    svg.call(z);
-    zoomRef.current = z;
-    return () => {
-      svg.on(".zoom", null);
-    };
-  }, [layout.width, layout.height]);
-
-  const resetZoom = () => {
-    if (svgRef.current && zoomRef.current) select(svgRef.current).call(zoomRef.current.transform, zoomIdentity);
-  };
-
   return (
     <div className="relative">
       <svg
@@ -80,7 +57,7 @@ export function HouseCartogram({ layout, seats, races, projection, selectedRaceI
         className="w-full h-auto select-none"
         role="img"
         aria-label="House seats by party, one hexagon per seat"
-        onMouseLeave={() => setTip(null)}
+        {...svgProps}
       >
         <g ref={gRef}>
           {layout.seats.map((h) => {
@@ -92,6 +69,14 @@ export function HouseCartogram({ layout, seats, races, projection, selectedRaceI
             const cls = ["hex", race ? "tracked" : "", race && race.id === selectedRaceId ? "selected" : "", dimUntracked && !race ? "dim" : ""]
               .filter(Boolean)
               .join(" ");
+            const lines = () => {
+              const out = [seatLabel(h.state, h.district)];
+              if (seat) out.push(seat.incumbent_party === "V" ? "Vacant" : `${seat.incumbent_name ?? "?"} (${seat.incumbent_party})`);
+              if (projection) out.push(`Projected: ${holder === "tossup" ? "toss-up" : holder}`);
+              if (race) out.push(`Tracked: ${race.title}`);
+              else if (seat?.notes) out.push(seat.notes);
+              return out;
+            };
             return (
               <path
                 key={h.id}
@@ -101,16 +86,12 @@ export function HouseCartogram({ layout, seats, races, projection, selectedRaceI
                 stroke={isVacant ? "var(--text-3)" : undefined}
                 strokeDasharray={isVacant ? "2 2" : undefined}
                 className={cls}
-                onClick={() => onSelectRace(race ? (race.id === selectedRaceId ? null : race.id) : null)}
-                onMouseMove={(e) => {
-                  const rect = (e.currentTarget.ownerSVGElement as SVGSVGElement).getBoundingClientRect();
-                  const lines = [seatLabel(h.state, h.district)];
-                  if (seat) lines.push(seat.incumbent_party === "V" ? "Vacant" : `${seat.incumbent_name ?? "?"} (${seat.incumbent_party})`);
-                  if (projection) lines.push(`Projected: ${holder === "tossup" ? "toss-up" : holder}`);
-                  if (race) lines.push(`Tracked: ${race.title}`);
-                  else if (seat?.notes) lines.push(seat.notes);
-                  setTip({ x: e.clientX - rect.left, y: e.clientY - rect.top, lines });
+                onClick={(e) => {
+                  onSelectRace(race ? (race.id === selectedRaceId ? null : race.id) : null);
+                  if (race) hide();
+                  else tap(e, lines());
                 }}
+                onPointerMove={(e) => hover(e, lines())}
               />
             );
           })}
@@ -130,21 +111,12 @@ export function HouseCartogram({ layout, seats, races, projection, selectedRaceI
           ))}
         </g>
       </svg>
-      {tip && (
-        <div
-          className="pointer-events-none absolute z-10 border-[3px] border-border bg-bg px-3 py-2 text-[13px] max-w-72"
-          style={{ left: tip.x + 12, top: tip.y + 12 }}
-        >
-          {tip.lines.map((l, i) => (
-            <div key={i} className={i === 0 ? "display text-[18px]" : "text-text-2"}>
-              {l}
-            </div>
-          ))}
-        </div>
+      <MapTip tip={tip} onDismiss={hide} />
+      {zoomed && (
+        <button onClick={resetZoom} className="btn absolute top-2 right-2 bg-bg px-3 py-2 text-[12px]">
+          Reset zoom
+        </button>
       )}
-      <button onClick={resetZoom} className="btn absolute bottom-3 right-3 bg-bg">
-        Reset zoom
-      </button>
     </div>
   );
 }
