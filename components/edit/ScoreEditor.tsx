@@ -68,7 +68,7 @@ export function ScoreEditor({ candidate, issues }: { candidate: CandidateView; i
                     onClick={() => setScore(issue.id, n)}
                     title={issue.rubric[String(n)] ?? ""}
                     aria-pressed={s?.score === n}
-                    className="w-7 h-7 rounded text-xs font-semibold tabular-nums border"
+                    className="w-8 h-8 rounded text-xs font-semibold tabular-nums border"
                     style={{
                       background: scoreFill(n),
                       borderColor: s?.score === n ? "var(--text)" : "var(--border)",
@@ -94,7 +94,7 @@ export function ScoreEditor({ candidate, issues }: { candidate: CandidateView; i
             <input
               type="text"
               placeholder={s ? "Evidence: a vote, a quote, a pledge" : "Pick a score first"}
-              className="text-xs"
+              className="text-[16px] sm:text-xs"
               value={evidence[issue.id] ?? ""}
               disabled={!s || saving}
               onChange={(e) => setEvidence((v) => ({ ...v, [issue.id]: e.target.value }))}

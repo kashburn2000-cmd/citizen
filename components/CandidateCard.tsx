@@ -19,32 +19,32 @@ export function CandidateCard({ candidate, issues, canEdit }: { candidate: Candi
 
   return (
     <article className={`grid gap-3 pt-4 ${out ? "opacity-60" : ""}`} style={{ borderTop: `4px solid ${partyFill(candidate.party)}` }}>
-      <div className="flex items-start gap-4">
-        <div className="min-w-0 flex-1 grid gap-2">
-          <div className="flex items-baseline gap-3 flex-wrap">
+      <div className="grid gap-2">
+        <div className="flex items-start gap-4">
+          <div className="min-w-0 flex-1 flex items-baseline gap-3 flex-wrap">
             <h4 className="display text-[26px] leading-none">{candidate.name}</h4>
             <span className="label text-[11px]" style={{ color: partyFill(candidate.party) }}>
               {candidate.status === "running" ? candidate.party : `${STATUS_LABEL[candidate.status]} · ${candidate.party}`}
               {candidate.is_incumbent ? " · Incumbent" : ""}
             </span>
           </div>
-          {candidate.bio && <p className="text-[14px] leading-relaxed text-text-2">{candidate.bio}</p>}
-          {candidate.endorsements.length > 0 && (
-            <div className="flex flex-wrap gap-1.5">
-              {candidate.endorsements.map((e) => (
-                <Tag key={e.org_id} tone={e.org.signal > 0 ? "pos" : e.org.signal < 0 ? "neg" : "neutral"}>
-                  <span title={e.note ?? undefined}>{e.org.name}</span>
-                </Tag>
-              ))}
-            </div>
-          )}
+          <div className="shrink-0 grid justify-items-end gap-1">
+            <ScoreBadge score={candidate.summary.score} scored={candidate.summary.scored} total={candidate.summary.total} provisional={candidate.summary.anyProvisional} />
+            <button className="label text-[11px] underline underline-offset-4 decoration-2 py-1" onClick={() => setOpen((v) => !v)}>
+              {open ? "Hide" : canEdit ? "Score" : "Details"}
+            </button>
+          </div>
         </div>
-        <div className="shrink-0 grid justify-items-end gap-1">
-          <ScoreBadge score={candidate.summary.score} scored={candidate.summary.scored} total={candidate.summary.total} provisional={candidate.summary.anyProvisional} />
-          <button className="label text-[11px] underline underline-offset-4 decoration-2" onClick={() => setOpen((v) => !v)}>
-            {open ? "Hide" : canEdit ? "Score" : "Details"}
-          </button>
-        </div>
+        {candidate.bio && <p className="text-[14px] leading-relaxed text-text-2">{candidate.bio}</p>}
+        {candidate.endorsements.length > 0 && (
+          <div className="flex flex-wrap gap-1.5">
+            {candidate.endorsements.map((e) => (
+              <Tag key={e.org_id} tone={e.org.signal > 0 ? "pos" : e.org.signal < 0 ? "neg" : "neutral"}>
+                <span title={e.note ?? undefined}>{e.org.name}</span>
+              </Tag>
+            ))}
+          </div>
+        )}
       </div>
 
       {open && (

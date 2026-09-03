@@ -27,7 +27,7 @@ export function RacePanel({ race, issues, canEdit, onClose }: { race: RaceView; 
             </button>
           )}
         </div>
-        <h3 className="display text-[40px] sm:text-[48px]">
+        <h3 className="display text-[34px] sm:text-[48px]">
           <Link href={`/races/${race.id}`} className="hover:underline underline-offset-8 decoration-4">
             {race.title.replace(/\s*\(.*\)$/, "")}
           </Link>

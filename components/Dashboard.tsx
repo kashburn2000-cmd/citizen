@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { HouseCartogram, type CartogramLayout } from "./HouseCartogram";
 import { DistrictMap, type DistrictTopology } from "./DistrictMap";
 import { StateMap, type StatesLayout } from "./StateMap";
@@ -31,6 +31,14 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
   const [cartogram, setCartogram] = useState<CartogramLayout | null>(null);
   const [districts, setDistricts] = useState<DistrictTopology | null>(null);
   const [statesLayout, setStatesLayout] = useState<StatesLayout | null>(null);
+  const asideRef = useRef<HTMLElement>(null);
+
+  // On one-column layouts the race panel sits under the map, so bring it into view when a race is picked.
+  useEffect(() => {
+    if (!selectedRaceId || !asideRef.current) return;
+    if (!window.matchMedia("(max-width: 1023px)").matches) return;
+    asideRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [selectedRaceId]);
 
   useEffect(() => {
     let cancelled = false;
@@ -82,14 +90,14 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
   const hint =
     view === "house"
       ? houseMode === "hex"
-        ? `Outlined seats are the ${visible.length} races we're tracking. Scroll to zoom.`
-        : "Census 119th Congress lines; states that redrew for 2026 differ. Scroll to zoom."
-      : "Pins mark tracked races. Click one.";
+        ? `Outlined seats are the ${visible.length} races we're tracking. Scroll or pinch to zoom.`
+        : "Census 119th Congress lines; states that redrew for 2026 differ. Scroll or pinch to zoom."
+      : "Pins mark tracked races. Tap one.";
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_440px]">
-      <section className="border-[4px] border-border bg-bg p-4 sm:p-5 grid gap-4 min-w-0 self-start">
-        <div className="flex flex-wrap items-center gap-3">
+      <section className="border-[4px] border-border bg-bg p-3 sm:p-5 grid gap-4 min-w-0 self-start">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
           <div className="seg" role="tablist">
             {VIEWS.map((v) => (
               <button key={v.key} role="tab" aria-selected={view === v.key} onClick={() => switchView(v.key)}>
@@ -116,7 +124,7 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
               </label>
             </>
           )}
-          <span className="ml-auto text-[14px] font-semibold text-text-2">{hint}</span>
+          <span className="ml-auto text-[13px] sm:text-[14px] font-semibold text-text-2">{hint}</span>
         </div>
 
         {view === "house" && houseMode === "geo" && districts && (
@@ -129,7 +137,7 @@ export function Dashboard({ data, canEdit, initialRaceId = null }: Props) {
         {mapLoading && <div className="aspect-[975/610] flex items-center justify-center label text-text-3">Loading map</div>}
       </section>
 
-      <aside className={`min-w-0 self-start lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto ${selected ? "ink p-6 sm:p-7" : "border-[4px] border-border bg-bg p-4 sm:p-5"}`}>
+      <aside ref={asideRef} className={`min-w-0 self-start scroll-mt-4 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto ${selected ? "ink p-5 sm:p-7" : "border-[4px] border-border bg-bg p-4 sm:p-5"}`}>
         {selected ? (
           <RacePanel race={selected} issues={data.issues} canEdit={canEdit} onClose={() => setSelectedRaceId(null)} />
         ) : (

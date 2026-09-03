@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
+import { MapTip, useMapTip } from "./mapUtils";
 import { ratingFill } from "@/lib/colors";
 import { RATING_LABEL } from "@/lib/scoring";
 import type { RaceView } from "@/lib/view";
@@ -23,7 +24,7 @@ interface Props {
 
 /** Geographic map for statewide races: states shaded by rating, a pin per tracked race. */
 export function StateMap({ layout, races, office, selectedRaceId, onSelectRace }: Props) {
-  const [tip, setTip] = useState<{ x: number; y: number; lines: string[] } | null>(null);
+  const { tip, hover, tap, hide, svgProps } = useMapTip();
   const byState = useMemo(() => {
     const m = new Map<string, RaceView[]>();
     for (const r of races) {
@@ -40,25 +41,30 @@ export function StateMap({ layout, races, office, selectedRaceId, onSelectRace }
         className="w-full h-auto select-none"
         role="img"
         aria-label={`${office} races by state`}
-        onMouseLeave={() => setTip(null)}
+        {...svgProps}
       >
         {layout.states.map((s) => {
           const list = byState.get(s.postal);
           const primary = list?.[0];
+          const lines = () => {
+            const out = [s.name];
+            if (list) for (const r of list) out.push(`${r.title}${r.rating ? ` · ${RATING_LABEL[r.rating]}` : ""}`);
+            else out.push(`No tracked ${office} race`);
+            return out;
+          };
           return (
             <path
               key={s.postal}
               d={s.d}
               fill={primary ? ratingFill(primary.rating) : "var(--surface-2)"}
               className={primary ? "pin" : undefined}
-              onClick={() => primary && onSelectRace(primary.id === selectedRaceId ? null : primary.id)}
-              onMouseMove={(e) => {
-                const rect = (e.currentTarget.ownerSVGElement as SVGSVGElement).getBoundingClientRect();
-                const lines = [s.name];
-                if (list) for (const r of list) lines.push(`${r.title}${r.rating ? ` · ${RATING_LABEL[r.rating]}` : ""}`);
-                else lines.push(`No tracked ${office} race`);
-                setTip({ x: e.clientX - rect.left, y: e.clientY - rect.top, lines });
+              onClick={(e) => {
+                if (primary) {
+                  onSelectRace(primary.id === selectedRaceId ? null : primary.id);
+                  hide();
+                } else tap(e, lines());
               }}
+              onPointerMove={(e) => hover(e, lines())}
             />
           );
         })}
@@ -77,18 +83,7 @@ export function StateMap({ layout, races, office, selectedRaceId, onSelectRace }
           });
         })}
       </svg>
-      {tip && (
-        <div
-          className="pointer-events-none absolute z-10 border-[3px] border-border bg-bg px-3 py-2 text-[13px] max-w-72"
-          style={{ left: tip.x + 12, top: tip.y + 12 }}
-        >
-          {tip.lines.map((l, i) => (
-            <div key={i} className={i === 0 ? "display text-[18px]" : "text-text-2"}>
-              {l}
-            </div>
-          ))}
-        </div>
-      )}
+      <MapTip tip={tip} onDismiss={hide} />
     </div>
   );
 }

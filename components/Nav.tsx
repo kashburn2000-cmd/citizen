@@ -7,11 +7,11 @@ export async function Nav() {
   const viewer = configured ? await getViewer() : null;
   return (
     <header className="border-b-4 border-border bg-bg">
-      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 h-16 flex items-center gap-6">
-        <Link href="/" className="display text-[26px] sm:text-[30px] leading-none">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 min-h-16 py-3 flex flex-wrap items-center gap-x-6 gap-y-1">
+        <Link href="/" className="display text-[26px] sm:text-[30px] leading-none whitespace-nowrap py-1">
           Progressive Races <span className="text-rep">2026</span>
         </Link>
-        <nav className="ml-auto flex items-center gap-5 sm:gap-7 label text-[13px]">
+        <nav className="ml-auto flex flex-wrap items-center gap-x-5 sm:gap-x-7 label text-[13px] [&>a]:py-2">
           <Link href="/" className="hover:underline underline-offset-8 decoration-4">
             Map
           </Link>
