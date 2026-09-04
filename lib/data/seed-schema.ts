@@ -54,7 +54,7 @@ export const candidateSchema = z.object({
   party: party.default("D"),
   is_incumbent: z.boolean().default(false),
   status: z
-    .enum(["running", "won_primary", "lost_primary", "advanced", "withdrew", "won", "lost"])
+    .enum(["running", "won_primary", "lost_primary", "advanced", "withdrew", "won", "lost", "died"])
     .default("running"),
   website: z.string().nullable().default(null),
   bio: z.string().nullable().default(null),
@@ -62,6 +62,11 @@ export const candidateSchema = z.object({
   dw_nominate: z.number().nullable().default(null),
   photo_url: z.string().nullable().default(null),
   notes: z.string().nullable().default(null),
+  open_questions: z.string().nullable().default(null),
+  nonindividual_share: z.number().min(0).max(100).nullable().default(null),
+  outside_spending_for: z.number().min(0).nullable().default(null),
+  outside_spending_against: z.number().min(0).nullable().default(null),
+  top_outside_spenders: z.string().nullable().default(null),
   sort_order: z.number().int().default(0),
   needs_review: z.boolean().default(true),
 });
@@ -89,7 +94,7 @@ export const orgSchema = z.object({
   id: z.string(),
   name: z.string(),
   url: z.string().nullable().default(null),
-  kind: z.enum(["progressive", "labor", "establishment", "issue", "other"]).default("progressive"),
+  kind: z.enum(["progressive", "labor", "establishment", "issue", "politician", "other"]).default("progressive"),
   signal: z.union([z.literal(-1), z.literal(0), z.literal(1)]).default(1),
   sort_order: z.number().int().default(0),
 });

@@ -20,9 +20,16 @@ describe("supabase/seed.sql", () => {
     expect(await count("candidates")).toBe(json("candidates.json"));
     expect(await count("scores")).toBe(json("scores.json"));
     expect(await count("endorsements")).toBe(json("endorsements.json"));
-    // Re-running must be a no-op, not a duplicate-key error.
+    // Re-running must be a no-op, not a duplicate-key error, and it must remove rows the seed no longer has.
+    await db.exec(`
+      insert into public.candidates (id, race_id, name) values ('stale-candidate', (select id from public.races limit 1), 'Stale');
+      insert into public.scores (candidate_id, issue_id, score) values ('stale-candidate', (select id from public.issues limit 1), 4);
+      insert into public.orgs (id, name) values ('stale-org', 'Stale Org');
+    `);
     await db.exec(readFileSync(seedPath, "utf8"));
     expect(await count("candidates")).toBe(json("candidates.json"));
+    expect(await count("scores")).toBe(json("scores.json"));
+    expect(await count("orgs")).toBe(json("orgs.json"));
     const top = await db.query<{ candidate_id: string; progressive_score: string }>(
       "select candidate_id, progressive_score from public.candidate_scores where progressive_score is not null order by progressive_score desc limit 1",
     );

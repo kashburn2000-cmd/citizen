@@ -10,8 +10,9 @@ export type CandidateStatus =
   | "advanced"
   | "withdrew"
   | "won"
-  | "lost";
-export type OrgKind = "progressive" | "labor" | "establishment" | "issue" | "other";
+  | "lost"
+  | "died";
+export type OrgKind = "progressive" | "labor" | "establishment" | "issue" | "politician" | "other";
 export type Role = "viewer" | "editor" | "admin";
 
 export interface HouseSeat {
@@ -58,6 +59,16 @@ export interface Candidate {
   dw_nominate: number | null;
   photo_url: string | null;
   notes: string | null;
+  /** Rubric issues with no published position found; for candidate outreach. */
+  open_questions: string | null;
+  /** FEC: share of receipts from non-individual sources, in percent. Includes ActBlue-style conduits. */
+  nonindividual_share: number | null;
+  /** FEC Schedule E: independent expenditures supporting the candidate, in dollars. */
+  outside_spending_for: number | null;
+  /** FEC Schedule E: independent expenditures opposing the candidate, in dollars. */
+  outside_spending_against: number | null;
+  /** FEC Schedule E: largest outside spenders, as text. */
+  top_outside_spenders: string | null;
   sort_order: number;
   needs_review: boolean;
 }

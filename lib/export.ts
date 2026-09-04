@@ -41,6 +41,11 @@ export function buildWorkbook(data: Dataset, generatedAt = new Date()): ExcelJS.
     "  Issues: the rubric, weights, and what each 0-4 level means.",
     "  Endorsements and Orgs: who endorsed whom, and how each org is treated (signal 1 = progressive, -1 = counter-signal).",
     "",
+    "Candidates also carry an Open questions column (rubric issues with no published position) and four FEC columns:",
+    "  Non-individual receipt share (percent of receipts, ActBlue-style conduits included), outside spending for and against (Schedule E, dollars), and the top outside spenders.",
+    "",
+    "To load an edited copy of this workbook back into the site: npm run import:workbook -- path/to/file.xlsx, then npm run build:seed-sql.",
+    "",
     "Progressive score = 100 * sum(score * weight) / sum(4 * weight), over the issues that have a score. Provisional = not yet verified by an editor.",
   ])
     readme.addRow([line]);
@@ -70,6 +75,11 @@ export function buildWorkbook(data: Dataset, generatedAt = new Date()): ExcelJS.
     { header: "Notes", key: "notes", width: 40 },
     { header: "Website", key: "website", width: 30 },
     { header: "Needs review", key: "needs_review", width: 10 },
+    { header: "Open questions", key: "open_questions", width: 50 },
+    { header: "Non-individual receipt share (incl. ActBlue)", key: "nonindividual_share", width: 14 },
+    { header: "Outside spending for", key: "outside_spending_for", width: 14 },
+    { header: "Outside spending against", key: "outside_spending_against", width: 14 },
+    { header: "Top outside spenders", key: "top_outside_spenders", width: 60 },
   ];
   const candidateRows: Record<string, unknown>[] = [];
   const scoreRows: Record<string, unknown>[] = [];
@@ -105,6 +115,11 @@ export function buildWorkbook(data: Dataset, generatedAt = new Date()): ExcelJS.
         notes: c.notes,
         website: c.website,
         needs_review: c.needs_review ? "Yes" : "",
+        open_questions: c.open_questions,
+        nonindividual_share: c.nonindividual_share,
+        outside_spending_for: c.outside_spending_for,
+        outside_spending_against: c.outside_spending_against,
+        top_outside_spenders: c.top_outside_spenders,
       };
       for (const i of activeIssues) row[`issue_${i.id}`] = byIssue.get(i.id)?.score ?? null;
       candidateRows.push(row);

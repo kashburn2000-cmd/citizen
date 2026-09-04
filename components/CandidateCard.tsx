@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ScoreBadge, Tag } from "./Pills";
 import { ScoreEditor } from "./edit/ScoreEditor";
 import { useEditor, must } from "./edit/useEditor";
-import { STATUS_LABEL, type CandidateView } from "@/lib/view";
+import { OUT, STATUS_LABEL, type CandidateView } from "@/lib/view";
 import { partyFill, scoreFill } from "@/lib/colors";
 import type { CandidateStatus, Issue } from "@/lib/types";
 
@@ -15,7 +15,7 @@ export function CandidateCard({ candidate, issues, canEdit }: { candidate: Candi
   const { save, saving, error } = useEditor();
   const scoreByIssue = new Map(candidate.scores.map((s) => [s.issue_id, s]));
   const activeIssues = issues.filter((i) => i.active).sort((a, b) => a.sort_order - b.sort_order);
-  const out = candidate.status === "lost_primary" || candidate.status === "withdrew" || candidate.status === "lost";
+  const out = OUT.has(candidate.status);
 
   return (
     <article className={`grid gap-3 pt-4 ${out ? "opacity-60" : ""}`} style={{ borderTop: `4px solid ${partyFill(candidate.party)}` }}>
