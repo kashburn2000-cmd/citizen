@@ -1,11 +1,21 @@
 [
   {
+    "id": "AK-00",
+    "state": "AK",
+    "district": 0,
+    "incumbent_name": "Nick Begich",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
     "id": "AL-01",
     "state": "AL",
     "district": 1,
     "incumbent_name": "Barry Moore",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -15,7 +25,7 @@
     "district": 2,
     "incumbent_name": "Shomari Figures",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -25,7 +35,7 @@
     "district": 3,
     "incumbent_name": "Mike Rogers",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -35,7 +45,7 @@
     "district": 4,
     "incumbent_name": "Robert Aderholt",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -45,7 +55,7 @@
     "district": 5,
     "incumbent_name": "Dale Strong",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -55,7 +65,7 @@
     "district": 6,
     "incumbent_name": "Gary Palmer",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -65,107 +75,7 @@
     "district": 7,
     "incumbent_name": "Terri Sewell",
     "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "AK-00",
-    "state": "AK",
-    "district": 0,
-    "incumbent_name": "Nick Begich",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "AZ-01",
-    "state": "AZ",
-    "district": 1,
-    "incumbent_name": "David Schweikert",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": "Running for governor in 2026; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "AZ-02",
-    "state": "AZ",
-    "district": 2,
-    "incumbent_name": "Eli Crane",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "AZ-03",
-    "state": "AZ",
-    "district": 3,
-    "incumbent_name": "Yassamin Ansari",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "AZ-04",
-    "state": "AZ",
-    "district": 4,
-    "incumbent_name": "Greg Stanton",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "AZ-05",
-    "state": "AZ",
-    "district": 5,
-    "incumbent_name": "Andy Biggs",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": "Running for governor in 2026; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "AZ-06",
-    "state": "AZ",
-    "district": 6,
-    "incumbent_name": "Juan Ciscomani",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "AZ-07",
-    "state": "AZ",
-    "district": 7,
-    "incumbent_name": "Adelita Grijalva",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Won Sept 2025 special after Raúl Grijalva's death",
-    "needs_review": false
-  },
-  {
-    "id": "AZ-08",
-    "state": "AZ",
-    "district": 8,
-    "incumbent_name": "Abraham Hamadeh",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "AZ-09",
-    "state": "AZ",
-    "district": 9,
-    "incumbent_name": "Paul Gosar",
-    "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -175,7 +85,7 @@
     "district": 1,
     "incumbent_name": "Rick Crawford",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -185,7 +95,7 @@
     "district": 2,
     "incumbent_name": "French Hill",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -195,7 +105,7 @@
     "district": 3,
     "incumbent_name": "Steve Womack",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -205,7 +115,97 @@
     "district": 4,
     "incumbent_name": "Bruce Westerman",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "AZ-01",
+    "state": "AZ",
+    "district": 1,
+    "incumbent_name": "David Schweikert",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": "Running for governor in 2026; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "AZ-02",
+    "state": "AZ",
+    "district": 2,
+    "incumbent_name": "Eli Crane",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "AZ-03",
+    "state": "AZ",
+    "district": 3,
+    "incumbent_name": "Yassamin Ansari",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "AZ-04",
+    "state": "AZ",
+    "district": 4,
+    "incumbent_name": "Greg Stanton",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "AZ-05",
+    "state": "AZ",
+    "district": 5,
+    "incumbent_name": "Andy Biggs",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": "Running for governor in 2026; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "AZ-06",
+    "state": "AZ",
+    "district": 6,
+    "incumbent_name": "Juan Ciscomani",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "AZ-07",
+    "state": "AZ",
+    "district": 7,
+    "incumbent_name": "Adelita Grijalva",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Won Sept 2025 special after Raúl Grijalva's death",
+    "needs_review": false
+  },
+  {
+    "id": "AZ-08",
+    "state": "AZ",
+    "district": 8,
+    "incumbent_name": "Abraham Hamadeh",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "AZ-09",
+    "state": "AZ",
+    "district": 9,
+    "incumbent_name": "Paul Gosar",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -215,7 +215,7 @@
     "district": 1,
     "incumbent_name": "James Gallagher",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Won the June 2026 special after Doug LaMalfa's death (per congress-legislators, term start 2026-06-10)",
     "needs_review": false
   },
@@ -225,7 +225,7 @@
     "district": 2,
     "incumbent_name": "Jared Huffman",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -235,9 +235,9 @@
     "district": 3,
     "incumbent_name": "Kevin Kiley",
     "incumbent_party": "I",
-    "caucuses_with": null,
-    "notes": "Listed as Independent in congress-legislators as of mid-2026; confirm which party he caucuses with. District redrawn by Prop 50 (2025)",
-    "needs_review": true
+    "caucuses_with": "R",
+    "notes": "Elected as a Republican in 2022 and 2024; listed as an independent who caucuses with Republicans as of 2026. District redrawn by Prop 50 (2025).",
+    "needs_review": false
   },
   {
     "id": "CA-04",
@@ -245,7 +245,7 @@
     "district": 4,
     "incumbent_name": "Mike Thompson",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -255,7 +255,7 @@
     "district": 5,
     "incumbent_name": "Tom McClintock",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -265,7 +265,7 @@
     "district": 6,
     "incumbent_name": "Ami Bera",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -275,7 +275,7 @@
     "district": 7,
     "incumbent_name": "Doris Matsui",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -285,7 +285,7 @@
     "district": 8,
     "incumbent_name": "John Garamendi",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -295,7 +295,7 @@
     "district": 9,
     "incumbent_name": "Josh Harder",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -305,7 +305,7 @@
     "district": 10,
     "incumbent_name": "Mark DeSaulnier",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -315,7 +315,7 @@
     "district": 11,
     "incumbent_name": "Nancy Pelosi",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Retiring; open seat in 2026",
     "needs_review": false
   },
@@ -325,7 +325,7 @@
     "district": 12,
     "incumbent_name": "Lateefah Simon",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -335,7 +335,7 @@
     "district": 13,
     "incumbent_name": "Adam Gray",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -343,11 +343,11 @@
     "id": "CA-14",
     "state": "CA",
     "district": 14,
-    "incumbent_name": null,
-    "incumbent_party": "V",
-    "caucuses_with": null,
-    "notes": "Eric Swalwell (D) left office 2026-04-14 per congress-legislators; running for governor. Confirm special election status.",
-    "needs_review": true
+    "incumbent_name": "Aisha Wahab",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Won the Aug 18, 2026 special runoff after Eric Swalwell (D) resigned April 14, 2026 amid sexual misconduct allegations. Faces Melissa Hernandez again in November for the full term.",
+    "needs_review": false
   },
   {
     "id": "CA-15",
@@ -355,7 +355,7 @@
     "district": 15,
     "incumbent_name": "Kevin Mullin",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -365,7 +365,7 @@
     "district": 16,
     "incumbent_name": "Sam Liccardo",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -375,7 +375,7 @@
     "district": 17,
     "incumbent_name": "Ro Khanna",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -385,7 +385,7 @@
     "district": 18,
     "incumbent_name": "Zoe Lofgren",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -395,7 +395,7 @@
     "district": 19,
     "incumbent_name": "Jimmy Panetta",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -405,7 +405,7 @@
     "district": 20,
     "incumbent_name": "Vince Fong",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -415,7 +415,7 @@
     "district": 21,
     "incumbent_name": "Jim Costa",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -425,7 +425,7 @@
     "district": 22,
     "incumbent_name": "David Valadao",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "District redrawn by Prop 50 (2025)",
     "needs_review": false
   },
@@ -435,7 +435,7 @@
     "district": 23,
     "incumbent_name": "Jay Obernolte",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -445,7 +445,7 @@
     "district": 24,
     "incumbent_name": "Salud Carbajal",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -455,7 +455,7 @@
     "district": 25,
     "incumbent_name": "Raul Ruiz",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -465,7 +465,7 @@
     "district": 26,
     "incumbent_name": "Julia Brownley",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -475,7 +475,7 @@
     "district": 27,
     "incumbent_name": "George Whitesides",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -485,7 +485,7 @@
     "district": 28,
     "incumbent_name": "Judy Chu",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -495,7 +495,7 @@
     "district": 29,
     "incumbent_name": "Luz Rivas",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -505,7 +505,7 @@
     "district": 30,
     "incumbent_name": "Laura Friedman",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -515,7 +515,7 @@
     "district": 31,
     "incumbent_name": "Gil Cisneros",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -525,7 +525,7 @@
     "district": 32,
     "incumbent_name": "Brad Sherman",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -535,7 +535,7 @@
     "district": 33,
     "incumbent_name": "Pete Aguilar",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -545,7 +545,7 @@
     "district": 34,
     "incumbent_name": "Jimmy Gomez",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -555,7 +555,7 @@
     "district": 35,
     "incumbent_name": "Norma Torres",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -565,7 +565,7 @@
     "district": 36,
     "incumbent_name": "Ted Lieu",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -575,7 +575,7 @@
     "district": 37,
     "incumbent_name": "Sydney Kamlager-Dove",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -585,7 +585,7 @@
     "district": 38,
     "incumbent_name": "Linda Sánchez",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -595,7 +595,7 @@
     "district": 39,
     "incumbent_name": "Mark Takano",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -605,7 +605,7 @@
     "district": 40,
     "incumbent_name": "Young Kim",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "District redrawn by Prop 50 (2025)",
     "needs_review": false
   },
@@ -615,7 +615,7 @@
     "district": 41,
     "incumbent_name": "Ken Calvert",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "District redrawn by Prop 50 (2025)",
     "needs_review": false
   },
@@ -625,7 +625,7 @@
     "district": 42,
     "incumbent_name": "Robert Garcia",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -635,7 +635,7 @@
     "district": 43,
     "incumbent_name": "Maxine Waters",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -645,7 +645,7 @@
     "district": 44,
     "incumbent_name": "Nanette Barragán",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -655,7 +655,7 @@
     "district": 45,
     "incumbent_name": "Derek Tran",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -665,7 +665,7 @@
     "district": 46,
     "incumbent_name": "Lou Correa",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -675,7 +675,7 @@
     "district": 47,
     "incumbent_name": "Dave Min",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -685,7 +685,7 @@
     "district": 48,
     "incumbent_name": "Darrell Issa",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "District redrawn by Prop 50 (2025)",
     "needs_review": false
   },
@@ -695,7 +695,7 @@
     "district": 49,
     "incumbent_name": "Mike Levin",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -705,7 +705,7 @@
     "district": 50,
     "incumbent_name": "Scott Peters",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -715,7 +715,7 @@
     "district": 51,
     "incumbent_name": "Sara Jacobs",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -725,7 +725,7 @@
     "district": 52,
     "incumbent_name": "Juan Vargas",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -735,7 +735,7 @@
     "district": 1,
     "incumbent_name": "Diana DeGette",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -745,7 +745,7 @@
     "district": 2,
     "incumbent_name": "Joe Neguse",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -755,7 +755,7 @@
     "district": 3,
     "incumbent_name": "Jeff Hurd",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -765,7 +765,7 @@
     "district": 4,
     "incumbent_name": "Lauren Boebert",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -775,7 +775,7 @@
     "district": 5,
     "incumbent_name": "Jeff Crank",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -785,7 +785,7 @@
     "district": 6,
     "incumbent_name": "Jason Crow",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -795,7 +795,7 @@
     "district": 7,
     "incumbent_name": "Brittany Pettersen",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -805,7 +805,7 @@
     "district": 8,
     "incumbent_name": "Gabe Evans",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -815,7 +815,7 @@
     "district": 1,
     "incumbent_name": "John Larson",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -825,7 +825,7 @@
     "district": 2,
     "incumbent_name": "Joe Courtney",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -835,7 +835,7 @@
     "district": 3,
     "incumbent_name": "Rosa DeLauro",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -845,7 +845,7 @@
     "district": 4,
     "incumbent_name": "Jim Himes",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -855,7 +855,7 @@
     "district": 5,
     "incumbent_name": "Jahana Hayes",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -865,7 +865,7 @@
     "district": 0,
     "incumbent_name": "Sarah McBride",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -875,7 +875,7 @@
     "district": 1,
     "incumbent_name": "Jimmy Patronis",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Won April 2025 special",
     "needs_review": false
   },
@@ -885,7 +885,7 @@
     "district": 2,
     "incumbent_name": "Neal Dunn",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -895,7 +895,7 @@
     "district": 3,
     "incumbent_name": "Kat Cammack",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -905,7 +905,7 @@
     "district": 4,
     "incumbent_name": "Aaron Bean",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -915,7 +915,7 @@
     "district": 5,
     "incumbent_name": "John Rutherford",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -925,7 +925,7 @@
     "district": 6,
     "incumbent_name": "Randy Fine",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Won April 2025 special",
     "needs_review": false
   },
@@ -935,7 +935,7 @@
     "district": 7,
     "incumbent_name": "Cory Mills",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -945,7 +945,7 @@
     "district": 8,
     "incumbent_name": "Mike Haridopolos",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -955,7 +955,7 @@
     "district": 9,
     "incumbent_name": "Darren Soto",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -965,7 +965,7 @@
     "district": 10,
     "incumbent_name": "Maxwell Frost",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -975,7 +975,7 @@
     "district": 11,
     "incumbent_name": "Daniel Webster",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -985,7 +985,7 @@
     "district": 12,
     "incumbent_name": "Gus Bilirakis",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -995,7 +995,7 @@
     "district": 13,
     "incumbent_name": "Anna Paulina Luna",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1005,7 +1005,7 @@
     "district": 14,
     "incumbent_name": "Kathy Castor",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1015,7 +1015,7 @@
     "district": 15,
     "incumbent_name": "Laurel Lee",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1025,7 +1025,7 @@
     "district": 16,
     "incumbent_name": "Vern Buchanan",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1035,7 +1035,7 @@
     "district": 17,
     "incumbent_name": "Greg Steube",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1045,7 +1045,7 @@
     "district": 18,
     "incumbent_name": "Scott Franklin",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1055,7 +1055,7 @@
     "district": 19,
     "incumbent_name": "Byron Donalds",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
     "needs_review": false
   },
@@ -1066,8 +1066,8 @@
     "incumbent_name": null,
     "incumbent_party": "V",
     "caucuses_with": null,
-    "notes": "Sheila Cherfilus-McCormick (D) left office 2026-04-21 per congress-legislators. Confirm why and special election status.",
-    "needs_review": true
+    "notes": "Vacant. Sheila Cherfilus-McCormick (D) resigned April 21, 2026, minutes before a House Ethics sanctions hearing over misused disaster funds. No special election scheduled as of Sept 2, 2026.",
+    "needs_review": false
   },
   {
     "id": "FL-21",
@@ -1075,7 +1075,7 @@
     "district": 21,
     "incumbent_name": "Brian Mast",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1085,7 +1085,7 @@
     "district": 22,
     "incumbent_name": "Lois Frankel",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1095,7 +1095,7 @@
     "district": 23,
     "incumbent_name": "Jared Moskowitz",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1105,7 +1105,7 @@
     "district": 24,
     "incumbent_name": "Frederica Wilson",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1115,7 +1115,7 @@
     "district": 25,
     "incumbent_name": "Debbie Wasserman Schultz",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1125,7 +1125,7 @@
     "district": 26,
     "incumbent_name": "Mario Díaz-Balart",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1135,7 +1135,7 @@
     "district": 27,
     "incumbent_name": "María Elvira Salazar",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1145,7 +1145,7 @@
     "district": 28,
     "incumbent_name": "Carlos Giménez",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1155,7 +1155,7 @@
     "district": 1,
     "incumbent_name": "Buddy Carter",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for Senate; open seat",
     "needs_review": false
   },
@@ -1165,7 +1165,7 @@
     "district": 2,
     "incumbent_name": "Sanford Bishop",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1175,7 +1175,7 @@
     "district": 3,
     "incumbent_name": "Brian Jack",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1185,7 +1185,7 @@
     "district": 4,
     "incumbent_name": "Hank Johnson",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1195,7 +1195,7 @@
     "district": 5,
     "incumbent_name": "Nikema Williams",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1205,7 +1205,7 @@
     "district": 6,
     "incumbent_name": "Lucy McBath",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1215,7 +1215,7 @@
     "district": 7,
     "incumbent_name": "Rich McCormick",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1225,7 +1225,7 @@
     "district": 8,
     "incumbent_name": "Austin Scott",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1235,7 +1235,7 @@
     "district": 9,
     "incumbent_name": "Andrew Clyde",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1245,7 +1245,7 @@
     "district": 10,
     "incumbent_name": "Mike Collins",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for Senate; open seat",
     "needs_review": false
   },
@@ -1255,7 +1255,7 @@
     "district": 11,
     "incumbent_name": "Barry Loudermilk",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1265,7 +1265,7 @@
     "district": 12,
     "incumbent_name": "Rick Allen",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1273,11 +1273,11 @@
     "id": "GA-13",
     "state": "GA",
     "district": 13,
-    "incumbent_name": null,
-    "incumbent_party": "V",
-    "caucuses_with": null,
-    "notes": "David Scott (D) left office 2026-04-21 per congress-legislators. Confirm why and special election status.",
-    "needs_review": true
+    "incumbent_name": "Everton Blair",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Won the Aug 25, 2026 special runoff for the remainder of the late David Scott's term (Scott died April 22, 2026). Not the nominee for the full term; Jasmine Clark won that primary.",
+    "needs_review": false
   },
   {
     "id": "GA-14",
@@ -1285,7 +1285,7 @@
     "district": 14,
     "incumbent_name": "Clay Fuller",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Won the 2026 special after Marjorie Taylor Greene resigned (per congress-legislators, term start 2026-04-14)",
     "needs_review": false
   },
@@ -1295,7 +1295,7 @@
     "district": 1,
     "incumbent_name": "Ed Case",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1305,287 +1305,7 @@
     "district": 2,
     "incumbent_name": "Jill Tokuda",
     "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "ID-01",
-    "state": "ID",
-    "district": 1,
-    "incumbent_name": "Russ Fulcher",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "ID-02",
-    "state": "ID",
-    "district": 2,
-    "incumbent_name": "Mike Simpson",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-01",
-    "state": "IL",
-    "district": 1,
-    "incumbent_name": "Jonathan Jackson",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-02",
-    "state": "IL",
-    "district": 2,
-    "incumbent_name": "Robin Kelly",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Running for Senate; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "IL-03",
-    "state": "IL",
-    "district": 3,
-    "incumbent_name": "Delia Ramirez",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-04",
-    "state": "IL",
-    "district": 4,
-    "incumbent_name": "Jesús \"Chuy\" García",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-05",
-    "state": "IL",
-    "district": 5,
-    "incumbent_name": "Mike Quigley",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-06",
-    "state": "IL",
-    "district": 6,
-    "incumbent_name": "Sean Casten",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-07",
-    "state": "IL",
-    "district": 7,
-    "incumbent_name": "Danny Davis",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Retiring; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "IL-08",
-    "state": "IL",
-    "district": 8,
-    "incumbent_name": "Raja Krishnamoorthi",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Running for Senate; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "IL-09",
-    "state": "IL",
-    "district": 9,
-    "incumbent_name": "Jan Schakowsky",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Retiring; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "IL-10",
-    "state": "IL",
-    "district": 10,
-    "incumbent_name": "Brad Schneider",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-11",
-    "state": "IL",
-    "district": 11,
-    "incumbent_name": "Bill Foster",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-12",
-    "state": "IL",
-    "district": 12,
-    "incumbent_name": "Mike Bost",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-13",
-    "state": "IL",
-    "district": 13,
-    "incumbent_name": "Nikki Budzinski",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-14",
-    "state": "IL",
-    "district": 14,
-    "incumbent_name": "Lauren Underwood",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-15",
-    "state": "IL",
-    "district": 15,
-    "incumbent_name": "Mary Miller",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-16",
-    "state": "IL",
-    "district": 16,
-    "incumbent_name": "Darin LaHood",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IL-17",
-    "state": "IL",
-    "district": 17,
-    "incumbent_name": "Eric Sorensen",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-01",
-    "state": "IN",
-    "district": 1,
-    "incumbent_name": "Frank Mrvan",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-02",
-    "state": "IN",
-    "district": 2,
-    "incumbent_name": "Rudy Yakym",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-03",
-    "state": "IN",
-    "district": 3,
-    "incumbent_name": "Marlin Stutzman",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-04",
-    "state": "IN",
-    "district": 4,
-    "incumbent_name": "Jim Baird",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-05",
-    "state": "IN",
-    "district": 5,
-    "incumbent_name": "Victoria Spartz",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-06",
-    "state": "IN",
-    "district": 6,
-    "incumbent_name": "Jefferson Shreve",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-07",
-    "state": "IN",
-    "district": 7,
-    "incumbent_name": "André Carson",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-08",
-    "state": "IN",
-    "district": 8,
-    "incumbent_name": "Mark Messmer",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "IN-09",
-    "state": "IN",
-    "district": 9,
-    "incumbent_name": "Erin Houchin",
-    "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1595,7 +1315,7 @@
     "district": 1,
     "incumbent_name": "Mariannette Miller-Meeks",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1605,7 +1325,7 @@
     "district": 2,
     "incumbent_name": "Ashley Hinson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for Senate; open seat",
     "needs_review": false
   },
@@ -1615,7 +1335,7 @@
     "district": 3,
     "incumbent_name": "Zach Nunn",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1625,8 +1345,288 @@
     "district": 4,
     "incumbent_name": "Randy Feenstra",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "ID-01",
+    "state": "ID",
+    "district": 1,
+    "incumbent_name": "Russ Fulcher",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "ID-02",
+    "state": "ID",
+    "district": 2,
+    "incumbent_name": "Mike Simpson",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-01",
+    "state": "IL",
+    "district": 1,
+    "incumbent_name": "Jonathan Jackson",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-02",
+    "state": "IL",
+    "district": 2,
+    "incumbent_name": "Robin Kelly",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Running for Senate; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "IL-03",
+    "state": "IL",
+    "district": 3,
+    "incumbent_name": "Delia Ramirez",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-04",
+    "state": "IL",
+    "district": 4,
+    "incumbent_name": "Jesús \"Chuy\" García",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-05",
+    "state": "IL",
+    "district": 5,
+    "incumbent_name": "Mike Quigley",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-06",
+    "state": "IL",
+    "district": 6,
+    "incumbent_name": "Sean Casten",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-07",
+    "state": "IL",
+    "district": 7,
+    "incumbent_name": "Danny Davis",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Retiring; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "IL-08",
+    "state": "IL",
+    "district": 8,
+    "incumbent_name": "Raja Krishnamoorthi",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Running for Senate; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "IL-09",
+    "state": "IL",
+    "district": 9,
+    "incumbent_name": "Jan Schakowsky",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Retiring; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "IL-10",
+    "state": "IL",
+    "district": 10,
+    "incumbent_name": "Brad Schneider",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-11",
+    "state": "IL",
+    "district": 11,
+    "incumbent_name": "Bill Foster",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-12",
+    "state": "IL",
+    "district": 12,
+    "incumbent_name": "Mike Bost",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-13",
+    "state": "IL",
+    "district": 13,
+    "incumbent_name": "Nikki Budzinski",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-14",
+    "state": "IL",
+    "district": 14,
+    "incumbent_name": "Lauren Underwood",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-15",
+    "state": "IL",
+    "district": 15,
+    "incumbent_name": "Mary Miller",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-16",
+    "state": "IL",
+    "district": 16,
+    "incumbent_name": "Darin LaHood",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IL-17",
+    "state": "IL",
+    "district": 17,
+    "incumbent_name": "Eric Sorensen",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-01",
+    "state": "IN",
+    "district": 1,
+    "incumbent_name": "Frank Mrvan",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-02",
+    "state": "IN",
+    "district": 2,
+    "incumbent_name": "Rudy Yakym",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-03",
+    "state": "IN",
+    "district": 3,
+    "incumbent_name": "Marlin Stutzman",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-04",
+    "state": "IN",
+    "district": 4,
+    "incumbent_name": "Jim Baird",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-05",
+    "state": "IN",
+    "district": 5,
+    "incumbent_name": "Victoria Spartz",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-06",
+    "state": "IN",
+    "district": 6,
+    "incumbent_name": "Jefferson Shreve",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-07",
+    "state": "IN",
+    "district": 7,
+    "incumbent_name": "André Carson",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-08",
+    "state": "IN",
+    "district": 8,
+    "incumbent_name": "Mark Messmer",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "IN-09",
+    "state": "IN",
+    "district": 9,
+    "incumbent_name": "Erin Houchin",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
     "needs_review": false
   },
   {
@@ -1635,7 +1635,7 @@
     "district": 1,
     "incumbent_name": "Tracey Mann",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1645,7 +1645,7 @@
     "district": 2,
     "incumbent_name": "Derek Schmidt",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1655,7 +1655,7 @@
     "district": 3,
     "incumbent_name": "Sharice Davids",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1665,7 +1665,7 @@
     "district": 4,
     "incumbent_name": "Ron Estes",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1675,7 +1675,7 @@
     "district": 1,
     "incumbent_name": "James Comer",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1685,7 +1685,7 @@
     "district": 2,
     "incumbent_name": "Brett Guthrie",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1695,7 +1695,7 @@
     "district": 3,
     "incumbent_name": "Morgan McGarvey",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1705,7 +1705,7 @@
     "district": 4,
     "incumbent_name": "Thomas Massie",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1715,7 +1715,7 @@
     "district": 5,
     "incumbent_name": "Hal Rogers",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1725,7 +1725,7 @@
     "district": 6,
     "incumbent_name": "Andy Barr",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for Senate; open seat",
     "needs_review": false
   },
@@ -1735,7 +1735,7 @@
     "district": 1,
     "incumbent_name": "Steve Scalise",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1745,7 +1745,7 @@
     "district": 2,
     "incumbent_name": "Troy Carter",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1755,7 +1755,7 @@
     "district": 3,
     "incumbent_name": "Clay Higgins",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1765,7 +1765,7 @@
     "district": 4,
     "incumbent_name": "Mike Johnson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1775,7 +1775,7 @@
     "district": 5,
     "incumbent_name": "Julia Letlow",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1785,108 +1785,8 @@
     "district": 6,
     "incumbent_name": "Cleo Fields",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District subject to Louisiana v. Callais litigation",
-    "needs_review": false
-  },
-  {
-    "id": "ME-01",
-    "state": "ME",
-    "district": 1,
-    "incumbent_name": "Chellie Pingree",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "ME-02",
-    "state": "ME",
-    "district": 2,
-    "incumbent_name": "Jared Golden",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Retiring; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "MD-01",
-    "state": "MD",
-    "district": 1,
-    "incumbent_name": "Andy Harris",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MD-02",
-    "state": "MD",
-    "district": 2,
-    "incumbent_name": "Johnny Olszewski",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MD-03",
-    "state": "MD",
-    "district": 3,
-    "incumbent_name": "Sarah Elfreth",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MD-04",
-    "state": "MD",
-    "district": 4,
-    "incumbent_name": "Glenn Ivey",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MD-05",
-    "state": "MD",
-    "district": 5,
-    "incumbent_name": "Steny Hoyer",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MD-06",
-    "state": "MD",
-    "district": 6,
-    "incumbent_name": "April McClain Delaney",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MD-07",
-    "state": "MD",
-    "district": 7,
-    "incumbent_name": "Kweisi Mfume",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MD-08",
-    "state": "MD",
-    "district": 8,
-    "incumbent_name": "Jamie Raskin",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
     "needs_review": false
   },
   {
@@ -1895,7 +1795,7 @@
     "district": 1,
     "incumbent_name": "Richard Neal",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1905,7 +1805,7 @@
     "district": 2,
     "incumbent_name": "Jim McGovern",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1915,7 +1815,7 @@
     "district": 3,
     "incumbent_name": "Lori Trahan",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1925,7 +1825,7 @@
     "district": 4,
     "incumbent_name": "Jake Auchincloss",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1935,7 +1835,7 @@
     "district": 5,
     "incumbent_name": "Katherine Clark",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1945,7 +1845,7 @@
     "district": 6,
     "incumbent_name": "Seth Moulton",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Running for Senate; open seat",
     "needs_review": false
   },
@@ -1955,7 +1855,7 @@
     "district": 7,
     "incumbent_name": "Ayanna Pressley",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1965,7 +1865,7 @@
     "district": 8,
     "incumbent_name": "Stephen Lynch",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -1975,8 +1875,108 @@
     "district": 9,
     "incumbent_name": "Bill Keating",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-01",
+    "state": "MD",
+    "district": 1,
+    "incumbent_name": "Andy Harris",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-02",
+    "state": "MD",
+    "district": 2,
+    "incumbent_name": "Johnny Olszewski",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-03",
+    "state": "MD",
+    "district": 3,
+    "incumbent_name": "Sarah Elfreth",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-04",
+    "state": "MD",
+    "district": 4,
+    "incumbent_name": "Glenn Ivey",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-05",
+    "state": "MD",
+    "district": 5,
+    "incumbent_name": "Steny Hoyer",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-06",
+    "state": "MD",
+    "district": 6,
+    "incumbent_name": "April McClain Delaney",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-07",
+    "state": "MD",
+    "district": 7,
+    "incumbent_name": "Kweisi Mfume",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MD-08",
+    "state": "MD",
+    "district": 8,
+    "incumbent_name": "Jamie Raskin",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "ME-01",
+    "state": "ME",
+    "district": 1,
+    "incumbent_name": "Chellie Pingree",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "ME-02",
+    "state": "ME",
+    "district": 2,
+    "incumbent_name": "Jared Golden",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Retiring; open seat",
     "needs_review": false
   },
   {
@@ -1985,7 +1985,7 @@
     "district": 1,
     "incumbent_name": "Jack Bergman",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -1995,7 +1995,7 @@
     "district": 2,
     "incumbent_name": "John Moolenaar",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2005,7 +2005,7 @@
     "district": 3,
     "incumbent_name": "Hillary Scholten",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2015,7 +2015,7 @@
     "district": 4,
     "incumbent_name": "Bill Huizenga",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2025,7 +2025,7 @@
     "district": 5,
     "incumbent_name": "Tim Walberg",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2035,7 +2035,7 @@
     "district": 6,
     "incumbent_name": "Debbie Dingell",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2045,7 +2045,7 @@
     "district": 7,
     "incumbent_name": "Tom Barrett",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2055,7 +2055,7 @@
     "district": 8,
     "incumbent_name": "Kristen McDonald Rivet",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2065,7 +2065,7 @@
     "district": 9,
     "incumbent_name": "Lisa McClain",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2075,7 +2075,7 @@
     "district": 10,
     "incumbent_name": "John James",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
     "needs_review": false
   },
@@ -2085,7 +2085,7 @@
     "district": 11,
     "incumbent_name": "Haley Stevens",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Running for Senate; open seat",
     "needs_review": false
   },
@@ -2095,7 +2095,7 @@
     "district": 12,
     "incumbent_name": "Rashida Tlaib",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2105,7 +2105,7 @@
     "district": 13,
     "incumbent_name": "Shri Thanedar",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2115,7 +2115,7 @@
     "district": 1,
     "incumbent_name": "Brad Finstad",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2125,7 +2125,7 @@
     "district": 2,
     "incumbent_name": "Angie Craig",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Running for Senate; open seat",
     "needs_review": false
   },
@@ -2135,7 +2135,7 @@
     "district": 3,
     "incumbent_name": "Kelly Morrison",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2145,7 +2145,7 @@
     "district": 4,
     "incumbent_name": "Betty McCollum",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Retiring; open seat",
     "needs_review": false
   },
@@ -2155,7 +2155,7 @@
     "district": 5,
     "incumbent_name": "Ilhan Omar",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2165,7 +2165,7 @@
     "district": 6,
     "incumbent_name": "Tom Emmer",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2175,7 +2175,7 @@
     "district": 7,
     "incumbent_name": "Michelle Fischbach",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2185,47 +2185,7 @@
     "district": 8,
     "incumbent_name": "Pete Stauber",
     "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MS-01",
-    "state": "MS",
-    "district": 1,
-    "incumbent_name": "Trent Kelly",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MS-02",
-    "state": "MS",
-    "district": 2,
-    "incumbent_name": "Bennie Thompson",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MS-03",
-    "state": "MS",
-    "district": 3,
-    "incumbent_name": "Michael Guest",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "MS-04",
-    "state": "MS",
-    "district": 4,
-    "incumbent_name": "Mike Ezell",
-    "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2235,7 +2195,7 @@
     "district": 1,
     "incumbent_name": "Wesley Bell",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2245,7 +2205,7 @@
     "district": 2,
     "incumbent_name": "Ann Wagner",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2255,7 +2215,7 @@
     "district": 3,
     "incumbent_name": "Bob Onder",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2265,7 +2225,7 @@
     "district": 4,
     "incumbent_name": "Mark Alford",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2275,7 +2235,7 @@
     "district": 5,
     "incumbent_name": "Emanuel Cleaver",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025 to favor Republicans",
     "needs_review": false
   },
@@ -2285,7 +2245,7 @@
     "district": 6,
     "incumbent_name": "Sam Graves",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2295,7 +2255,7 @@
     "district": 7,
     "incumbent_name": "Eric Burlison",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2305,7 +2265,47 @@
     "district": 8,
     "incumbent_name": "Jason Smith",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MS-01",
+    "state": "MS",
+    "district": 1,
+    "incumbent_name": "Trent Kelly",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MS-02",
+    "state": "MS",
+    "district": 2,
+    "incumbent_name": "Bennie Thompson",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MS-03",
+    "state": "MS",
+    "district": 3,
+    "incumbent_name": "Michael Guest",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "MS-04",
+    "state": "MS",
+    "district": 4,
+    "incumbent_name": "Mike Ezell",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2315,7 +2315,7 @@
     "district": 1,
     "incumbent_name": "Ryan Zinke",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2325,507 +2325,7 @@
     "district": 2,
     "incumbent_name": "Troy Downing",
     "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NE-01",
-    "state": "NE",
-    "district": 1,
-    "incumbent_name": "Mike Flood",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NE-02",
-    "state": "NE",
-    "district": 2,
-    "incumbent_name": "Don Bacon",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": "Retiring; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "NE-03",
-    "state": "NE",
-    "district": 3,
-    "incumbent_name": "Adrian Smith",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NV-01",
-    "state": "NV",
-    "district": 1,
-    "incumbent_name": "Dina Titus",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NV-02",
-    "state": "NV",
-    "district": 2,
-    "incumbent_name": "Mark Amodei",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NV-03",
-    "state": "NV",
-    "district": 3,
-    "incumbent_name": "Susie Lee",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NV-04",
-    "state": "NV",
-    "district": 4,
-    "incumbent_name": "Steven Horsford",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NH-01",
-    "state": "NH",
-    "district": 1,
-    "incumbent_name": "Chris Pappas",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Running for Senate; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "NH-02",
-    "state": "NH",
-    "district": 2,
-    "incumbent_name": "Maggie Goodlander",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-01",
-    "state": "NJ",
-    "district": 1,
-    "incumbent_name": "Donald Norcross",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-02",
-    "state": "NJ",
-    "district": 2,
-    "incumbent_name": "Jeff Van Drew",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-03",
-    "state": "NJ",
-    "district": 3,
-    "incumbent_name": "Herb Conaway",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-04",
-    "state": "NJ",
-    "district": 4,
-    "incumbent_name": "Chris Smith",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-05",
-    "state": "NJ",
-    "district": 5,
-    "incumbent_name": "Josh Gottheimer",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-06",
-    "state": "NJ",
-    "district": 6,
-    "incumbent_name": "Frank Pallone",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-07",
-    "state": "NJ",
-    "district": 7,
-    "incumbent_name": "Tom Kean Jr.",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-08",
-    "state": "NJ",
-    "district": 8,
-    "incumbent_name": "Rob Menendez",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-09",
-    "state": "NJ",
-    "district": 9,
-    "incumbent_name": "Nellie Pou",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-10",
-    "state": "NJ",
-    "district": 10,
-    "incumbent_name": "LaMonica McIver",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NJ-11",
-    "state": "NJ",
-    "district": 11,
-    "incumbent_name": "Analilia Mejia",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Won April 2026 special after Mikie Sherrill became governor",
-    "needs_review": false
-  },
-  {
-    "id": "NJ-12",
-    "state": "NJ",
-    "district": 12,
-    "incumbent_name": "Bonnie Watson Coleman",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NM-01",
-    "state": "NM",
-    "district": 1,
-    "incumbent_name": "Melanie Stansbury",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NM-02",
-    "state": "NM",
-    "district": 2,
-    "incumbent_name": "Gabe Vasquez",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NM-03",
-    "state": "NM",
-    "district": 3,
-    "incumbent_name": "Teresa Leger Fernandez",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-01",
-    "state": "NY",
-    "district": 1,
-    "incumbent_name": "Nick LaLota",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-02",
-    "state": "NY",
-    "district": 2,
-    "incumbent_name": "Andrew Garbarino",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-03",
-    "state": "NY",
-    "district": 3,
-    "incumbent_name": "Tom Suozzi",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-04",
-    "state": "NY",
-    "district": 4,
-    "incumbent_name": "Laura Gillen",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-05",
-    "state": "NY",
-    "district": 5,
-    "incumbent_name": "Gregory Meeks",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-06",
-    "state": "NY",
-    "district": 6,
-    "incumbent_name": "Grace Meng",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-07",
-    "state": "NY",
-    "district": 7,
-    "incumbent_name": "Nydia Velázquez",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Retiring; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "NY-08",
-    "state": "NY",
-    "district": 8,
-    "incumbent_name": "Hakeem Jeffries",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-09",
-    "state": "NY",
-    "district": 9,
-    "incumbent_name": "Yvette Clarke",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-10",
-    "state": "NY",
-    "district": 10,
-    "incumbent_name": "Dan Goldman",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-11",
-    "state": "NY",
-    "district": 11,
-    "incumbent_name": "Nicole Malliotakis",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-12",
-    "state": "NY",
-    "district": 12,
-    "incumbent_name": "Jerry Nadler",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": "Retiring; open seat",
-    "needs_review": false
-  },
-  {
-    "id": "NY-13",
-    "state": "NY",
-    "district": 13,
-    "incumbent_name": "Adriano Espaillat",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-14",
-    "state": "NY",
-    "district": 14,
-    "incumbent_name": "Alexandria Ocasio-Cortez",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-15",
-    "state": "NY",
-    "district": 15,
-    "incumbent_name": "Ritchie Torres",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-16",
-    "state": "NY",
-    "district": 16,
-    "incumbent_name": "George Latimer",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-17",
-    "state": "NY",
-    "district": 17,
-    "incumbent_name": "Mike Lawler",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-18",
-    "state": "NY",
-    "district": 18,
-    "incumbent_name": "Pat Ryan",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-19",
-    "state": "NY",
-    "district": 19,
-    "incumbent_name": "Josh Riley",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-20",
-    "state": "NY",
-    "district": 20,
-    "incumbent_name": "Paul Tonko",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-21",
-    "state": "NY",
-    "district": 21,
-    "incumbent_name": "Elise Stefanik",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-22",
-    "state": "NY",
-    "district": 22,
-    "incumbent_name": "John Mannion",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-23",
-    "state": "NY",
-    "district": 23,
-    "incumbent_name": "Nick Langworthy",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-24",
-    "state": "NY",
-    "district": 24,
-    "incumbent_name": "Claudia Tenney",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-25",
-    "state": "NY",
-    "district": 25,
-    "incumbent_name": "Joe Morelle",
-    "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "NY-26",
-    "state": "NY",
-    "district": 26,
-    "incumbent_name": "Tim Kennedy",
-    "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2835,7 +2335,7 @@
     "district": 1,
     "incumbent_name": "Don Davis",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025 to favor Republicans",
     "needs_review": false
   },
@@ -2845,7 +2345,7 @@
     "district": 2,
     "incumbent_name": "Deborah Ross",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2855,7 +2355,7 @@
     "district": 3,
     "incumbent_name": "Greg Murphy",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2865,7 +2365,7 @@
     "district": 4,
     "incumbent_name": "Valerie Foushee",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2875,7 +2375,7 @@
     "district": 5,
     "incumbent_name": "Virginia Foxx",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2885,7 +2385,7 @@
     "district": 6,
     "incumbent_name": "Addison McDowell",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2895,7 +2395,7 @@
     "district": 7,
     "incumbent_name": "David Rouzer",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2905,7 +2405,7 @@
     "district": 8,
     "incumbent_name": "Mark Harris",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2915,7 +2415,7 @@
     "district": 9,
     "incumbent_name": "Richard Hudson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2925,7 +2425,7 @@
     "district": 10,
     "incumbent_name": "Pat Harrigan",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2935,7 +2435,7 @@
     "district": 11,
     "incumbent_name": "Chuck Edwards",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2945,7 +2445,7 @@
     "district": 12,
     "incumbent_name": "Alma Adams",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2955,7 +2455,7 @@
     "district": 13,
     "incumbent_name": "Brad Knott",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2965,7 +2465,7 @@
     "district": 14,
     "incumbent_name": "Tim Moore",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -2975,7 +2475,507 @@
     "district": 0,
     "incumbent_name": "Julie Fedorchak",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NE-01",
+    "state": "NE",
+    "district": 1,
+    "incumbent_name": "Mike Flood",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NE-02",
+    "state": "NE",
+    "district": 2,
+    "incumbent_name": "Don Bacon",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": "Retiring; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "NE-03",
+    "state": "NE",
+    "district": 3,
+    "incumbent_name": "Adrian Smith",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NH-01",
+    "state": "NH",
+    "district": 1,
+    "incumbent_name": "Chris Pappas",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Running for Senate; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "NH-02",
+    "state": "NH",
+    "district": 2,
+    "incumbent_name": "Maggie Goodlander",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-01",
+    "state": "NJ",
+    "district": 1,
+    "incumbent_name": "Donald Norcross",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-02",
+    "state": "NJ",
+    "district": 2,
+    "incumbent_name": "Jeff Van Drew",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-03",
+    "state": "NJ",
+    "district": 3,
+    "incumbent_name": "Herb Conaway",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-04",
+    "state": "NJ",
+    "district": 4,
+    "incumbent_name": "Chris Smith",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-05",
+    "state": "NJ",
+    "district": 5,
+    "incumbent_name": "Josh Gottheimer",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-06",
+    "state": "NJ",
+    "district": 6,
+    "incumbent_name": "Frank Pallone",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-07",
+    "state": "NJ",
+    "district": 7,
+    "incumbent_name": "Tom Kean Jr.",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-08",
+    "state": "NJ",
+    "district": 8,
+    "incumbent_name": "Rob Menendez",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-09",
+    "state": "NJ",
+    "district": 9,
+    "incumbent_name": "Nellie Pou",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-10",
+    "state": "NJ",
+    "district": 10,
+    "incumbent_name": "LaMonica McIver",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NJ-11",
+    "state": "NJ",
+    "district": 11,
+    "incumbent_name": "Analilia Mejia",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Won April 2026 special after Mikie Sherrill became governor",
+    "needs_review": false
+  },
+  {
+    "id": "NJ-12",
+    "state": "NJ",
+    "district": 12,
+    "incumbent_name": "Bonnie Watson Coleman",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NM-01",
+    "state": "NM",
+    "district": 1,
+    "incumbent_name": "Melanie Stansbury",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NM-02",
+    "state": "NM",
+    "district": 2,
+    "incumbent_name": "Gabe Vasquez",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NM-03",
+    "state": "NM",
+    "district": 3,
+    "incumbent_name": "Teresa Leger Fernandez",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NV-01",
+    "state": "NV",
+    "district": 1,
+    "incumbent_name": "Dina Titus",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NV-02",
+    "state": "NV",
+    "district": 2,
+    "incumbent_name": "Mark Amodei",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NV-03",
+    "state": "NV",
+    "district": 3,
+    "incumbent_name": "Susie Lee",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NV-04",
+    "state": "NV",
+    "district": 4,
+    "incumbent_name": "Steven Horsford",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-01",
+    "state": "NY",
+    "district": 1,
+    "incumbent_name": "Nick LaLota",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-02",
+    "state": "NY",
+    "district": 2,
+    "incumbent_name": "Andrew Garbarino",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-03",
+    "state": "NY",
+    "district": 3,
+    "incumbent_name": "Tom Suozzi",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-04",
+    "state": "NY",
+    "district": 4,
+    "incumbent_name": "Laura Gillen",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-05",
+    "state": "NY",
+    "district": 5,
+    "incumbent_name": "Gregory Meeks",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-06",
+    "state": "NY",
+    "district": 6,
+    "incumbent_name": "Grace Meng",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-07",
+    "state": "NY",
+    "district": 7,
+    "incumbent_name": "Nydia Velázquez",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Retiring; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "NY-08",
+    "state": "NY",
+    "district": 8,
+    "incumbent_name": "Hakeem Jeffries",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-09",
+    "state": "NY",
+    "district": 9,
+    "incumbent_name": "Yvette Clarke",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-10",
+    "state": "NY",
+    "district": 10,
+    "incumbent_name": "Dan Goldman",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-11",
+    "state": "NY",
+    "district": 11,
+    "incumbent_name": "Nicole Malliotakis",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-12",
+    "state": "NY",
+    "district": 12,
+    "incumbent_name": "Jerry Nadler",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": "Retiring; open seat",
+    "needs_review": false
+  },
+  {
+    "id": "NY-13",
+    "state": "NY",
+    "district": 13,
+    "incumbent_name": "Adriano Espaillat",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-14",
+    "state": "NY",
+    "district": 14,
+    "incumbent_name": "Alexandria Ocasio-Cortez",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-15",
+    "state": "NY",
+    "district": 15,
+    "incumbent_name": "Ritchie Torres",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-16",
+    "state": "NY",
+    "district": 16,
+    "incumbent_name": "George Latimer",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-17",
+    "state": "NY",
+    "district": 17,
+    "incumbent_name": "Mike Lawler",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-18",
+    "state": "NY",
+    "district": 18,
+    "incumbent_name": "Pat Ryan",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-19",
+    "state": "NY",
+    "district": 19,
+    "incumbent_name": "Josh Riley",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-20",
+    "state": "NY",
+    "district": 20,
+    "incumbent_name": "Paul Tonko",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-21",
+    "state": "NY",
+    "district": 21,
+    "incumbent_name": "Elise Stefanik",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-22",
+    "state": "NY",
+    "district": 22,
+    "incumbent_name": "John Mannion",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-23",
+    "state": "NY",
+    "district": 23,
+    "incumbent_name": "Nick Langworthy",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-24",
+    "state": "NY",
+    "district": 24,
+    "incumbent_name": "Claudia Tenney",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-25",
+    "state": "NY",
+    "district": 25,
+    "incumbent_name": "Joe Morelle",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "NY-26",
+    "state": "NY",
+    "district": 26,
+    "incumbent_name": "Tim Kennedy",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2985,7 +2985,7 @@
     "district": 1,
     "incumbent_name": "Greg Landsman",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -2995,7 +2995,7 @@
     "district": 2,
     "incumbent_name": "David Taylor",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3005,7 +3005,7 @@
     "district": 3,
     "incumbent_name": "Joyce Beatty",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3015,7 +3015,7 @@
     "district": 4,
     "incumbent_name": "Jim Jordan",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3025,7 +3025,7 @@
     "district": 5,
     "incumbent_name": "Bob Latta",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3035,7 +3035,7 @@
     "district": 6,
     "incumbent_name": "Michael Rulli",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3045,7 +3045,7 @@
     "district": 7,
     "incumbent_name": "Max Miller",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3055,7 +3055,7 @@
     "district": 8,
     "incumbent_name": "Warren Davidson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3065,7 +3065,7 @@
     "district": 9,
     "incumbent_name": "Marcy Kaptur",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "New Ohio map for 2026",
     "needs_review": false
   },
@@ -3075,7 +3075,7 @@
     "district": 10,
     "incumbent_name": "Mike Turner",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3085,7 +3085,7 @@
     "district": 11,
     "incumbent_name": "Shontel Brown",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3095,7 +3095,7 @@
     "district": 12,
     "incumbent_name": "Troy Balderson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3105,7 +3105,7 @@
     "district": 13,
     "incumbent_name": "Emilia Sykes",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "New Ohio map for 2026",
     "needs_review": false
   },
@@ -3115,7 +3115,7 @@
     "district": 14,
     "incumbent_name": "David Joyce",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3125,7 +3125,7 @@
     "district": 15,
     "incumbent_name": "Mike Carey",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3135,7 +3135,7 @@
     "district": 1,
     "incumbent_name": "Kevin Hern",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3145,7 +3145,7 @@
     "district": 2,
     "incumbent_name": "Josh Brecheen",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3155,7 +3155,7 @@
     "district": 3,
     "incumbent_name": "Frank Lucas",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3165,7 +3165,7 @@
     "district": 4,
     "incumbent_name": "Tom Cole",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3175,7 +3175,7 @@
     "district": 5,
     "incumbent_name": "Stephanie Bice",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3185,7 +3185,7 @@
     "district": 1,
     "incumbent_name": "Suzanne Bonamici",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3195,7 +3195,7 @@
     "district": 2,
     "incumbent_name": "Cliff Bentz",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3205,7 +3205,7 @@
     "district": 3,
     "incumbent_name": "Maxine Dexter",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3215,7 +3215,7 @@
     "district": 4,
     "incumbent_name": "Val Hoyle",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3225,7 +3225,7 @@
     "district": 5,
     "incumbent_name": "Janelle Bynum",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3235,7 +3235,7 @@
     "district": 6,
     "incumbent_name": "Andrea Salinas",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3245,7 +3245,7 @@
     "district": 1,
     "incumbent_name": "Brian Fitzpatrick",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3255,7 +3255,7 @@
     "district": 2,
     "incumbent_name": "Brendan Boyle",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3265,7 +3265,7 @@
     "district": 3,
     "incumbent_name": "Dwight Evans",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Retiring; open seat",
     "needs_review": false
   },
@@ -3275,7 +3275,7 @@
     "district": 4,
     "incumbent_name": "Madeleine Dean",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3285,7 +3285,7 @@
     "district": 5,
     "incumbent_name": "Mary Gay Scanlon",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3295,7 +3295,7 @@
     "district": 6,
     "incumbent_name": "Chrissy Houlahan",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3305,7 +3305,7 @@
     "district": 7,
     "incumbent_name": "Ryan Mackenzie",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3315,7 +3315,7 @@
     "district": 8,
     "incumbent_name": "Rob Bresnahan",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3325,7 +3325,7 @@
     "district": 9,
     "incumbent_name": "Dan Meuser",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3335,7 +3335,7 @@
     "district": 10,
     "incumbent_name": "Scott Perry",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3345,7 +3345,7 @@
     "district": 11,
     "incumbent_name": "Lloyd Smucker",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3355,7 +3355,7 @@
     "district": 12,
     "incumbent_name": "Summer Lee",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3365,7 +3365,7 @@
     "district": 13,
     "incumbent_name": "John Joyce",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3375,7 +3375,7 @@
     "district": 14,
     "incumbent_name": "Guy Reschenthaler",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3385,7 +3385,7 @@
     "district": 15,
     "incumbent_name": "Glenn Thompson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3395,7 +3395,7 @@
     "district": 16,
     "incumbent_name": "Mike Kelly",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3405,7 +3405,7 @@
     "district": 17,
     "incumbent_name": "Chris Deluzio",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3415,7 +3415,7 @@
     "district": 1,
     "incumbent_name": "Gabe Amo",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3425,7 +3425,7 @@
     "district": 2,
     "incumbent_name": "Seth Magaziner",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3435,7 +3435,7 @@
     "district": 1,
     "incumbent_name": "Nancy Mace",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
     "needs_review": false
   },
@@ -3445,7 +3445,7 @@
     "district": 2,
     "incumbent_name": "Joe Wilson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3455,7 +3455,7 @@
     "district": 3,
     "incumbent_name": "Sheri Biggs",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3465,7 +3465,7 @@
     "district": 4,
     "incumbent_name": "William Timmons",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3475,7 +3475,7 @@
     "district": 5,
     "incumbent_name": "Ralph Norman",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
     "needs_review": false
   },
@@ -3485,7 +3485,7 @@
     "district": 6,
     "incumbent_name": "Jim Clyburn",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3495,7 +3495,7 @@
     "district": 7,
     "incumbent_name": "Russell Fry",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3505,7 +3505,7 @@
     "district": 0,
     "incumbent_name": "Dusty Johnson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
     "needs_review": false
   },
@@ -3515,7 +3515,7 @@
     "district": 1,
     "incumbent_name": "Diana Harshbarger",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3525,7 +3525,7 @@
     "district": 2,
     "incumbent_name": "Tim Burchett",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3535,7 +3535,7 @@
     "district": 3,
     "incumbent_name": "Chuck Fleischmann",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3545,7 +3545,7 @@
     "district": 4,
     "incumbent_name": "Scott DesJarlais",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3555,7 +3555,7 @@
     "district": 5,
     "incumbent_name": "Andy Ogles",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3565,7 +3565,7 @@
     "district": 6,
     "incumbent_name": "John Rose",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
     "needs_review": false
   },
@@ -3575,7 +3575,7 @@
     "district": 7,
     "incumbent_name": "Matt Van Epps",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Won Dec 2025 special after Mark Green resigned",
     "needs_review": false
   },
@@ -3585,7 +3585,7 @@
     "district": 8,
     "incumbent_name": "David Kustoff",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3595,7 +3595,7 @@
     "district": 9,
     "incumbent_name": "Steve Cohen",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3605,7 +3605,7 @@
     "district": 1,
     "incumbent_name": "Nathaniel Moran",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3615,7 +3615,7 @@
     "district": 2,
     "incumbent_name": "Dan Crenshaw",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3625,7 +3625,7 @@
     "district": 3,
     "incumbent_name": "Keith Self",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3635,7 +3635,7 @@
     "district": 4,
     "incumbent_name": "Pat Fallon",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3645,7 +3645,7 @@
     "district": 5,
     "incumbent_name": "Lance Gooden",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3655,7 +3655,7 @@
     "district": 6,
     "incumbent_name": "Jake Ellzey",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3665,7 +3665,7 @@
     "district": 7,
     "incumbent_name": "Lizzie Fletcher",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3675,7 +3675,7 @@
     "district": 8,
     "incumbent_name": "Morgan Luttrell",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3685,7 +3685,7 @@
     "district": 9,
     "incumbent_name": "Al Green",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025 to favor Republicans; Green ran in TX-18 instead",
     "needs_review": false
   },
@@ -3695,7 +3695,7 @@
     "district": 10,
     "incumbent_name": "Michael McCaul",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Retiring; open seat",
     "needs_review": false
   },
@@ -3705,7 +3705,7 @@
     "district": 11,
     "incumbent_name": "August Pfluger",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3715,7 +3715,7 @@
     "district": 12,
     "incumbent_name": "Craig Goldman",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3725,7 +3725,7 @@
     "district": 13,
     "incumbent_name": "Ronny Jackson",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3735,7 +3735,7 @@
     "district": 14,
     "incumbent_name": "Randy Weber",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3745,7 +3745,7 @@
     "district": 15,
     "incumbent_name": "Monica De La Cruz",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3755,7 +3755,7 @@
     "district": 16,
     "incumbent_name": "Veronica Escobar",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3765,7 +3765,7 @@
     "district": 17,
     "incumbent_name": "Pete Sessions",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3775,7 +3775,7 @@
     "district": 18,
     "incumbent_name": "Christian Menefee",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Won Jan 2026 special runoff after Sylvester Turner's death",
     "needs_review": false
   },
@@ -3785,7 +3785,7 @@
     "district": 19,
     "incumbent_name": "Jodey Arrington",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3795,7 +3795,7 @@
     "district": 20,
     "incumbent_name": "Joaquin Castro",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3805,7 +3805,7 @@
     "district": 21,
     "incumbent_name": "Chip Roy",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for state attorney general; open seat",
     "needs_review": false
   },
@@ -3815,7 +3815,7 @@
     "district": 22,
     "incumbent_name": "Troy Nehls",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Retiring; open seat",
     "needs_review": false
   },
@@ -3826,8 +3826,8 @@
     "incumbent_name": null,
     "incumbent_party": "V",
     "caucuses_with": null,
-    "notes": "Tony Gonzales (R) left office 2026-04-14 per congress-legislators. Confirm why and special election status.",
-    "needs_review": true
+    "notes": "Vacant. Tony Gonzales (R) resigned April 14, 2026 during a House Ethics investigation and ahead of a likely expulsion vote. Gov. Abbott had not scheduled a special election as of Sept 2, 2026.",
+    "needs_review": false
   },
   {
     "id": "TX-24",
@@ -3835,7 +3835,7 @@
     "district": 24,
     "incumbent_name": "Beth Van Duyne",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3845,7 +3845,7 @@
     "district": 25,
     "incumbent_name": "Roger Williams",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3855,7 +3855,7 @@
     "district": 26,
     "incumbent_name": "Brandon Gill",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3865,7 +3865,7 @@
     "district": 27,
     "incumbent_name": "Michael Cloud",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3875,7 +3875,7 @@
     "district": 28,
     "incumbent_name": "Henry Cuellar",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025",
     "needs_review": false
   },
@@ -3885,7 +3885,7 @@
     "district": 29,
     "incumbent_name": "Sylvia Garcia",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -3895,7 +3895,7 @@
     "district": 30,
     "incumbent_name": "Jasmine Crockett",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Ran for Senate in 2026",
     "needs_review": false
   },
@@ -3905,7 +3905,7 @@
     "district": 31,
     "incumbent_name": "John Carter",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3915,7 +3915,7 @@
     "district": 32,
     "incumbent_name": "Julie Johnson",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025 to favor Republicans",
     "needs_review": false
   },
@@ -3925,7 +3925,7 @@
     "district": 33,
     "incumbent_name": "Marc Veasey",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025",
     "needs_review": false
   },
@@ -3935,7 +3935,7 @@
     "district": 34,
     "incumbent_name": "Vicente Gonzalez",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025",
     "needs_review": false
   },
@@ -3945,7 +3945,7 @@
     "district": 35,
     "incumbent_name": "Greg Casar",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "District redrawn in 2025 to favor Republicans; Casar moved to run in TX-37",
     "needs_review": false
   },
@@ -3955,7 +3955,7 @@
     "district": 36,
     "incumbent_name": "Brian Babin",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -3965,7 +3965,7 @@
     "district": 37,
     "incumbent_name": "Lloyd Doggett",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Retiring; Greg Casar running here in 2026",
     "needs_review": false
   },
@@ -3975,7 +3975,7 @@
     "district": 38,
     "incumbent_name": "Wesley Hunt",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Ran for Senate in 2026",
     "needs_review": false
   },
@@ -3985,7 +3985,7 @@
     "district": 1,
     "incumbent_name": "Blake Moore",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Court-ordered 2025 map created a Salt Lake City district; numbering may change",
     "needs_review": false
   },
@@ -3995,7 +3995,7 @@
     "district": 2,
     "incumbent_name": "Celeste Maloy",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4005,7 +4005,7 @@
     "district": 3,
     "incumbent_name": "Mike Kennedy",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4015,17 +4015,7 @@
     "district": 4,
     "incumbent_name": "Burgess Owens",
     "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "VT-00",
-    "state": "VT",
-    "district": 0,
-    "incumbent_name": "Becca Balint",
-    "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4035,7 +4025,7 @@
     "district": 1,
     "incumbent_name": "Rob Wittman",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4045,7 +4035,7 @@
     "district": 2,
     "incumbent_name": "Jen Kiggans",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4055,7 +4045,7 @@
     "district": 3,
     "incumbent_name": "Bobby Scott",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4065,7 +4055,7 @@
     "district": 4,
     "incumbent_name": "Jennifer McClellan",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4075,7 +4065,7 @@
     "district": 5,
     "incumbent_name": "John McGuire",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4085,7 +4075,7 @@
     "district": 6,
     "incumbent_name": "Ben Cline",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4095,7 +4085,7 @@
     "district": 7,
     "incumbent_name": "Eugene Vindman",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4105,7 +4095,7 @@
     "district": 8,
     "incumbent_name": "Don Beyer",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4115,7 +4105,7 @@
     "district": 9,
     "incumbent_name": "Morgan Griffith",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4125,7 +4115,7 @@
     "district": 10,
     "incumbent_name": "Suhas Subramanyam",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4135,8 +4125,18 @@
     "district": 11,
     "incumbent_name": "James Walkinshaw",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": "Won Sept 2025 special after Gerry Connolly's death",
+    "needs_review": false
+  },
+  {
+    "id": "VT-00",
+    "state": "VT",
+    "district": 0,
+    "incumbent_name": "Becca Balint",
+    "incumbent_party": "D",
+    "caucuses_with": "D",
+    "notes": null,
     "needs_review": false
   },
   {
@@ -4145,7 +4145,7 @@
     "district": 1,
     "incumbent_name": "Suzan DelBene",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4155,7 +4155,7 @@
     "district": 2,
     "incumbent_name": "Rick Larsen",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4165,7 +4165,7 @@
     "district": 3,
     "incumbent_name": "Marie Gluesenkamp Perez",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4175,7 +4175,7 @@
     "district": 4,
     "incumbent_name": "Dan Newhouse",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Retiring; open seat",
     "needs_review": false
   },
@@ -4185,7 +4185,7 @@
     "district": 5,
     "incumbent_name": "Michael Baumgartner",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4195,7 +4195,7 @@
     "district": 6,
     "incumbent_name": "Emily Randall",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4205,7 +4205,7 @@
     "district": 7,
     "incumbent_name": "Pramila Jayapal",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4215,7 +4215,7 @@
     "district": 8,
     "incumbent_name": "Kim Schrier",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4225,7 +4225,7 @@
     "district": 9,
     "incumbent_name": "Adam Smith",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4235,27 +4235,7 @@
     "district": 10,
     "incumbent_name": "Marilyn Strickland",
     "incumbent_party": "D",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "WV-01",
-    "state": "WV",
-    "district": 1,
-    "incumbent_name": "Carol Miller",
-    "incumbent_party": "R",
-    "caucuses_with": null,
-    "notes": null,
-    "needs_review": false
-  },
-  {
-    "id": "WV-02",
-    "state": "WV",
-    "district": 2,
-    "incumbent_name": "Riley Moore",
-    "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4265,7 +4245,7 @@
     "district": 1,
     "incumbent_name": "Bryan Steil",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4275,7 +4255,7 @@
     "district": 2,
     "incumbent_name": "Mark Pocan",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4285,7 +4265,7 @@
     "district": 3,
     "incumbent_name": "Derrick Van Orden",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4295,7 +4275,7 @@
     "district": 4,
     "incumbent_name": "Gwen Moore",
     "incumbent_party": "D",
-    "caucuses_with": null,
+    "caucuses_with": "D",
     "notes": null,
     "needs_review": false
   },
@@ -4305,7 +4285,7 @@
     "district": 5,
     "incumbent_name": "Scott Fitzgerald",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4315,7 +4295,7 @@
     "district": 6,
     "incumbent_name": "Glenn Grothman",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4325,7 +4305,7 @@
     "district": 7,
     "incumbent_name": "Tom Tiffany",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": "Running for governor; open seat",
     "needs_review": false
   },
@@ -4335,7 +4315,27 @@
     "district": 8,
     "incumbent_name": "Tony Wied",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "WV-01",
+    "state": "WV",
+    "district": 1,
+    "incumbent_name": "Carol Miller",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
+    "notes": null,
+    "needs_review": false
+  },
+  {
+    "id": "WV-02",
+    "state": "WV",
+    "district": 2,
+    "incumbent_name": "Riley Moore",
+    "incumbent_party": "R",
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   },
@@ -4345,7 +4345,7 @@
     "district": 0,
     "incumbent_name": "Harriet Hageman",
     "incumbent_party": "R",
-    "caucuses_with": null,
+    "caucuses_with": "R",
     "notes": null,
     "needs_review": false
   }

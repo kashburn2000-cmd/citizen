@@ -15,10 +15,11 @@ export const STATUS_LABEL: Record<Candidate["status"], string> = {
   withdrew: "Withdrew",
   won: "Won",
   lost: "Lost",
+  died: "Died",
 };
 
 /** Statuses that mean a candidate is no longer on the ballot. */
-export const OUT = new Set<Candidate["status"]>(["lost_primary", "withdrew", "lost"]);
+export const OUT = new Set<Candidate["status"]>(["lost_primary", "withdrew", "lost", "died"]);
 
 export interface CandidateView extends Candidate {
   summary: CandidateScoreSummary;

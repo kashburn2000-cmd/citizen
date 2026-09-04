@@ -32,7 +32,14 @@ export async function loadFromSupabase(supabase: SupabaseClient): Promise<Datase
   return {
     seats,
     races,
-    candidates,
+    // numeric columns come back from PostgREST as strings
+    candidates: candidates.map((c) => ({
+      ...c,
+      dw_nominate: c.dw_nominate === null ? null : Number(c.dw_nominate),
+      nonindividual_share: c.nonindividual_share === null ? null : Number(c.nonindividual_share),
+      outside_spending_for: c.outside_spending_for === null ? null : Number(c.outside_spending_for),
+      outside_spending_against: c.outside_spending_against === null ? null : Number(c.outside_spending_against),
+    })),
     issues: issues.map((i) => ({ ...i, weight: Number(i.weight) })),
     scores,
     orgs,

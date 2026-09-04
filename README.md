@@ -9,7 +9,7 @@ A dashboard for tracking the fight for the House and the progressive candidates 
 - A race panel for each tracked contest: date, rating, incumbent, why it matters, and every candidate with bio, endorsements, and score.
 - A scoring rubric (12 issues, each with a 0 to 4 scale and a weight) and a sortable matrix of every scored candidate.
 - Edit mode for anyone you promote to editor: score candidates, change ratings and statuses, adjust weights. Everything else is public read-only.
-- Editors can download the whole dataset as an Excel workbook (`/api/export`): candidates with a column per issue, scores with evidence, races, seats, rubric, endorsements.
+- Editors can download the whole dataset as an Excel workbook (`/api/export`): candidates with a column per issue, scores with evidence, races, seats, rubric, endorsements. An edited workbook can be loaded back with `npm run import:workbook`.
 
 ## Stack
 
@@ -33,17 +33,18 @@ npm run build
 
 ## About the data
 
-Seat holders come from the `unitedstates/congress-legislators` dataset and incumbent ideology scores (DW-NOMINATE, first dimension) from Voteview, both pulled Sept 2, 2026. Primary results and nominees for every tracked race were checked against Wikipedia's 2026 election pages the same day; each race's notes say so. Things still worth checking:
+Seat holders come from the `unitedstates/congress-legislators` dataset and incumbent ideology scores (DW-NOMINATE, first dimension) from Voteview, both pulled Sept 2, 2026. Primary results and nominees for every tracked race were checked against Wikipedia's 2026 election pages the same day; each race's notes say so. The seed was then reworked over Sept 2 to 4, 2026 from an edited export: special election results filled in (CA-14, GA-13), Kiley (CA-3) recorded as an independent caucusing with Republicans, a candidate who died (GA-13) given a "died" status, and roughly 300 scores added or re-sourced from congress.gov cosponsorships, Senate roll calls, campaign platforms, and candidate questionnaires. Things still worth checking:
 
-- Four House seats emptied in April 2026 (CA-14, FL-20, GA-13, TX-23). The dataset shows the dates but not the reasons or special election status.
-- Kevin Kiley (CA-3) is listed as an independent. Which party he caucuses with is not recorded.
-- A handful of candidates are marked "withdrew" or "lost primary" only because they no longer appear on the ballot; those keep `needs_review: true`.
+- Two House seats are still vacant (FL-20, TX-23); their notes say why.
+- Candidates flagged `needs_review: true` either have a ballot status that was inferred rather than confirmed, or a score the notes say conflicts with the record.
 - Race ratings are my own read, not Cook or Sabato.
 - The geographic House map uses Census 119th Congress boundaries. States that redrew for 2026 (Texas, California, Missouri, North Carolina, Ohio, Utah) will not match the ballot. The hex map is unaffected.
 
-Scores are marked provisional until an editor clears the flag. The evidence field on each score says why it got the number it did, so you can disagree with it.
+Scores are marked provisional until an editor clears the flag. The evidence field on each score says why it got the number it did, so you can disagree with it. Scores anchored to a bill cosponsorship or a roll call are not provisional; scores read from campaign language are.
 
-Refresh scripts: `npm run build:seats` (from `scripts/house-seats.txt`), `python3 scripts/enrich-voteview.py`, `bash scripts/build-districts.sh`, `npm run build:geo`.
+Each candidate also carries an `open_questions` field (rubric issues with no published position, for outreach) and four FEC fields: share of receipts from non-individual sources (ActBlue-style conduits included, so it is not a corporate PAC share), outside spending for and against from Schedule E, and the top outside spenders. Governors do not file with the FEC, so those are blank for them.
+
+Refresh scripts: `npm run import:workbook -- file.xlsx` (from an edited `/api/export` workbook), `npm run build:seed-sql`, `npm run build:seats` (from `scripts/house-seats.txt`), `python3 scripts/enrich-voteview.py`, `bash scripts/build-districts.sh`, `npm run build:geo`.
 
 ## Layout
 
@@ -52,7 +53,7 @@ app/              pages and routes (map, matrix, rubric, race detail, login)
 components/       map, panels, matrix, editors
 lib/              types, scoring math, data loading, Supabase clients
 data/seed/        the JSON that seeds the database (and serves static mode)
-scripts/          builds the cartogram, state outlines, seat list; seeds Supabase
-supabase/         SQL migration
+scripts/          builds the cartogram, state outlines, seat list; imports a workbook; seeds Supabase
+supabase/         SQL migrations and the paste-able seed.sql
 tests/            vitest suites
 ```

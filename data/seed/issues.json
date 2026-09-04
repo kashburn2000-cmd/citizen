@@ -5,7 +5,13 @@
     "description": "Single-payer health care. Full marks for a cosponsor or a candidate who campaigns on it by name; partial for a public option or Medicare expansion.",
     "weight": 1.5,
     "sort_order": 1,
-    "rubric": { "0": "Opposes or dodges; defends private insurance status quo", "1": "Vague 'universal coverage' language only", "2": "Backs a public option or Medicare buy-in", "3": "Supports single payer but hedges on timeline or bill", "4": "Cosponsors or campaigns on Medicare for All by name" },
+    "rubric": {
+      "0": "Opposes or dodges; defends private insurance status quo",
+      "1": "Vague 'universal coverage' language only",
+      "2": "Backs a public option or Medicare buy-in",
+      "3": "Supports single payer but hedges on timeline or bill",
+      "4": "Cosponsors or campaigns on Medicare for All by name"
+    },
     "active": true
   },
   {
@@ -14,7 +20,13 @@
     "description": "Climate action at the scale of the Green New Deal: public investment, end fossil fuel subsidies, no new leases, a just transition.",
     "weight": 1,
     "sort_order": 2,
-    "rubric": { "0": "Fossil fuel money, pro-drilling, or climate skeptic", "1": "Generic 'believes in climate change'", "2": "Backs IRA-style incentives, no fossil fuel phaseout", "3": "Supports ending subsidies and new leasing", "4": "Cosponsors or campaigns on the Green New Deal" },
+    "rubric": {
+      "0": "Fossil fuel money, pro-drilling, or climate skeptic",
+      "1": "Generic 'believes in climate change'",
+      "2": "Backs IRA-style incentives, no fossil fuel phaseout",
+      "3": "Supports ending subsidies and new leasing",
+      "4": "Cosponsors or campaigns on the Green New Deal"
+    },
     "active": true
   },
   {
@@ -23,7 +35,13 @@
     "description": "Union rights: PRO Act, sectoral bargaining, $17+ minimum wage, walks picket lines.",
     "weight": 1,
     "sort_order": 3,
-    "rubric": { "0": "Anti-union record or right-to-work support", "1": "Generic pro-worker language", "2": "Supports $15 minimum wage and PRO Act in principle", "3": "Cosponsor of PRO Act, visible with strikes", "4": "PRO Act plus sectoral bargaining, $17+ wage, union-led campaign" },
+    "rubric": {
+      "0": "Anti-union record or right-to-work support",
+      "1": "Generic pro-worker language",
+      "2": "Supports $15 minimum wage and PRO Act in principle",
+      "3": "Cosponsor of PRO Act, visible with strikes",
+      "4": "PRO Act plus sectoral bargaining, $17+ wage, union-led campaign"
+    },
     "active": true
   },
   {
@@ -32,16 +50,28 @@
     "description": "Whether the campaign takes corporate PAC, crypto super PAC, or AIPAC-aligned money.",
     "weight": 1.5,
     "sort_order": 4,
-    "rubric": { "0": "Takes corporate PAC money and benefits from AIPAC/crypto super PACs", "1": "Takes corporate PAC money", "2": "No corporate PAC pledge, but lobbyist or super PAC support", "3": "No corporate PAC pledge, small-dollar heavy", "4": "No corporate PAC, no lobbyist money, disavows outside super PAC spending" },
+    "rubric": {
+      "0": "Takes corporate PAC money and benefits from AIPAC/crypto super PACs",
+      "1": "Takes corporate PAC money",
+      "2": "No corporate PAC pledge, but lobbyist or super PAC support",
+      "3": "No corporate PAC pledge, small-dollar heavy",
+      "4": "No corporate PAC, no lobbyist money, disavows outside super PAC spending"
+    },
     "active": true
   },
   {
     "id": "gaza",
     "name": "Gaza ceasefire and arms conditions",
     "description": "Position on Israel's war in Gaza: ceasefire, conditioning or blocking offensive arms, opposing AIPAC influence.",
-    "weight": 1.5,
+    "weight": 3,
     "sort_order": 5,
-    "rubric": { "0": "Unconditional support for arms transfers; AIPAC-backed", "1": "Ceasefire language only after it became mainstream", "2": "Supports ceasefire, opposes conditions on aid", "3": "Supports conditioning arms and humanitarian access", "4": "Voted for or campaigns on blocking offensive arms transfers; refuses AIPAC" },
+    "rubric": {
+      "0": "Unconditional support for arms transfers; AIPAC-backed",
+      "1": "Ceasefire language only after it became mainstream",
+      "2": "Supports ceasefire, opposes conditions on aid",
+      "3": "Supports conditioning arms and humanitarian access",
+      "4": "Voted for or campaigns on blocking offensive arms transfers; refuses AIPAC"
+    },
     "active": true
   },
   {
@@ -50,7 +80,13 @@
     "description": "Social housing, rent stabilization, tenant protections, and zoning reform to build more.",
     "weight": 1,
     "sort_order": 6,
-    "rubric": { "0": "Landlord-aligned, opposes tenant protections", "1": "Generic 'affordability' language", "2": "Supports more building and housing vouchers", "3": "Supports tenant protections and public investment", "4": "Social housing, rent stabilization, and tenant right to counsel" },
+    "rubric": {
+      "0": "Landlord-aligned, opposes tenant protections",
+      "1": "Generic 'affordability' language",
+      "2": "Supports more building and housing vouchers",
+      "3": "Supports tenant protections and public investment",
+      "4": "Social housing, rent stabilization, and tenant right to counsel"
+    },
     "active": true
   },
   {
@@ -59,7 +95,13 @@
     "description": "Wealth tax, higher top rates, corporate rate increases, closing carried interest.",
     "weight": 1,
     "sort_order": 7,
-    "rubric": { "0": "Supports extending Trump tax cuts", "1": "Vague 'fair share' language", "2": "Repeal Trump cuts for top earners", "3": "Higher corporate rate plus capital gains reform", "4": "Wealth tax or billionaire minimum tax by name" },
+    "rubric": {
+      "0": "Supports extending Trump tax cuts",
+      "1": "Vague 'fair share' language",
+      "2": "Repeal Trump cuts for top earners",
+      "3": "Higher corporate rate plus capital gains reform",
+      "4": "Wealth tax or billionaire minimum tax by name"
+    },
     "active": true
   },
   {
@@ -68,16 +110,28 @@
     "description": "Codify Roe, repeal Hyde, protect access to abortion medication and IVF.",
     "weight": 1,
     "sort_order": 8,
-    "rubric": { "0": "Anti-abortion", "1": "'Personally opposed' or supports restrictions", "2": "Supports codifying Roe", "3": "Codify Roe plus repeal Hyde", "4": "Full access: repeal Hyde, protect mifepristone, expand clinics with federal funding" },
+    "rubric": {
+      "0": "Anti-abortion",
+      "1": "'Personally opposed' or supports restrictions",
+      "2": "Supports codifying Roe",
+      "3": "Codify Roe plus repeal Hyde",
+      "4": "Full access: repeal Hyde, protect mifepristone, expand clinics with federal funding"
+    },
     "active": true
   },
   {
     "id": "immigration",
     "name": "Immigration",
     "description": "Pathway to citizenship, ending mass deportation, accountability for ICE, no border wall funding.",
-    "weight": 1,
+    "weight": 2,
     "sort_order": 9,
-    "rubric": { "0": "Supports mass deportation or the Laken Riley Act framing", "1": "Border-security-first messaging", "2": "Pathway to citizenship for Dreamers", "3": "Broad pathway to citizenship, opposes wall funding", "4": "Pathway for all, defund or abolish ICE enforcement, end detention contracts" },
+    "rubric": {
+      "0": "Supports mass deportation or the Laken Riley Act framing",
+      "1": "Border-security-first messaging",
+      "2": "Pathway to citizenship for Dreamers",
+      "3": "Broad pathway to citizenship, opposes wall funding",
+      "4": "Pathway for all, defund or abolish ICE enforcement, end detention contracts"
+    },
     "active": true
   },
   {
@@ -86,7 +140,13 @@
     "description": "Police accountability, ending qualified immunity, decarceration, cannabis legalization.",
     "weight": 1,
     "sort_order": 10,
-    "rubric": { "0": "'Tough on crime' platform, backs more police funding without reform", "1": "Generic reform language", "2": "Supports cannabis legalization and sentencing reform", "3": "Ends qualified immunity, backs George Floyd Act", "4": "Decarceration, ends cash bail, redirects police funding to services" },
+    "rubric": {
+      "0": "'Tough on crime' platform, backs more police funding without reform",
+      "1": "Generic reform language",
+      "2": "Supports cannabis legalization and sentencing reform",
+      "3": "Ends qualified immunity, backs George Floyd Act",
+      "4": "Decarceration, ends cash bail, redirects police funding to services"
+    },
     "active": true
   },
   {
@@ -95,7 +155,13 @@
     "description": "Break up monopolies, ban stock trading in Congress, rein in Big Tech and private equity.",
     "weight": 1,
     "sort_order": 11,
-    "rubric": { "0": "Deregulation agenda, tech and finance donor base", "1": "Generic anti-corporate-greed language", "2": "Supports congressional stock trading ban", "3": "Supports antitrust enforcement, breaking up Big Tech", "4": "Breakups plus private equity and crypto regulation, no industry money" },
+    "rubric": {
+      "0": "Deregulation agenda, tech and finance donor base",
+      "1": "Generic anti-corporate-greed language",
+      "2": "Supports congressional stock trading ban",
+      "3": "Supports antitrust enforcement, breaking up Big Tech",
+      "4": "Breakups plus private equity and crypto regulation, no industry money"
+    },
     "active": true
   },
   {
@@ -104,7 +170,13 @@
     "description": "Abolish the filibuster, overturn Citizens United, expand voting rights, Supreme Court reform.",
     "weight": 0.75,
     "sort_order": 12,
-    "rubric": { "0": "Opposes voting rights bills", "1": "Supports voting rights bills only", "2": "Supports ending the filibuster for voting rights", "3": "End the filibuster, overturn Citizens United", "4": "All of that plus Supreme Court term limits or expansion" },
+    "rubric": {
+      "0": "Opposes voting rights bills",
+      "1": "Supports voting rights bills only",
+      "2": "Supports ending the filibuster for voting rights",
+      "3": "End the filibuster, overturn Citizens United",
+      "4": "All of that plus Supreme Court term limits or expansion"
+    },
     "active": true
   }
 ]

@@ -2,246 +2,751 @@
   {
     "candidate_id": "mi13-mckinney",
     "org_id": "justice-democrats",
-    "note": "Endorsed 2025. Verify."
+    "note": "First 2026 endorsement, April 2025; on the February 2026 slate.",
+    "url": "https://www.goodmorningamerica.com/news/story/progressive-group-rolls-2026-candidates-pitching-working-class-130285755"
   },
   {
     "candidate_id": "mi13-mckinney",
     "org_id": "wfp",
-    "note": "Verify."
+    "note": "Listed on the WFP 2026 candidates page.",
+    "url": "https://workingfamilies.org/candidates/"
   },
   {
     "candidate_id": "ny07-valdez",
     "org_id": "dsa",
-    "note": "NYC-DSA endorsed. Verify."
+    "note": "Unverified (inherited, no source): NYC-DSA endorsed.",
+    "url": null
   },
   {
     "candidate_id": "ny10-lander",
     "org_id": "wfp",
-    "note": "Verify."
+    "note": "Listed on the WFP 2026 candidates page.",
+    "url": "https://workingfamilies.org/candidates/"
   },
   {
     "candidate_id": "ny10-goldman",
     "org_id": "aipac-udp",
-    "note": "AIPAC-aligned donors in 2022 and 2024. Verify 2026 spending."
+    "note": "Unverified (inherited, no source): AIPAC-aligned donors in 2022 and 2024. Verify 2026 spending.",
+    "url": null
   },
   {
     "candidate_id": "il07-collins",
     "org_id": "justice-democrats",
-    "note": "Endorsed in 2022 and 2024; confirm 2026."
+    "note": "Unverified (inherited, no source): Endorsed in 2022 and 2024; confirm 2026.",
+    "url": null
   },
   {
     "candidate_id": "il09-abughazaleh",
     "org_id": "leaders-we-deserve",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "ca11-chakrabarti",
     "org_id": "justice-democrats",
-    "note": "Co-founder; confirm formal endorsement."
+    "note": "Unverified (inherited, no source): Co-founder; confirm formal endorsement.",
+    "url": null
   },
   {
     "candidate_id": "pa03-rabb",
     "org_id": "wfp",
-    "note": "Verify."
+    "note": "Listed on the WFP 2026 candidates page.",
+    "url": "https://workingfamilies.org/candidates/"
   },
   {
     "candidate_id": "sen-mi-el-sayed",
     "org_id": "bernie",
-    "note": "Endorsed 2025."
+    "note": "Official endorsement directory; endorsed at launch, April 2025.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
   },
   {
     "candidate_id": "sen-mi-el-sayed",
     "org_id": "our-revolution",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "sen-mi-el-sayed",
     "org_id": "justice-democrats",
-    "note": "Verify."
+    "note": "Unverified: Justice Democrats’ announced 2026 slate is House-only and does not list him.",
+    "url": null
   },
   {
     "candidate_id": "sen-mi-stevens",
     "org_id": "aipac-udp",
-    "note": "United Democracy Project spent for her in 2022. Verify 2026."
+    "note": "Unverified (inherited, no source): United Democracy Project spent for her in 2022. Verify 2026.",
+    "url": null
   },
   {
     "candidate_id": "sen-mn-flanagan",
     "org_id": "bernie",
-    "note": "Verify."
+    "note": "Official endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
   },
   {
     "candidate_id": "sen-mn-flanagan",
     "org_id": "pccc",
-    "note": "Endorsed 2025."
+    "note": "Unverified (inherited, no source): Endorsed 2025.",
+    "url": null
   },
   {
     "candidate_id": "sen-mn-craig",
     "org_id": "dscc",
-    "note": "Establishment-aligned; confirm formal DSCC stance."
+    "note": "Unverified (inherited, no source): Establishment-aligned; confirm formal DSCC stance.",
+    "url": null
   },
   {
     "candidate_id": "sen-me-platner",
     "org_id": "bernie",
-    "note": "Endorsed Aug 2025."
+    "note": "Unverified (inherited, no source): Endorsed Aug 2025.",
+    "url": null
   },
   {
     "candidate_id": "sen-me-platner",
     "org_id": "our-revolution",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "sen-me-mills",
     "org_id": "dscc",
-    "note": "Schumer-recruited."
+    "note": "Unverified (inherited, no source): Schumer-recruited.",
+    "url": null
   },
   {
     "candidate_id": "sen-nc-cooper",
     "org_id": "dscc",
-    "note": null
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "sen-oh-brown",
     "org_id": "dscc",
-    "note": null
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "sen-oh-brown",
     "org_id": "afl-cio",
-    "note": "Verify 2026."
+    "note": "Unverified (inherited, no source): Verify 2026.",
+    "url": null
   },
   {
     "candidate_id": "sen-oh-brown",
     "org_id": "uaw",
-    "note": "Verify 2026."
+    "note": "Unverified (inherited, no source): Verify 2026.",
+    "url": null
   },
   {
     "candidate_id": "sen-ga-ossoff",
     "org_id": "dscc",
-    "note": null
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "sen-tx-talarico",
     "org_id": "pccc",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "sen-ma-markey",
     "org_id": "sunrise",
-    "note": "Sunrise backed him in 2020; confirm 2026."
+    "note": "Unverified (inherited, no source): Sunrise backed him in 2020; confirm 2026.",
+    "url": null
   },
   {
     "candidate_id": "sen-ma-markey",
     "org_id": "warren",
-    "note": "Verify."
+    "note": "Endorsed March 2026.",
+    "url": "https://www.nbcnews.com/politics/2026-election/elizabeth-warren-jumps-democratic-primary-battles-country-rcna264289"
   },
   {
     "candidate_id": "sen-ne-osborn",
     "org_id": "uaw",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
-    "candidate_id": "gov-me-jackson",
+    "candidate_id": "sen-me-jackson",
     "org_id": "bernie",
-    "note": "Verify."
+    "note": "Endorsed Jackson for governor in 2025 per NOTUS before Jackson switched to the Senate race.",
+    "url": "https://www.notus.org/2026-election/bernie-sanders-2026-endorsements"
   },
   {
     "candidate_id": "gov-wi-hong",
     "org_id": "dsa",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "gov-wi-barnes",
     "org_id": "wfp",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "gov-ca-porter",
     "org_id": "warren",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "tx37-casar",
     "org_id": "justice-democrats",
-    "note": "JD alum from 2022."
+    "note": "Unverified (inherited, no source): JD alum from 2022.",
+    "url": null
   },
   {
     "candidate_id": "tx37-casar",
     "org_id": "cpc-pac",
-    "note": "CPC chair."
+    "note": "Unverified (inherited, no source): CPC chair.",
+    "url": null
   },
   {
     "candidate_id": "tx37-casar",
     "org_id": "wfp",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "wi03-cooke",
     "org_id": "dccc-red-to-blue",
-    "note": "Verify."
+    "note": "Named in the first Red to Blue round, February 23, 2026.",
+    "url": "https://dccc.org/dccc-announces-first-round-of-candidates-named-to-coveted-2026-red-to-blue-program/"
   },
   {
     "candidate_id": "ia01-bohannan",
     "org_id": "dccc-red-to-blue",
-    "note": "Verify."
+    "note": "Named in the first Red to Blue round, February 23, 2026.",
+    "url": "https://dccc.org/dccc-announces-first-round-of-candidates-named-to-coveted-2026-red-to-blue-program/"
   },
   {
     "candidate_id": "mi07-brink",
     "org_id": "dccc-red-to-blue",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "me02-wood",
     "org_id": "dccc-red-to-blue",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "ca22-villegas",
     "org_id": "our-revolution",
-    "note": "Verify."
+    "note": "Unverified (inherited, no source):",
+    "url": null
   },
   {
     "candidate_id": "nc01-davis",
     "org_id": "aipac-udp",
-    "note": "AIPAC-backed. Verify."
+    "note": "Unverified (inherited, no source): AIPAC-backed.",
+    "url": null
   },
   {
     "candidate_id": "tx28-cuellar",
     "org_id": "aipac-udp",
-    "note": "AIPAC-backed. Verify."
+    "note": "Unverified (inherited, no source): AIPAC-backed.",
+    "url": null
   },
   {
     "candidate_id": "il09-abughazaleh",
     "org_id": "justice-democrats",
-    "note": "Listed on Wikipedia."
+    "note": "Unverified (inherited, no source): Listed on Wikipedia.",
+    "url": null
   },
   {
     "candidate_id": "il09-abughazaleh",
     "org_id": "sunrise",
-    "note": "Listed on Wikipedia."
+    "note": "Unverified (inherited, no source): Listed on Wikipedia.",
+    "url": null
   },
   {
     "candidate_id": "mi07-lawrence",
     "org_id": "bernie",
-    "note": "Listed on Wikipedia."
+    "note": "Official endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
   },
   {
     "candidate_id": "mi07-lawrence",
     "org_id": "our-revolution",
-    "note": "Listed on Wikipedia."
+    "note": "Unverified (inherited, no source): Listed on Wikipedia.",
+    "url": null
   },
   {
     "candidate_id": "mi07-lawrence",
     "org_id": "wfp",
-    "note": "Listed on Wikipedia."
+    "note": "Listed on the WFP 2026 candidates page.",
+    "url": "https://workingfamilies.org/candidates/"
   },
   {
     "candidate_id": "mi07-lawrence",
     "org_id": "pccc",
-    "note": "Listed on Wikipedia."
+    "note": "Unverified (inherited, no source): Listed on Wikipedia.",
+    "url": null
   },
   {
     "candidate_id": "mi07-lawrence",
     "org_id": "moveon",
-    "note": "Listed on Wikipedia."
+    "note": "Unverified (inherited, no source): Listed on Wikipedia.",
+    "url": null
+  },
+  {
+    "candidate_id": "pa03-rabb",
+    "org_id": "justice-democrats",
+    "note": "Unverified (inherited, no source): Endorsed in the May 19 primary.",
+    "url": null
+  },
+  {
+    "candidate_id": "pa03-rabb",
+    "org_id": "dsa",
+    "note": "DSA endorsed and organised for him.",
+    "url": "https://www.cityandstatepa.com/prediction-markets/candidates/chris-rabb"
+  },
+  {
+    "candidate_id": "pa03-rabb",
+    "org_id": "cpc-pac",
+    "note": "Backed him in the primary per WHYY.",
+    "url": "https://whyy.org/articles/3rd-congressional-district-democratic-primary-gaza-progressive/"
+  },
+  {
+    "candidate_id": "pa03-rabb",
+    "org_id": "aoc",
+    "note": "Newsweek list of her 2026 federal endorsements.",
+    "url": "https://www.newsweek.com/aocs-endorsement-power-full-list-of-candidates-and-a-look-at-her-record-12396901"
+  },
+  {
+    "candidate_id": "mi13-mckinney",
+    "org_id": "bernie",
+    "note": "Official endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
+  },
+  {
+    "candidate_id": "sen-mi-el-sayed",
+    "org_id": "aoc",
+    "note": "Endorsed July 2, 2026, her first Senate endorsement of the cycle.",
+    "url": "https://www.nbcnews.com/politics/2026-election/alexandria-ocasio-cortez-endorses-abdul-el-sayed-michigan-primary-rcna352705"
+  },
+  {
+    "candidate_id": "sen-mi-mcmorrow",
+    "org_id": "warren",
+    "note": "Unverified (inherited, no source): Endorsed before McMorrow suspended her campaign.",
+    "url": null
+  },
+  {
+    "candidate_id": "mi07-lawrence",
+    "org_id": "indivisible",
+    "note": "Indivisible MI-07 and Indivisible Michigan endorsement.",
+    "url": "https://indivisible.org/candidates/william-lawrence-mi-07/"
+  },
+  {
+    "candidate_id": "me02-dunlap",
+    "org_id": "dccc-red-to-blue",
+    "note": "Added to the DCCC Red to Blue program August 20, 2026.",
+    "url": "https://rollcall.com/2026/08/20/dccc-adds-maines-matt-dunlap-and-4-others-to-red-to-blue-program/"
+  },
+  {
+    "candidate_id": "pa08-cognetti",
+    "org_id": "dccc-red-to-blue",
+    "note": "Added to the first round of the DCCC Red to Blue program in February 2026.",
+    "url": "https://www.timesleader.com/news/1733612/looking-to-take-back-8th-district-dccc-adds-cognetti-to-coveted-red-to-blue-program"
+  },
+  {
+    "candidate_id": "ny17-conley",
+    "org_id": "dmfi",
+    "note": "Endorsed her in the NY-17 Democratic primary.",
+    "url": "https://www.jta.org/2026/06/23/ny/pro-israel-democrats-battle-to-take-on-vulnerable-republican-rep-mike-lawler"
+  },
+  {
+    "candidate_id": "ga13-clark",
+    "org_id": "fairshake",
+    "note": "FEC Schedule E: PROTECT PROGRESS spent $8,450,297 in independent expenditures supporting this candidate in the 2026 cycle.",
+    "url": "https://www.fec.gov/data/independent-expenditures/"
+  },
+  {
+    "candidate_id": "tx18-menefee",
+    "org_id": "fairshake",
+    "note": "FEC Schedule E: PROTECT PROGRESS spent $12,939,356 in independent expenditures supporting this candidate in the 2026 cycle.",
+    "url": "https://www.fec.gov/data/independent-expenditures/"
+  },
+  {
+    "candidate_id": "ca22-villegas",
+    "org_id": "bernie",
+    "note": "Listed on the official Friends of Bernie Sanders endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
+  },
+  {
+    "candidate_id": "sen-ma-markey",
+    "org_id": "bernie",
+    "note": "Official endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
+  },
+  {
+    "candidate_id": "ny10-lander",
+    "org_id": "bernie",
+    "note": "Official endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
+  },
+  {
+    "candidate_id": "ny07-valdez",
+    "org_id": "bernie",
+    "note": "Official endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
+  },
+  {
+    "candidate_id": "pa07-brooks",
+    "org_id": "bernie",
+    "note": "Official endorsement directory.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
+  },
+  {
+    "candidate_id": "wi03-cooke",
+    "org_id": "bernie",
+    "note": "Official endorsement directory; NOTUS lists her among his House picks.",
+    "url": "https://voteforbernie.org/bernie-sanders-endorsements/"
+  },
+  {
+    "candidate_id": "sen-ma-markey",
+    "org_id": "aoc",
+    "note": "Newsweek list of her 2026 federal endorsements.",
+    "url": "https://www.newsweek.com/aocs-endorsement-power-full-list-of-candidates-and-a-look-at-her-record-12396901"
+  },
+  {
+    "candidate_id": "ca22-villegas",
+    "org_id": "aoc",
+    "note": "Newsweek list of her 2026 federal endorsements.",
+    "url": "https://www.newsweek.com/aocs-endorsement-power-full-list-of-candidates-and-a-look-at-her-record-12396901"
+  },
+  {
+    "candidate_id": "sen-mi-el-sayed",
+    "org_id": "wfp",
+    "note": "Listed on the WFP 2026 candidates page.",
+    "url": "https://workingfamilies.org/candidates/"
+  },
+  {
+    "candidate_id": "pa07-brooks",
+    "org_id": "wfp",
+    "note": "Listed on the WFP 2026 candidates page.",
+    "url": "https://workingfamilies.org/candidates/"
+  },
+  {
+    "candidate_id": "ny12-lasher",
+    "org_id": "cpc-pac",
+    "note": "Endorsed July 30, 2026.",
+    "url": "https://weareprogressives.org/press-releases/"
+  },
+  {
+    "candidate_id": "ny10-lander",
+    "org_id": "cpc-pac",
+    "note": "Endorsed July 30, 2026.",
+    "url": "https://weareprogressives.org/press-releases/"
+  },
+  {
+    "candidate_id": "ny07-valdez",
+    "org_id": "cpc-pac",
+    "note": "Endorsed July 30, 2026.",
+    "url": "https://weareprogressives.org/press-releases/"
+  },
+  {
+    "candidate_id": "ca22-villegas",
+    "org_id": "cpc-pac",
+    "note": "Endorsed November 20, 2025.",
+    "url": "https://weareprogressives.org/congressional-progressive-caucus-pac-endorses-randy-villegas-for-ca-22/"
+  },
+  {
+    "candidate_id": "mi07-lawrence",
+    "org_id": "cpc-pac",
+    "note": "CPC PAC congratulated him as its endorsed nominee, August 4, 2026.",
+    "url": "https://weareprogressives.org/press-releases/"
+  },
+  {
+    "candidate_id": "ny07-valdez",
+    "org_id": "justice-democrats",
+    "note": "On the 12-candidate 2026 slate announced February 19, 2026.",
+    "url": "https://www.goodmorningamerica.com/news/story/progressive-group-rolls-2026-candidates-pitching-working-class-130285755"
+  },
+  {
+    "candidate_id": "sen-mi-el-sayed",
+    "org_id": "warren",
+    "note": "Endorsed July 20, 2026 after McMorrow withdrew.",
+    "url": "https://punchbowl.news/article/senate/warren-el-sayed/"
+  },
+  {
+    "candidate_id": "sen-mn-flanagan",
+    "org_id": "warren",
+    "note": "Endorsed March 2026.",
+    "url": "https://www.nbcnews.com/politics/2026-election/elizabeth-warren-jumps-democratic-primary-battles-country-rcna264289"
+  },
+  {
+    "candidate_id": "sen-il-stratton",
+    "org_id": "warren",
+    "note": "Endorsed early in the cycle.",
+    "url": "https://www.nbcnews.com/politics/2026-election/elizabeth-warren-jumps-democratic-primary-battles-country-rcna264289"
+  },
+  {
+    "candidate_id": "sen-nh-pappas",
+    "org_id": "warren",
+    "note": "Semafor, July 2026.",
+    "url": "https://www.semafor.com/article/07/24/2026/warren-steps-up-her-campaign-surrogate-travel"
+  },
+  {
+    "candidate_id": "sen-ga-ossoff",
+    "org_id": "warren",
+    "note": "Semafor, July 2026.",
+    "url": "https://www.semafor.com/article/07/24/2026/warren-steps-up-her-campaign-surrogate-travel"
+  },
+  {
+    "candidate_id": "sen-mi-el-sayed",
+    "org_id": "khanna",
+    "note": "Washington Examiner, July 2026.",
+    "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4655161/elizabeth-warren-endorsement-abdul-el-sayed-michigan-senate-race/"
+  },
+  {
+    "candidate_id": "sen-mi-el-sayed",
+    "org_id": "omar",
+    "note": "Washington Examiner, July 2026.",
+    "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4655161/elizabeth-warren-endorsement-abdul-el-sayed-michigan-senate-race/"
+  },
+  {
+    "candidate_id": "sen-mi-el-sayed",
+    "org_id": "van-hollen",
+    "note": "Washington Examiner, July 2026.",
+    "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4655161/elizabeth-warren-endorsement-abdul-el-sayed-michigan-senate-race/"
+  },
+  {
+    "candidate_id": "mi13-mckinney",
+    "org_id": "tlaib",
+    "note": "Democracy Now, August 2026.",
+    "url": "https://www.democracynow.org/2026/8/14/donavan_mckinney"
+  },
+  {
+    "candidate_id": "ny10-lander",
+    "org_id": "mamdani",
+    "note": "Cross-endorsement; Lander cross-endorsed Mamdani in the 2025 mayoral race.",
+    "url": "https://www.thenation.com/article/politics/our-endorsement-brad-lander-for-congress/"
+  },
+  {
+    "candidate_id": "sen-il-stratton",
+    "org_id": "pritzker",
+    "note": "Pritzker-funded PACs spent heavily for her in the primary.",
+    "url": "https://www.pbs.org/newshour/nation/illinois-lt-gov-juliana-stratton-wins-democratic-primary-for-u-s-senate"
+  },
+  {
+    "candidate_id": "sen-ne-osborn",
+    "org_id": "ne-dems",
+    "note": "State party endorsed his independent line; Democratic nominee pledged to withdraw.",
+    "url": "https://www.nbcnews.com/politics/2026-election/gop-sen-pete-ricketts-independent-dan-osborn-clash-fiery-nebraska-sena-rcna595645"
+  },
+  {
+    "candidate_id": "ca11-chan",
+    "org_id": "track-aipac",
+    "note": "Endorsed July 21, 2026 after her arms-embargo pledge.",
+    "url": "https://theintercept.com/2026/07/21/connie-chan-san-francisco-aipac-pelosi/"
+  },
+  {
+    "candidate_id": "pa03-rabb",
+    "org_id": "track-aipac",
+    "note": "Endorsed per City & State PA.",
+    "url": "https://www.cityandstatepa.com/prediction-markets/candidates/chris-rabb"
+  },
+  {
+    "candidate_id": "pa03-rabb",
+    "org_id": "pal-pac",
+    "note": "Endorsed per City & State PA.",
+    "url": "https://www.cityandstatepa.com/prediction-markets/candidates/chris-rabb"
+  },
+  {
+    "candidate_id": "mi13-mckinney",
+    "org_id": "pal-pac",
+    "note": "Bridge Detroit.",
+    "url": "https://www.bridgedetroit.com/mckinney-ousts-thanedar-vows-to-deliver-for-working-people/"
+  },
+  {
+    "candidate_id": "sen-ia-turek",
+    "org_id": "jstreet",
+    "note": "JStreetPAC endorsed; pro-Israel, pro-diplomacy group, signal 0.",
+    "url": "https://jstreetpac.org/candidate/josh-turek/"
+  },
+  {
+    "candidate_id": "az06-mendoza",
+    "org_id": "jstreet",
+    "note": "JStreetPAC endorsed.",
+    "url": "https://jstreetpac.org/candidate/joanna-mendoza/"
+  },
+  {
+    "candidate_id": "wi03-cooke",
+    "org_id": "jstreet",
+    "note": "Prediction Edge.",
+    "url": "https://www.predictionedge.com/elections/profile/rebecca-cooke/"
+  },
+  {
+    "candidate_id": "ca11-chan",
+    "org_id": "nnu",
+    "note": "Sole endorsement per her campaign.",
+    "url": "https://ballotpedia.org/Connie_Chan"
+  },
+  {
+    "candidate_id": "ca11-chan",
+    "org_id": "afl-cio",
+    "note": "California Federation of Labor Unions sole endorsement.",
+    "url": "https://www.conniechansf.com/news/connie-chan-calfed-endorsement"
+  },
+  {
+    "candidate_id": "me02-dunlap",
+    "org_id": "afl-cio",
+    "note": "Maine AFL-CIO endorsed.",
+    "url": "https://maineaflcio.org/news/maine-afl-cio-endorses-matt-dunlap-congress-maines-second-congressional-district"
+  },
+  {
+    "candidate_id": "sen-me-jackson",
+    "org_id": "afl-cio",
+    "note": "Maine AFL-CIO endorsed.",
+    "url": "https://en.wikipedia.org/wiki/Troy_Jackson"
+  },
+  {
+    "candidate_id": "gov-ia-sand",
+    "org_id": "afl-cio",
+    "note": "Iowa Federation of Labor AFL-CIO endorsed.",
+    "url": "https://iowastartingline.com/news/elections/iowa-governor-rob-sand-zach-lahn/"
+  },
+  {
+    "candidate_id": "gov-ia-sand",
+    "org_id": "uaw",
+    "note": "UAW endorsed.",
+    "url": "https://iowastartingline.com/news/elections/iowa-governor-rob-sand-zach-lahn/"
+  },
+  {
+    "candidate_id": "gov-ia-sand",
+    "org_id": "end-citizens-united",
+    "note": "Endorsed.",
+    "url": "https://iowastartingline.com/news/elections/iowa-governor-rob-sand-zach-lahn/"
+  },
+  {
+    "candidate_id": "gov-az-hobbs",
+    "org_id": "iam",
+    "note": "IAM Union Arizona State Council endorsed.",
+    "url": "https://katiehobbs.org/katie-hobbs-secures-the-endorsement-of-the-iam-union-arizona-state-council/"
+  },
+  {
+    "candidate_id": "wi03-cooke",
+    "org_id": "nrdc-action",
+    "note": "Prediction Edge.",
+    "url": "https://www.predictionedge.com/elections/profile/rebecca-cooke/"
+  },
+  {
+    "candidate_id": "wi03-cooke",
+    "org_id": "lcv",
+    "note": "Prediction Edge.",
+    "url": "https://www.predictionedge.com/elections/profile/rebecca-cooke/"
+  },
+  {
+    "candidate_id": "gov-me-pingree",
+    "org_id": "maine-conservation-voters",
+    "note": "Endorsed.",
+    "url": "https://www.maineconservation.org/hannah-pingree-for-governor/"
+  },
+  {
+    "candidate_id": "nj07-bennett",
+    "org_id": "cwa",
+    "note": "CWA District 1 endorsed.",
+    "url": "https://rebeccabennettforcongress.com/"
+  },
+  {
+    "candidate_id": "nj07-bennett",
+    "org_id": "atu",
+    "note": "Amalgamated Transit Union endorsed.",
+    "url": "https://rebeccabennettforcongress.com/"
+  },
+  {
+    "candidate_id": "mi10-hines",
+    "org_id": "emilys-list",
+    "note": "Endorsed.",
+    "url": "https://macombdefenders.com/voters-guide/"
+  },
+  {
+    "candidate_id": "ne02-powell",
+    "org_id": "emilys-list",
+    "note": "Endorsed.",
+    "url": "https://www.denisepowellforcongress.com/"
+  },
+  {
+    "candidate_id": "ny17-conley",
+    "org_id": "votevets",
+    "note": "$2.15M in independent expenditures supporting her.",
+    "url": "https://www.fec.gov/data/independent-expenditures/"
+  },
+  {
+    "candidate_id": "sen-ia-turek",
+    "org_id": "votevets",
+    "note": "Spent heavily for him in the primary per Semafor.",
+    "url": "https://www.semafor.com/article/07/24/2026/warren-steps-up-her-campaign-surrogate-travel"
+  },
+  {
+    "candidate_id": "tx18-menefee",
+    "org_id": "leaders-we-deserve",
+    "note": "NBC News, December 2025.",
+    "url": "https://www.nbcnews.com/politics/2026-election/justice-democrats-backs-sixth-house-primary-challenger-diana-degette-rcna247241"
+  },
+  {
+    "candidate_id": "mi13-mckinney",
+    "org_id": "leaders-we-deserve",
+    "note": "NBC News, December 2025.",
+    "url": "https://www.nbcnews.com/politics/2026-election/justice-democrats-backs-sixth-house-primary-challenger-diana-degette-rcna247241"
+  },
+  {
+    "candidate_id": "sen-mi-el-sayed",
+    "org_id": "uaw",
+    "note": "His ad: \"which of course is why the UAW has supported me.\"",
+    "url": "https://abdulforsenate.com/2026/07/new-ad-1-844-abdul-4-u/"
+  },
+  {
+    "candidate_id": "mi13-mckinney",
+    "org_id": "seiu",
+    "note": "Former SEIU Healthcare Michigan political director; SEIU-backed.",
+    "url": "https://www.democracynow.org/2026/8/14/donavan_mckinney"
+  },
+  {
+    "candidate_id": "ny10-lander",
+    "org_id": "moveon",
+    "note": "MoveOn endorsement page.",
+    "url": "https://front.moveon.org/endorsements/candidates/brad-lander-ny10/"
+  },
+  {
+    "candidate_id": "az06-mendoza",
+    "org_id": "dccc-red-to-blue",
+    "note": "Named in the first Red to Blue round, February 23, 2026.",
+    "url": "https://dccc.org/dccc-announces-first-round-of-candidates-named-to-coveted-2026-red-to-blue-program/"
+  },
+  {
+    "candidate_id": "pa01-harvie",
+    "org_id": "dccc-red-to-blue",
+    "note": "Named in the second Red to Blue round, May 4, 2026.",
+    "url": "https://dccc.org/dccc-announces-eight-new-candidates-to-coveted-2026-red-to-blue-program/"
+  },
+  {
+    "candidate_id": "pa07-brooks",
+    "org_id": "dccc-red-to-blue",
+    "note": "Named in the second Red to Blue round, May 4, 2026.",
+    "url": "https://dccc.org/dccc-announces-eight-new-candidates-to-coveted-2026-red-to-blue-program/"
+  },
+  {
+    "candidate_id": "az01-galan-woods",
+    "org_id": "dccc-red-to-blue",
+    "note": "Named in the second Red to Blue round, May 4, 2026; lost the primary to Shah.",
+    "url": "https://dccc.org/dccc-announces-eight-new-candidates-to-coveted-2026-red-to-blue-program/"
+  },
+  {
+    "candidate_id": "ca22-bains",
+    "org_id": "dccc-red-to-blue",
+    "note": "Named in the second Red to Blue round, May 4, 2026; lost the primary to Villegas.",
+    "url": "https://dccc.org/dccc-announces-eight-new-candidates-to-coveted-2026-red-to-blue-program/"
+  },
+  {
+    "candidate_id": "nc01-davis",
+    "org_id": "dccc-red-to-blue",
+    "note": "Frontline incumbent per AURN and the DCCC Frontline page.",
+    "url": "https://dccc.org/2026-frontline/"
   }
 ]

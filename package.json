@@ -12,7 +12,8 @@
     "build:geo": "tsx scripts/build-cartogram.ts && tsx scripts/build-states.ts",
     "build:seats": "tsx scripts/build-house-seats.ts",
     "seed": "tsx scripts/seed-supabase.ts",
-    "build:seed-sql": "tsx scripts/build-seed-sql.ts"
+    "build:seed-sql": "tsx scripts/build-seed-sql.ts",
+    "import:workbook": "tsx scripts/import-workbook.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.5",

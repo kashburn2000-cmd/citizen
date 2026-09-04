@@ -5,7 +5,7 @@ The app runs in two modes. With no Supabase keys it serves the JSON in `data/see
 ## 1. Create the Supabase project
 
 1. Go to supabase.com, create a project. Pick a region near you and save the database password somewhere.
-2. Open the SQL editor and paste the whole of `supabase/migrations/0001_init.sql`. Run it. That creates every table, the `candidate_scores` view, row-level security, and the trigger that makes a `profiles` row for each new user.
+2. Open the SQL editor and paste the whole of `supabase/migrations/0001_init.sql`. Run it. That creates every table, the `candidate_scores` view, row-level security, and the trigger that makes a `profiles` row for each new user. Then do the same with each later file in `supabase/migrations`, in order (`0002_candidate_fec_and_status.sql` adds the FEC columns, the "died" status, and the "politician" org kind).
 3. Project Settings, then API. Copy the project URL and the publishable (anon) key.
 
 ## 2. Local env
@@ -20,7 +20,7 @@ The app also accepts the names the Supabase Vercel integration sets (`NEXT_PUBLI
 
 ## 3. Load the seed data
 
-Open `supabase/seed.sql` from the repo on GitHub (click the file, then the "Raw" button), select all, copy. Back in the Supabase SQL editor, paste it into a new query and run it. It loads every seat, race, candidate, score, and endorsement. It's safe to run again later: existing rows are updated, not duplicated.
+Open `supabase/seed.sql` from the repo on GitHub (click the file, then the "Raw" button), select all, copy. Back in the Supabase SQL editor, paste it into a new query and run it. It loads every seat, race, candidate, score, and endorsement. It's safe to run again later: existing rows are updated, not duplicated, and rows that are no longer in the seed files are deleted, so the database ends up matching `data/seed` exactly.
 
 If you'd rather use the terminal, `npm run seed` does the same thing from the JSON files but needs the service role key (Project Settings, API, service_role). That key bypasses row-level security, so keep it out of the browser and out of git.
 
@@ -49,11 +49,16 @@ In Supabase, Authentication, URL Configuration: set the Site URL to your deploye
 
 ## Updating data later
 
-Three options, pick whichever fits:
+Four options, pick whichever fits:
 
 - Edit in the browser as an editor. Changes are live immediately.
-- Edit the JSON in `data/seed`, run `npm run build:seed-sql`, and paste the new `supabase/seed.sql` into the SQL editor (or run `npm run seed`). This overwrites matching rows in Supabase with the file's values, so don't do this for rows you've since edited in the browser.
+- Edit the Excel export. Download the workbook from `/api/export` as an editor, change whatever you like in the Candidates, Scores, Races, House Seats, Issues, Endorsements, and Orgs sheets (add rows, delete rows, rename ids), then run `npm run import:workbook -- path/to/file.xlsx`. That rewrites `data/seed` from the workbook. Then `npm run build:seed-sql` and paste `supabase/seed.sql` as in step 3. The workbook is treated as the whole truth: a row you deleted from a sheet is deleted from the database, and an id you renamed becomes a new row with the old one removed. Calculated columns (progressive score, the issue columns on the Candidates sheet, the race score snapshots) are ignored; the Scores sheet is what counts.
+- Edit the JSON in `data/seed` directly, then `npm run build:seed-sql` and paste, or run `npm run seed`.
 - Ask Claude to update the seed files and re-run the seed.
+
+Any of the file-based routes overwrites matching rows in Supabase with the file's values, so don't do this for rows you've since edited in the browser without exporting first.
+
+If the schema changed since you set up the project (a new migration file appeared in `supabase/migrations`), run that migration in the SQL editor before pasting the new `seed.sql`, or the insert will fail on the missing column.
 
 For the 435 House seats specifically, edit `scripts/house-seats.txt` (one line per seat) and run `npm run build:seats`, then `npm run seed`.
 
